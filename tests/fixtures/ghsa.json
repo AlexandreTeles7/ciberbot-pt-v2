@@ -1,0 +1,42 @@
+[
+  {
+    "ghsa_id": "GHSA-aaaa-bbbb-cccc",
+    "cve_id": "CVE-2026-90020",
+    "html_url": "https://github.com/advisories/GHSA-aaaa-bbbb-cccc",
+    "summary": "exemplo-parser: prototype pollution leads to remote code execution",
+    "description": "## Summary\n\nThe `exemplo-parser` package before 4.2.1 allows **prototype pollution** via crafted JSON keys, which can lead to remote code execution. See [the advisory](https://exemplo.test/adv).\n\n## Patches\n\nFixed in 4.2.1.",
+    "type": "reviewed",
+    "severity": "critical",
+    "published_at": "2026-10-19T18:30:00Z",
+    "withdrawn_at": null,
+    "vulnerabilities": [
+      {"package": {"ecosystem": "npm", "name": "exemplo-parser"}, "vulnerable_version_range": "< 4.2.1"}
+    ],
+    "cvss_severities": {"cvss_v3": {"vector_string": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H", "score": 9.8}}
+  },
+  {
+    "ghsa_id": "GHSA-dddd-eeee-ffff",
+    "cve_id": "CVE-2026-90010",
+    "html_url": "https://github.com/advisories/GHSA-dddd-eeee-ffff",
+    "summary": "Duplicate of an NVD entry, should be removed by deduplication",
+    "description": "Same CVE as the NVD fixture.",
+    "type": "reviewed",
+    "severity": "critical",
+    "published_at": "2026-10-19T20:00:00Z",
+    "withdrawn_at": null,
+    "vulnerabilities": [],
+    "cvss": {"score": 9.1}
+  },
+  {
+    "ghsa_id": "GHSA-gggg-hhhh-iiii",
+    "cve_id": null,
+    "html_url": "https://github.com/advisories/GHSA-gggg-hhhh-iiii",
+    "summary": "Withdrawn advisory",
+    "description": "Should be ignored.",
+    "type": "reviewed",
+    "severity": "critical",
+    "published_at": "2026-10-19T09:00:00Z",
+    "withdrawn_at": "2026-10-19T12:00:00Z",
+    "vulnerabilities": []
+  }
+]
