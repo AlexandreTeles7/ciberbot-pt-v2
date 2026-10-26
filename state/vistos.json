@@ -1,0 +1,92 @@
+{
+ "versao": 1,
+ "vistos": {
+  "056dff6934f33a5f": "2026-10-26",
+  "2a000ff73bb6f7ac": "2026-10-26",
+  "2c614b999eb78eb4": "2026-10-26",
+  "337affeba8e76b96": "2026-10-26",
+  "621c6b9dc300a1c8": "2026-10-26",
+  "7ed092b94a412e68": "2026-10-26",
+  "9c7dbd668911c763": "2026-10-26",
+  "b18cc5e9f3ba64ec": "2026-10-26",
+  "da3d205db86b9086": "2026-10-26",
+  "dbd63f3f484e39d8": "2026-10-26",
+  "e0ae260b2730b53a": "2026-10-26",
+  "nvd:CVE-2026-112346": "2026-10-26",
+  "nvd:CVE-2026-116231": "2026-10-26",
+  "nvd:CVE-2026-116485": "2026-10-26",
+  "nvd:CVE-2026-116504": "2026-10-26",
+  "nvd:CVE-2026-116506": "2026-10-26",
+  "nvd:CVE-2026-116508": "2026-10-26"
+ },
+ "titulos": {
+  "056dff6934f33a5f": [
+   "2026-10-26",
+   "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts"
+  ],
+  "2a000ff73bb6f7ac": [
+   "2026-10-26",
+   "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware"
+  ],
+  "2c614b999eb78eb4": [
+   "2026-10-26",
+   "Microsoft releases emergency .NET patches for critical Brotli flaw"
+  ],
+  "337affeba8e76b96": [
+   "2026-10-26",
+   "Chegou o Kali Linux 2026.3 e traz novas ferramentas de hacking ético"
+  ],
+  "621c6b9dc300a1c8": [
+   "2026-10-26",
+   "Former pentester used ARTEX AI to steal 8.2 million data records"
+  ],
+  "7ed092b94a412e68": [
+   "2026-10-26",
+   "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing"
+  ],
+  "9c7dbd668911c763": [
+   "2026-10-26",
+   "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches"
+  ],
+  "b18cc5e9f3ba64ec": [
+   "2026-10-26",
+   "University of Copenhagen data breach exposes data of 525,000 people"
+  ],
+  "da3d205db86b9086": [
+   "2026-10-26",
+   "PHP2Shell security flaws now sucessfully exploited in the wild"
+  ],
+  "dbd63f3f484e39d8": [
+   "2026-10-26",
+   "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More"
+  ],
+  "e0ae260b2730b53a": [
+   "2026-10-26",
+   "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes"
+  ],
+  "nvd:CVE-2026-112346": [
+   "2026-10-26",
+   "CVE-2026-112346: OpenHands Software Agent SDK before 1.52.0 contains an unauthenticated remote code execution vulnerability where the DockerWorkspace and…"
+  ],
+  "nvd:CVE-2026-116231": [
+   "2026-10-26",
+   "CVE-2026-116231: A security flaw has been discovered in Oray Pugongying X5 Pro 7.6.1"
+  ],
+  "nvd:CVE-2026-116485": [
+   "2026-10-26",
+   "CVE-2026-116485: danmu_api before 1.21.7 contains an authentication bypass vulnerability that allows unauthenticated attackers to modify server environment…"
+  ],
+  "nvd:CVE-2026-116504": [
+   "2026-10-26",
+   "CVE-2026-116504: A vulnerability has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104"
+  ],
+  "nvd:CVE-2026-116506": [
+   "2026-10-26",
+   "CVE-2026-116506: A vulnerability was determined in TOTOLINK A950RG 4.1.2cu.5268_B20221104"
+  ],
+  "nvd:CVE-2026-116508": [
+   "2026-10-26",
+   "CVE-2026-116508: A security flaw has been discovered in TOTOLINK A950RG 4.1.2cu.5268_B20221104"
+  ]
+ }
+}

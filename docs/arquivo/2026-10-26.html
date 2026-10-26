@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CiberBot PT — Resumo diário de cibersegurança — 26 de outubro de 2026</title>
+<meta name="description" content="Resumo diário de cibersegurança em português de Portugal: ataques, vulnerabilidades e alertas.">
+<style>
+:root{--fundo:#f6f7f9;--cartao:#fff;--texto:#16191d;--suave:#5b6472;--linha:#e3e6ea;--link:#0b5fd6;--chip:#eef1f5;
+--s-portugal:#1f8a4c;--s-exploradas:#d6322f;--s-criticas:#e07a12;--s-noticias:#3a6fd8;--s-outra:#6b7280}
+@media (prefers-color-scheme:dark){:root{--fundo:#0f1216;--cartao:#171b21;--texto:#e8eaed;--suave:#9aa3af;
+--linha:#262c34;--link:#7db4ff;--chip:#222831;--s-portugal:#4cc17f;--s-exploradas:#ff6b66;--s-criticas:#ffa04a;
+--s-noticias:#7aa2ff;--s-outra:#9aa3af}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fundo);color:var(--texto);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+.caixa{max-width:760px;margin:0 auto;padding:0 16px}
+.topo{padding:28px 0 4px}
+.marca{margin:0;color:var(--suave);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase}
+h1{margin:.25em 0 .15em;font-size:1.7rem;line-height:1.2}
+.data{margin:0;color:var(--suave)}
+h2{font-size:1.1rem;margin:2em 0 .7em}
+.cartao{background:var(--cartao);border:1px solid var(--linha);border-left:4px solid var(--cor);
+border-radius:10px;padding:13px 16px;margin:0 0 12px}
+.s-portugal{--cor:var(--s-portugal)}.s-exploradas{--cor:var(--s-exploradas)}
+.s-criticas{--cor:var(--s-criticas)}.s-noticias{--cor:var(--s-noticias)}.s-outra{--cor:var(--s-outra)}
+.cartao h3{margin:0 0 .3em;font-size:1.02rem;line-height:1.35}
+.cartao h3 a{color:inherit;text-decoration:none}.cartao h3 a:hover{text-decoration:underline}
+.cartao p{margin:.3em 0}
+.meta{color:var(--suave);font-size:.85rem}
+.chip{display:inline-block;background:var(--chip);border-radius:999px;padding:1px 9px;margin:3px 4px 0 0;font-size:.78rem}
+.nota{background:var(--chip);border-radius:10px;padding:10px 14px;font-size:.9rem;color:var(--suave)}
+.arquivo ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 14px}
+.rodape{color:var(--suave);font-size:.82rem;padding:28px 16px 44px}
+</style>
+</head>
+<body>
+<header class="topo caixa">
+<p class="marca">CiberBot PT</p>
+<h1>CiberBot PT — Resumo diário de cibersegurança</h1>
+<p class="data">26 de outubro de 2026 · 17 destaques</p>
+</header>
+<main class="caixa">
+<section><h2>🇵🇹 Portugal e em português</h2>
+<article class="cartao s-portugal"><h3><a href="https://pplware.sapo.pt/linux/chegou-o-kali-linux-2026-3-e-traz-novas-ferramentas-de-hacking-etico/" rel="noopener noreferrer">Chegou o Kali Linux 2026.3 e traz novas ferramentas de hacking ético</a></h3><p>A equipa responsável pelo Kali Linux anunciou a versão 2026.3 da conhecida distribuição Linux dedicada à cibersegurança, aos testes de intrusão e ao hacking ético. A nova versão traz um conjunto de ferramentas de segurança, melhorias no ambiente gráfico, um kernel atualizado e novidades para o Kali NetHunter, incluindo funcionalidades para smartwatches. Kali Linux 2026.3: […]</p><p class="meta">Pplware · 26/10</p></article></section>
+<section><h2>🟠 Vulnerabilidades críticas recentes</h2>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-112346" rel="noopener noreferrer">CVE-2026-112346: O SDK do OpenHands Software Agent antes do 1.52.0 contém uma vulnerabilidade de execução remota de código não autenticada em que o DockerWorkspace e...</a></h3><p>O SDK do OpenHands Software Agent antes do 1.52.0 contém uma vulnerabilidade de execução remota de código não autenticada em que os iniciadores do DockerWorkspace e do Apptainer vinculam o servidor do agente de sandbox a…</p><p class="meta">NVD — CVE críticos · 26/10</p><span class="chip">CVSS 9.8</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-116508" rel="noopener noreferrer">CVE-2026-116508: Foi descoberta uma falha de segurança no TOTOLINK A950RG 4.1.2cu.5268_B20221104</a></h3><p>Foi descoberta uma falha de segurança no TOTOLINK A950RG 4.1.2cu.5268_B20221104. Afetada por este problema está a função sub_402340 do ficheiro infostat.cgi do componente Device-Information CGI…</p><p class="meta">NVD — CVE críticos · 26/10</p><span class="chip">CVSS 10.0</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-116504" rel="noopener noreferrer">CVE-2026-116504: Foi encontrada uma vulnerabilidade no TOTOLINK A950RG 4.1.2cu.5268_B20221104</a></h3><p>Foi encontrada uma vulnerabilidade no TOTOLINK A950RG 4.1.2cu.5268_B20221104. Isso afeta a função setCloudUpgradeFW do ficheiro lib/cste_modules/upgrade.so do componente Cloud Upgrade. O…</p><p class="meta">NVD — CVE críticos · 26/10</p><span class="chip">CVSS 9.9</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-116506" rel="noopener noreferrer">CVE-2026-116506: Foi determinada uma vulnerabilidade no TOTOLINK A950RG 4.1.2cu.5268_B20221104</a></h3><p>Foi determinada uma vulnerabilidade no TOTOLINK A950RG 4.1.2cu.5268_B20221104. Afetada é a função apmib_set do ficheiro firewall.so. Esta manipulação causa injeção de comando. O ataque pode ser...</p><p class="meta">NVD — CVE críticos · 26/10</p><span class="chip">CVSS 9.9</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-116485" rel="noopener noreferrer">CVE-2026-116485: danmu_api antes de 1.21.7 contém uma vulnerabilidade de desvio de autenticação que permite que atacantes não autenticados modifiquem o ambiente do servidor...</a></h3><p>danmu_api antes de 1.21.7 contém uma vulnerabilidade de desvio de autenticação que permite que atacantes não autenticados modifiquem a configuração do ambiente do servidor quando o TOKEN padrão é usado e ADMIN_TOKEN…</p><p class="meta">NVD — CVE críticos · 26/10</p><span class="chip">CVSS 9.8</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-116231" rel="noopener noreferrer">CVE-2026-116231: Uma falha de segurança foi descoberta no Oray Pugongying X5 Pro 7.6.1</a></h3><p>Uma falha de segurança foi descoberta no Oray Pugongying X5 Pro 7.6.1. O elemento impactado é uma função desconhecida do componente Ser2net. Realizar uma manipulação do argumento regmsg resulta em...</p><p class="meta">NVD — CVE críticos · 26/10</p><span class="chip">CVSS 9.9</span></article></section>
+<section><h2>📰 Ataques e notícias</h2>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/" rel="noopener noreferrer">Falhas de segurança do PHP2Shell agora exploradas com sucesso na natureza</a></h3><p>Duas vulnerabilidades RCE críticas (CVE-2026-109618 e CVE-2026-109619), coletivamente rastreadas como PHP2Shell, foram exploradas com sucesso na natureza. [...]</p><p class="meta">BleepingComputer · 26/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html" rel="noopener noreferrer">Resumo ⚡ semanal: This2Shell, That2Shell, Everything's an RCE? IA desonesta, caos na cadeia de fornecimento e muito mais</a></h3><p>This2Shell, That2Shell, Everything2Shell. Foi assim que a última semana foi. Bugs críticos que permitem que os atacantes executem código remotamente estão a aparecer em todos os lugares. Os hackers estão à procura de alvos...</p><p class="meta">The Hacker News · 26/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html" rel="noopener noreferrer">Os atacantes usam burlas de suporte de TI do Microsoft Teams para implantar malware e ransomware</a></h3><p>Investigadores de cibersegurança estão a chamar a atenção para o que dizem ser um "padrão recorrente de engenharia social" em centenas de casos em que agentes de ameaças usam o chat externo do Microsoft Teams...</p><p class="meta">The Hacker News · 26/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/" rel="noopener noreferrer">Fuga de dados da Universidade de Copenhague expõe dados de 525 mil pessoas</a></h3><p>A Universidade de Copenhaga, na Dinamarca, confirmou que os hackers acederam a um dos seus ambientes de teste contendo dados pessoais pertencentes a 525 000 pessoas. [...]</p><p class="meta">BleepingComputer · 26/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html" rel="noopener noreferrer">o spyware uCreator para Android pode roubar palavras-passe 2FA do Telegram e clonar contas do WeChat</a></h3><p>Um kit de spyware Android alugável chamado uCreator assume as contas do Telegram e do WeChat, escondendo seu código dentro de cópias de trabalho dos dois aplicações, descobriu o investigador Ovi. Só atinge pessoas que...</p><p class="meta">The Hacker News · 26/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/" rel="noopener noreferrer">Vulnerabilidade crítica do 'HTTP2Shell' Brotli desencadeia patches de emergência</a></h3><p>Uma falha crítica apelidada de 'HTTP2Shell' em Brotli, a biblioteca de decodificadores C incorporada ao Node.js, pode permitir que os atacantes corrompam a memória e acessem dados confidenciais. [...]</p><p class="meta">BleepingComputer · 26/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/" rel="noopener noreferrer">Microsoft lança patches .NET de emergência para falha crítica de Brotli</a></h3><p>A Microsoft lançou atualizações de segurança .NET de emergência para corrigir uma vulnerabilidade crítica conhecida como Broccoli2Shell, também rastreada como Node2Shell e HTTP2Shell. [...]</p><p class="meta">BleepingComputer · 26/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html" rel="noopener noreferrer">Duas falhas críticas de Wasmtime podem permitir que módulos maliciosos de WebAssembly escapem de sandboxes</a></h3><p>Duas falhas críticas no Wasmtime, um tempo de execução do WebAssembly que pode ser incorporado a outro software, podem permitir que um módulo WebAssembly malicioso escape da área restrita destinada a contê-lo, o…</p><p class="meta">The Hacker News · 26/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/" rel="noopener noreferrer">O ex-pentester usou a IA da ARTEX para roubar 8,2 milhões de registos de dados</a></h3><p>A polícia sul-coreana identificou sete suspeitos ligados a uma operação de cibercrime que violou mais de 90 organizações no país, com a estrutura de pentesting da ARTEX AI usada na maioria dos ataques...</p><p class="meta">BleepingComputer · 26/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/" rel="noopener noreferrer">OpenAI lança GPT-6.1 Terra com agentes de IA 3x mais rápidos, preços 50% mais baixos</a></h3><p>A OpenAI lançou o GPT-6.1 Terra, um novo modelo focado no uso do computador, raciocínio visual, codificação e trabalho diário, ao mesmo tempo em que custa significativamente menos do que seus modelos maiores. [...]</p><p class="meta">BleepingComputer · 26/10</p></article></section>
+
+<p><a href="../index.html">← Edição mais recente</a></p>
+</main>
+<footer class="rodape caixa">
+Gerado automaticamente em 26/10/2026 às 22:40. Traduzido automaticamente para português de Portugal. Confirme sempre os detalhes na fonte original.
+</footer>
+</body>
+</html>

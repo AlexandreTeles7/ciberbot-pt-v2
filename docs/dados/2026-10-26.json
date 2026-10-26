@@ -1,0 +1,305 @@
+{
+ "data": "2026-10-26",
+ "gerado_em": "2026-10-26T22:40:39.887201+00:00",
+ "itens": [
+  {
+   "id": "337affeba8e76b96",
+   "titulo": "Chegou o Kali Linux 2026.3 e traz novas ferramentas de hacking ético",
+   "resumo": "A equipa responsável pelo Kali Linux anunciou a versão 2026.3 da conhecida distribuição Linux dedicada à cibersegurança, aos testes de intrusão e ao hacking ético. A nova versão traz um conjunto de ferramentas de segurança, melhorias no ambiente gráfico, um kernel atualizado e novidades para o Kali NetHunter, incluindo funcionalidades para smartwatches. Kali Linux 2026.3: […]",
+   "url": "https://pplware.sapo.pt/linux/chegou-o-kali-linux-2026-3-e-traz-novas-ferramentas-de-hacking-etico/",
+   "fonte": "Pplware",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-10-26T19:08:07+00:00",
+   "pontuacao": 29.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "nvd:CVE-2026-112346",
+   "titulo": "CVE-2026-112346: OpenHands Software Agent SDK before 1.52.0 contains an unauthenticated remote code execution vulnerability where the DockerWorkspace and…",
+   "resumo": "OpenHands Software Agent SDK before 1.52.0 contains an unauthenticated remote code execution vulnerability where the DockerWorkspace and Apptainer workspace launchers bind the sandbox agent server to all network interfaces (0.0.0.0) with an empty session_api_keys list, disabling authentication by default. Attackers who can reach the published container port can send unauthenticated HTTP and WebSocket requests to execute arbitrary shell commands as root in the sandbox, access the mounted workspace, and read plaintext secrets from the secrets store.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112346",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-26T16:17:14.110000+00:00",
+   "pontuacao": 67.0,
+   "cves": [
+    "CVE-2026-112346"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-112346: O SDK do OpenHands Software Agent antes do 1.52.0 contém uma vulnerabilidade de execução remota de código não autenticada em que o DockerWorkspace e...",
+   "resumo_pt": "O SDK do OpenHands Software Agent antes do 1.52.0 contém uma vulnerabilidade de execução remota de código não autenticada em que os iniciadores do DockerWorkspace e do Apptainer vinculam o servidor do agente de sandbox a…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-116508",
+   "titulo": "CVE-2026-116508: A security flaw has been discovered in TOTOLINK A950RG 4.1.2cu.5268_B20221104",
+   "resumo": "A security flaw has been discovered in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this issue is the function sub_402340 of the file infostat.cgi of the component Device-Information CGI. Performing a manipulation of the argument CONTENT_LENGTH results in stack-based buffer overflow. Remote exploitation of the attack is possible. The exploit has been released to the public and may be used for attacks.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116508",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-26T22:16:54.373000+00:00",
+   "pontuacao": 57.9,
+   "cves": [
+    "CVE-2026-116508"
+   ],
+   "etiquetas": [
+    "CVSS 10.0"
+   ],
+   "titulo_pt": "CVE-2026-116508: Foi descoberta uma falha de segurança no TOTOLINK A950RG 4.1.2cu.5268_B20221104",
+   "resumo_pt": "Foi descoberta uma falha de segurança no TOTOLINK A950RG 4.1.2cu.5268_B20221104. Afetada por este problema está a função sub_402340 do ficheiro infostat.cgi do componente Device-Information CGI…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-116504",
+   "titulo": "CVE-2026-116504: A vulnerability has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104",
+   "resumo": "A vulnerability has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This affects the function setCloudUpgradeFW of the file lib/cste_modules/upgrade.so of the component Cloud Upgrade. The manipulation of the argument FileName leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116504",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-26T21:18:12.420000+00:00",
+   "pontuacao": 57.0,
+   "cves": [
+    "CVE-2026-116504"
+   ],
+   "etiquetas": [
+    "CVSS 9.9"
+   ],
+   "titulo_pt": "CVE-2026-116504: Foi encontrada uma vulnerabilidade no TOTOLINK A950RG 4.1.2cu.5268_B20221104",
+   "resumo_pt": "Foi encontrada uma vulnerabilidade no TOTOLINK A950RG 4.1.2cu.5268_B20221104. Isso afeta a função setCloudUpgradeFW do ficheiro lib/cste_modules/upgrade.so do componente Cloud Upgrade. O…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-116506",
+   "titulo": "CVE-2026-116506: A vulnerability was determined in TOTOLINK A950RG 4.1.2cu.5268_B20221104",
+   "resumo": "A vulnerability was determined in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected is the function apmib_set of the file firewall.so. This manipulation causes command injection. The attack may be initiated remotely. The exploit has been publicly disclosed and may be utilized.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116506",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-26T21:18:13.047000+00:00",
+   "pontuacao": 57.0,
+   "cves": [
+    "CVE-2026-116506"
+   ],
+   "etiquetas": [
+    "CVSS 9.9"
+   ],
+   "titulo_pt": "CVE-2026-116506: Foi determinada uma vulnerabilidade no TOTOLINK A950RG 4.1.2cu.5268_B20221104",
+   "resumo_pt": "Foi determinada uma vulnerabilidade no TOTOLINK A950RG 4.1.2cu.5268_B20221104. Afetada é a função apmib_set do ficheiro firewall.so. Esta manipulação causa injeção de comando. O ataque pode ser...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-116485",
+   "titulo": "CVE-2026-116485: danmu_api before 1.21.7 contains an authentication bypass vulnerability that allows unauthenticated attackers to modify server environment…",
+   "resumo": "danmu_api before 1.21.7 contains an authentication bypass vulnerability that allows unauthenticated attackers to modify server environment configuration when the default TOKEN is used and ADMIN_TOKEN is unset. Attackers can send POST requests to /api/env/set, /api/env/add, or /api/env/del to set ADMIN_TOKEN, lock out operators, redirect OTHER_SERVER or PROXY_URL for SSRF, and trigger redeployment.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116485",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-26T14:16:37.040000+00:00",
+   "pontuacao": 54.5,
+   "cves": [
+    "CVE-2026-116485"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-116485: danmu_api antes de 1.21.7 contém uma vulnerabilidade de desvio de autenticação que permite que atacantes não autenticados modifiquem o ambiente do servidor...",
+   "resumo_pt": "danmu_api antes de 1.21.7 contém uma vulnerabilidade de desvio de autenticação que permite que atacantes não autenticados modifiquem a configuração do ambiente do servidor quando o TOKEN padrão é usado e ADMIN_TOKEN…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-116231",
+   "titulo": "CVE-2026-116231: A security flaw has been discovered in Oray Pugongying X5 Pro 7.6.1",
+   "resumo": "A security flaw has been discovered in Oray Pugongying X5 Pro 7.6.1. The impacted element is an unknown function of the component Ser2net. Performing a manipulation of the argument regmsg results in crlf injection. It is possible to initiate the attack remotely. The exploit has been released to the public and may be used for attacks. The vendor was contacted early about this disclosure but did not respond in any way.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116231",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-26T08:17:17.620000+00:00",
+   "pontuacao": 53.4,
+   "cves": [
+    "CVE-2026-116231"
+   ],
+   "etiquetas": [
+    "CVSS 9.9"
+   ],
+   "titulo_pt": "CVE-2026-116231: Uma falha de segurança foi descoberta no Oray Pugongying X5 Pro 7.6.1",
+   "resumo_pt": "Uma falha de segurança foi descoberta no Oray Pugongying X5 Pro 7.6.1. O elemento impactado é uma função desconhecida do componente Ser2net. Realizar uma manipulação do argumento regmsg resulta em...",
+   "traduzido": true
+  },
+  {
+   "id": "da3d205db86b9086",
+   "titulo": "PHP2Shell security flaws now sucessfully exploited in the wild",
+   "resumo": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T09:19:57+00:00",
+   "pontuacao": 57.3,
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "etiquetas": [],
+   "titulo_pt": "Falhas de segurança do PHP2Shell agora exploradas com sucesso na natureza",
+   "resumo_pt": "Duas vulnerabilidades RCE críticas (CVE-2026-109618 e CVE-2026-109619), coletivamente rastreadas como PHP2Shell, foram exploradas com sucesso na natureza. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "dbd63f3f484e39d8",
+   "titulo": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+   "resumo": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with. And that's not even the full story. A leaked key led to a software supply-chain",
+   "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T14:06:13+00:00",
+   "pontuacao": 50.6,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Resumo ⚡ semanal: This2Shell, That2Shell, Everything's an RCE? IA desonesta, caos na cadeia de fornecimento e muito mais",
+   "resumo_pt": "This2Shell, That2Shell, Everything2Shell. Foi assim que a última semana foi. Bugs críticos que permitem que os atacantes executem código remotamente estão a aparecer em todos os lugares. Os hackers estão à procura de alvos...",
+   "traduzido": true
+  },
+  {
+   "id": "2a000ff73bb6f7ac",
+   "titulo": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+   "resumo": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
+   "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T15:52:40+00:00",
+   "pontuacao": 48.1,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Os atacantes usam burlas de suporte de TI do Microsoft Teams para implantar malware e ransomware",
+   "resumo_pt": "Investigadores de cibersegurança estão a chamar a atenção para o que dizem ser um \"padrão recorrente de engenharia social\" em centenas de casos em que agentes de ameaças usam o chat externo do Microsoft Teams...",
+   "traduzido": true
+  },
+  {
+   "id": "b18cc5e9f3ba64ec",
+   "titulo": "University of Copenhagen data breach exposes data of 525,000 people",
+   "resumo": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T22:20:36+00:00",
+   "pontuacao": 44.9,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Fuga de dados da Universidade de Copenhague expõe dados de 525 mil pessoas",
+   "resumo_pt": "A Universidade de Copenhaga, na Dinamarca, confirmou que os hackers acederam a um dos seus ambientes de teste contendo dados pessoais pertencentes a 525 000 pessoas. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "056dff6934f33a5f",
+   "titulo": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+   "resumo": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own container app. The kit's Telegram part matches Baohuo, a backdoor that Doctor",
+   "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T09:54:02+00:00",
+   "pontuacao": 39.5,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "o spyware uCreator para Android pode roubar palavras-passe 2FA do Telegram e clonar contas do WeChat",
+   "resumo_pt": "Um kit de spyware Android alugável chamado uCreator assume as contas do Telegram e do WeChat, escondendo seu código dentro de cópias de trabalho dos dois aplicações, descobriu o investigador Ovi. Só atinge pessoas que...",
+   "traduzido": true
+  },
+  {
+   "id": "9c7dbd668911c763",
+   "titulo": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+   "resumo": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T16:27:57+00:00",
+   "pontuacao": 39.3,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Vulnerabilidade crítica do 'HTTP2Shell' Brotli desencadeia patches de emergência",
+   "resumo_pt": "Uma falha crítica apelidada de 'HTTP2Shell' em Brotli, a biblioteca de decodificadores C incorporada ao Node.js, pode permitir que os atacantes corrompam a memória e acessem dados confidenciais. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "2c614b999eb78eb4",
+   "titulo": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+   "resumo": "Microsoft released emergency .NET security updates to patch a critical vulnerability known as Broccoli2Shell, also tracked as Node2Shell and HTTP2Shell. [...]",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T15:38:24+00:00",
+   "pontuacao": 39.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Microsoft lança patches .NET de emergência para falha crítica de Brotli",
+   "resumo_pt": "A Microsoft lançou atualizações de segurança .NET de emergência para corrigir uma vulnerabilidade crítica conhecida como Broccoli2Shell, também rastreada como Node2Shell e HTTP2Shell. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "e0ae260b2730b53a",
+   "titulo": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+   "resumo": "Two critical flaws in Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
+   "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T11:52:41+00:00",
+   "pontuacao": 38.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Duas falhas críticas de Wasmtime podem permitir que módulos maliciosos de WebAssembly escapem de sandboxes",
+   "resumo_pt": "Duas falhas críticas no Wasmtime, um tempo de execução do WebAssembly que pode ser incorporado a outro software, podem permitir que um módulo WebAssembly malicioso escape da área restrita destinada a contê-lo, o…",
+   "traduzido": true
+  },
+  {
+   "id": "621c6b9dc300a1c8",
+   "titulo": "Former pentester used ARTEX AI to steal 8.2 million data records",
+   "resumo": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T21:08:28+00:00",
+   "pontuacao": 34.6,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "O ex-pentester usou a IA da ARTEX para roubar 8,2 milhões de registos de dados",
+   "resumo_pt": "A polícia sul-coreana identificou sete suspeitos ligados a uma operação de cibercrime que violou mais de 90 organizações no país, com a estrutura de pentesting da ARTEX AI usada na maioria dos ataques...",
+   "traduzido": true
+  },
+  {
+   "id": "7ed092b94a412e68",
+   "titulo": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+   "resumo": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T20:46:49+00:00",
+   "pontuacao": 34.5,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "OpenAI lança GPT-6.1 Terra com agentes de IA 3x mais rápidos, preços 50% mais baixos",
+   "resumo_pt": "A OpenAI lançou o GPT-6.1 Terra, um novo modelo focado no uso do computador, raciocínio visual, codificação e trabalho diário, ao mesmo tempo em que custa significativamente menos do que seus modelos maiores. [...]",
+   "traduzido": true
+  }
+ ]
+}
