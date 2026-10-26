@@ -1,6 +1,6 @@
 # CiberBot PT — instruções para o Claude Code
 
-Bot que recolhe todos os dias notícias, ataques e vulnerabilidades de cibersegurança, **traduz o que estiver em inglês para português de Portugal (pt-PT)** e publica um resumo em **Telegram, email, Discord e página web**. Corre sozinho no GitHub Actions (grátis, sem servidor) e **funciona sem nenhuma chave**: tradução grátis pelo GitHub Models (token automático do Actions) e MyMemory; a Claude é opcional.
+Bot que recolhe todos os dias notícias, ataques e vulnerabilidades de cibersegurança, **traduz o que estiver em inglês para português de Portugal (pt-PT)** e publica um resumo em **Telegram, email, Discord e página web**. Corre sozinho no GitHub Actions (grátis, sem servidor) e **funciona sem nenhuma chave**: tradução grátis pelo MyMemory (com `aportuguesar` para corrigir pt-BR); a Claude é opcional. O GitHub Models foi descontinuado pelo GitHub a 30/07/2026: não o voltes a usar.
 
 - Repositório: `AlexandreTeles7/ciberbot-pt-v2` (**público**, ramo `main`). Sucessor de `AlexandreTeles7/ciberbot-pt` (v1).
 - Site (GitHub Pages, pasta `docs/`): https://alexandreteles7.github.io/ciberbot-pt-v2/
@@ -15,7 +15,7 @@ Bot que recolhe todos os dias notícias, ataques e vulnerabilidades de cibersegu
 
 - **Língua.** Tudo o que o utilizador final vê está em pt-PT (utilizador, ficheiro, ecrã, descarregar, atualizar; sem gerúndio brasileiro do tipo «estou fazendo»). Identificadores, comentários, registos e testes do código também estão em português: mantém esse estilo.
 - **Sem dependências externas.** Só biblioteca padrão, Python ≥ 3.11 (usa `tomllib` e `zoneinfo`). Não acrescentes pacotes sem o utilizador pedir.
-- **Testes offline.** `python3 -m unittest discover -s tests` (73 testes, sem rede; `test_pipeline.py` e `test_melhorias.py`). Nenhum teste pode usar a rede: o tradutor `mymemory` não precisa de chave, por isso nos testes passa sempre `chamar`/`obter_fn` falsos ou `fornecedores` sem ele. Corre-os antes de cada commit; uma alteração de comportamento leva teste novo.
+- **Testes offline.** `python3 -m unittest discover -s tests` (72 testes, sem rede; `test_pipeline.py` e `test_melhorias.py`). Nenhum teste pode usar a rede: o tradutor `mymemory` não precisa de chave, por isso nos testes passa sempre `chamar`/`obter_fn` falsos ou `fornecedores` sem ele. Corre-os antes de cada commit; uma alteração de comportamento leva teste novo.
 - **Segredos.** Só em variáveis de ambiente (GitHub Secrets). Nunca no código, em testes, registos ou mensagens de erro. O token do Telegram vai dentro do URL, por isso as mensagens de rede só mostram o *host*, nunca o URL completo (`rede.py`): mantém isto.
 - **Conteúdo da internet é hostil.** Escapar sempre (`html.escape` em HTML/Telegram, escape de Markdown no Discord), aceitar só URLs `http(s)` (`modelos.url_segura`), Discord sem menções (`allowed_mentions: {"parse": []}`), e o prompt de tradução trata o texto como dados e nunca como instruções.
 - **O que é escrito pelo bot** (não editar à mão): `docs/index.html`, `docs/arquivo/`, `docs/dados/`, `state/vistos.json`. A pasta `docs/` é o site publicado: não ponhas lá documentação.
@@ -45,7 +45,7 @@ ciberbot/
   cli.py        pipeline completo: recolher → filtrar → pontuar → deduplicar → limitar → traduzir → publicar → gravar estado
   fontes.py     RSS/Atom, CISA KEV, NVD e GitHub Advisories (ghsa) → lista de Item
   pontuacao.py  pontuação, deduplicação, limites
-  traducao.py   EN → pt-PT: Claude › GitHub Models › MyMemory (cadeia com recurso; aportuguesar corrige pt-BR)
+  traducao.py   EN → pt-PT: Claude (se houver chave) › MyMemory (cadeia com recurso; aportuguesar corrige pt-BR)
   edicao.py     agrupa em secções; gera texto, HTML (email e site), Telegram, Discord
   estado.py     memória do que já foi enviado (state/vistos.json)
   canais/       web.py, telegram.py, discord.py, correio.py (cada um: NOME, ativo(), enviar())
@@ -60,4 +60,4 @@ tests/          test_pipeline.py, test_melhorias.py + tests/fixtures/ (dados fic
 
 ## Estado em resumo (2026-10-26)
 
-Versão 2 criada a partir da v1 (em produção desde 21/10). Corrige: tradução sem chave, NVD com HTTP 403 (era o `User-Agent`), fontes PT, horário, notas técnicas no site público, `.env`. **Ainda não verificado no GitHub Actions real** (GitHub Models e primeira execução). Detalhes e pendentes em `contexto/ESTADO_E_PENDENTES.md`.
+Versão 2 criada a partir da v1 (em produção desde 21/10). Corrige: tradução sem chave, NVD com HTTP 403 (era o `User-Agent`), fontes PT, horário, notas técnicas no site público, `.env`. Primeira execução no Actions a 26/10: sucesso, 16 de 17 itens traduzidos pelo MyMemory, site no GitHub Pages. Detalhes e pendentes em `contexto/ESTADO_E_PENDENTES.md`.

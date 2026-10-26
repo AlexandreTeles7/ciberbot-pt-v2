@@ -74,7 +74,7 @@ No Claude Code local estas limitações não se aplicam: podes correr `--dry-run
 | 2026-10-21 (manhã) | O utilizador perguntou onde obter os segredos; foi explicado onde obter cada um (chave da API, Telegram, Discord, Gmail) e como os guardar em *Settings → Secrets and variables → Actions*. |
 | 2026-10-21 → 26 | Execuções diárias automáticas, todas com sucesso (commits «Resumo de AAAA-MM-DD» do bot, primeira execução a 21/10 às ~12:47 UTC). GitHub Pages ativo e a publicar. A chave `ANTHROPIC_API_KEY` continua por configurar. |
 | 2026-10-26 | Verificação do estado real: tradução inativa (sem chave), NVD com 403, atraso do agendamento. Preparação destes documentos para continuar o desenvolvimento no Claude Code. |
-| 2026-10-26 | O utilizador (sem chaves de API nem tokens) pediu melhorias e um repositório novo: **`ciberbot-pt-v2`** (público). Escolheu tradução gratuita «GitHub Models + MyMemory». Ver `ESTADO_E_PENDENTES.md`. |
+| 2026-10-26 | O utilizador (sem chaves de API nem tokens) pediu melhorias e um repositório novo: **`ciberbot-pt-v2`** (público). Escolheu tradução gratuita «GitHub Models + MyMemory». Na primeira execução descobriu-se que o GitHub Models tinha sido descontinuado (30/07/2026); ficou só o MyMemory (com email opcional para mais limite). Ver `ESTADO_E_PENDENTES.md`. |
 
 ## 7. Glossário rápido
 

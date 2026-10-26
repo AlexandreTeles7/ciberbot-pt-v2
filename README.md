@@ -4,13 +4,13 @@ Bot que recolhe todos os dias as novidades de cibersegurança (ataques, vulnerab
 
 Corre sozinho no GitHub Actions (grátis, sem servidor). Não tem dependências externas: só Python 3.11+.
 
-**Funciona sem nenhuma chave nem token.** A tradução usa o GitHub Models com o token automático do GitHub Actions e, como reserva, o serviço gratuito MyMemory. A API da Claude é opcional.
+**Funciona sem nenhuma chave nem token.** A tradução usa o serviço gratuito MyMemory (com correção automática para pt-PT). A API da Claude é opcional e, se existir, é usada primeiro.
 
 ## Como funciona
 
 ```
 fontes (RSS, CISA KEV, NVD, GitHub Advisories) → últimas 36 h, sem repetir o que já foi enviado
-→ pontua e remove duplicados → traduz EN→PT-PT (Claude › GitHub Models › MyMemory)
+→ pontua e remove duplicados → traduz EN→PT-PT (Claude, se houver chave › MyMemory)
 → resumo diário → Página web · Telegram · Email · Discord
 ```
 
@@ -34,8 +34,7 @@ Se uma fonte falhar, as outras continuam; a falha fica nos registos e no resumo 
 | Tradutor | Precisa de | Qualidade | Notas |
 |---|---|---|---|
 | `anthropic` (Claude) | segredo `ANTHROPIC_API_KEY` | a melhor | tem custo (baixo); usado primeiro se existir |
-| `github` (GitHub Models) | nada no Actions (`GITHUB_TOKEN` automático) | muito boa | grátis, com limite diário de pedidos largamente suficiente |
-| `mymemory` | nada | razoável | grátis, ~5000 caracteres/dia; o bot corrige o português do Brasil mais comum |
+| `mymemory` | nada (opcional: segredo `MYMEMORY_EMAIL`) | razoável | grátis, ~5000 caracteres/dia, ou ~50 000 com um email de contacto; o bot corrige o português do Brasil mais comum |
 
 Se um tradutor falhar, os itens em falta passam para o seguinte. Se todos falharem, o item fica em inglês, assinalado «Em inglês». A ordem muda-se em `[traducao] fornecedores`.
 
@@ -47,7 +46,9 @@ Se um tradutor falhar, os itens em falta passam para o seguinte. Se todos falhar
    - **Telegram:** fala com o `@BotFather`, cria um bot e guarda o token em `TELEGRAM_BOT_TOKEN`. Envia uma mensagem ao bot e abre `https://api.telegram.org/bot<TOKEN>/getUpdates` para encontrares `"chat":{"id": ...}`; guarda esse número em `TELEGRAM_CHAT_ID`.
    - **Discord:** no canal, *Editar canal → Integrações → Webhooks → Novo webhook → Copiar URL* para `DISCORD_WEBHOOK_URL`.
    - **Email:** `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_DE` e `EMAIL_PARA`. No Gmail: `smtp.gmail.com`, porta `587` e uma *palavra-passe de aplicação*.
-4. **Extras opcionais:** `NVD_API_KEY` (gratuita, em https://nvd.nist.gov/developers/request-an-api-key) e `ANTHROPIC_API_KEY`.
+4. **Extras opcionais:** `MYMEMORY_EMAIL` (qualquer email teu; dá 10× mais tradução grátis), `NVD_API_KEY` (gratuita, em https://nvd.nist.gov/developers/request-an-api-key) e `ANTHROPIC_API_KEY`.
+
+> O GitHub Models chegou a ser usado na v2, mas o GitHub descontinuou-o a 30/07/2026.
 
 ## Experimentar no computador
 

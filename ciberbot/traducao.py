@@ -2,9 +2,10 @@
 
 Tradutores, por ordem de preferência (configurável em [traducao] fornecedores):
   anthropic  API da Claude (precisa de ANTHROPIC_API_KEY)
-  github     GitHub Models, com o token automático do GitHub Actions (GITHUB_TOKEN; grátis)
-  mymemory   API pública MyMemory, sem chave (grátis, com limite diário de caracteres)
+  mymemory   API pública MyMemory, sem chave (grátis; ~5000 caracteres/dia, ou ~50 000 com
+             um email de contacto em MYMEMORY_EMAIL)
 Se um tradutor falhar, os itens que ficaram por traduzir passam para o seguinte.
+(O GitHub Models foi descontinuado pelo GitHub a 30/07/2026 e deixou de ser opção.)
 """
 from __future__ import annotations
 
@@ -23,10 +24,8 @@ log = logging.getLogger("ciberbot")
 
 API_URL = "https://api.anthropic.com/v1/messages"
 MODELO_PADRAO = "claude-haiku-5-5"
-GITHUB_URL = "https://models.github.ai/inference/chat/completions"
-MODELO_GITHUB_PADRAO = "openai/gpt-4.1-mini"
 MYMEMORY_URL = "https://api.mymemory.translated.net/get"
-FORNECEDORES_PADRAO = ["anthropic", "github", "mymemory"]
+FORNECEDORES_PADRAO = ["anthropic", "mymemory"]
 
 SISTEMA = (
     "És tradutor técnico de cibersegurança. Traduzes do inglês para português de Portugal "
@@ -75,29 +74,6 @@ def chamar_api(sistema: str, mensagem: str, modelo: str, chave: str) -> str:
     return "".join(b.get("text", "") for b in corpo.get("content", []) if b.get("type") == "text")
 
 
-def chamar_github(sistema: str, mensagem: str, modelo: str, token: str) -> str:
-    """GitHub Models (formato compatível com OpenAI). No Actions basta 'permissions: models: read'."""
-    estado, corpo = enviar_json(
-        GITHUB_URL,
-        {"model": modelo, "max_tokens": 4000, "temperature": 0.2,
-         "messages": [{"role": "system", "content": sistema},
-                      {"role": "user", "content": mensagem}]},
-        {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
-         "X-GitHub-Api-Version": "2022-11-28"},
-        timeout=120,
-    )
-    if estado != 200 or not isinstance(corpo, dict):
-        detalhe = ""
-        if isinstance(corpo, dict):
-            erro = corpo.get("error")
-            detalhe = str(erro.get("message", "") if isinstance(erro, dict) else erro or "")[:200]
-        raise ErroTraducao(f"o GitHub Models respondeu {estado}. {detalhe}".strip())
-    try:
-        return str(corpo["choices"][0]["message"]["content"] or "")
-    except (KeyError, IndexError, TypeError):
-        raise ErroTraducao("resposta inesperada do GitHub Models") from None
-
-
 # O MyMemory tende a devolver português do Brasil: correções simples para pt-PT
 # (só palavras inteiras; a primeira letra mantém maiúscula ou minúscula).
 PT_BR_PARA_PT = {
@@ -131,9 +107,16 @@ def aportuguesar(texto: str) -> str:
     return _GERUNDIO_RE.sub(lambda m: f"{m.group(1)} a {m.group(2)}{m.group(3)}r", texto)
 
 
-def traduzir_mymemory(texto: str, obter_fn: Callable[..., bytes] = obter) -> str:
-    """Traduz um texto curto (máx. 500 bytes) com a API pública MyMemory, sem chave."""
-    url = MYMEMORY_URL + "?" + urllib.parse.urlencode({"q": texto, "langpair": "en|pt-PT"})
+def traduzir_mymemory(texto: str, obter_fn: Callable[..., bytes] = obter, email: str = "") -> str:
+    """Traduz um texto curto (máx. 500 bytes) com a API pública MyMemory, sem chave.
+
+    Com 'email' (parâmetro 'de' da API), o limite diário gratuito passa de ~5000 para ~50 000
+    caracteres. O URL nunca aparece em registos nem erros (rede.py só mostra o servidor).
+    """
+    params = {"q": texto, "langpair": "en|pt-PT"}
+    if email:
+        params["de"] = email
+    url = MYMEMORY_URL + "?" + urllib.parse.urlencode(params)
     try:
         dados = json.loads(obter_fn(url, tentativas=2))
     except ValueError:
@@ -201,19 +184,24 @@ def _traduzir_lotes(pendentes: list[Item], chamar: Callable[[str, str], str],
     return falhas
 
 
-def _traduzir_mymemory(pendentes: list[Item], conf: dict,
+def _traduzir_mymemory(pendentes: list[Item], conf: dict, env: dict,
                        obter_fn: Callable[..., bytes] = obter) -> list[str]:
     """Item a item, por ordem de relevância, até esgotar o orçamento diário de caracteres."""
-    orcamento = int(conf.get("mymemory_max_caracteres", 4500))
-    resumo_max = int(conf.get("mymemory_resumo_max_caracteres", 200))
+    email = (env.get("MYMEMORY_EMAIL") or "").strip()
+    if email:
+        orcamento = int(conf.get("mymemory_max_caracteres_com_email", 45000))
+        resumo_max = min(int(conf.get("resumo_max_caracteres", 380)), 450)
+    else:
+        orcamento = int(conf.get("mymemory_max_caracteres", 4500))
+        resumo_max = int(conf.get("mymemory_resumo_max_caracteres", 200))
     for it in sorted(pendentes, key=lambda i: -i.pontuacao):
         titulo, resumo = cortar(it.titulo, 240), cortar(it.resumo, resumo_max)
         custo = len(titulo) + len(resumo)
         if custo > orcamento:
             break
         try:
-            titulo_pt = traduzir_mymemory(titulo, obter_fn)
-            resumo_pt = traduzir_mymemory(resumo, obter_fn) if resumo else ""
+            titulo_pt = traduzir_mymemory(titulo, obter_fn, email)
+            resumo_pt = traduzir_mymemory(resumo, obter_fn, email) if resumo else ""
         except (ErroTraducao, ErroRede) as e:
             restantes = sum(1 for i in pendentes if not i.traduzido)
             return [f"{restantes} itens sem tradução ({e})"]
@@ -231,10 +219,6 @@ def tradutores(conf: dict, env: dict) -> list[tuple[str, Callable[[str, str], st
             chave = env["ANTHROPIC_API_KEY"]
             modelo = env.get("CIBERBOT_MODELO") or conf.get("modelo", MODELO_PADRAO)
             lista.append((nome, lambda s, m, mo=modelo, c=chave: chamar_api(s, m, mo, c)))
-        elif nome == "github" and env.get("GITHUB_TOKEN"):
-            token = env["GITHUB_TOKEN"]
-            modelo = conf.get("modelo_github", MODELO_GITHUB_PADRAO)
-            lista.append((nome, lambda s, m, mo=modelo, t=token: chamar_github(s, m, mo, t)))
         elif nome == "mymemory":
             lista.append((nome, None))
     return lista
@@ -250,8 +234,8 @@ def traduzir(itens: list[Item], cfg: dict, env: dict,
         return []
     lista = [("", chamar)] if chamar else tradutores(conf, env)
     if not lista:
-        return ["Tradução: nenhum tradutor disponível (defina ANTHROPIC_API_KEY, corra no "
-                "GitHub Actions com GITHUB_TOKEN ou acrescente «mymemory» a [traducao] fornecedores)."]
+        return ["Tradução: nenhum tradutor disponível (defina ANTHROPIC_API_KEY ou acrescente "
+                "«mymemory» a [traducao] fornecedores)."]
 
     tamanho = max(1, int(conf.get("lote", 8)))
     resumo_max = int(conf.get("resumo_max_caracteres", 380))
@@ -261,7 +245,7 @@ def traduzir(itens: list[Item], cfg: dict, env: dict,
         if not faltam:
             break
         if fn is None:
-            erros = _traduzir_mymemory(faltam, conf, obter_fn)
+            erros = _traduzir_mymemory(faltam, conf, env, obter_fn)
         else:
             erros = _traduzir_lotes(faltam, fn, tamanho, resumo_max)
         feitos = sum(1 for i in faltam if i.traduzido)

@@ -47,39 +47,31 @@ class TestTradutores(unittest.TestCase):
     def test_ordem_e_disponibilidade(self):
         conf = {}
         self.assertEqual([n for n, _ in traducao.tradutores(conf, {})], ["mymemory"])
-        env = {"ANTHROPIC_API_KEY": "a", "GITHUB_TOKEN": "g"}
-        self.assertEqual([n for n, _ in traducao.tradutores(conf, env)], ["anthropic", "github", "mymemory"])
-        conf = {"fornecedores": ["github"]}
-        self.assertEqual([n for n, _ in traducao.tradutores(conf, env)], ["github"])
+        env = {"ANTHROPIC_API_KEY": "a"}
+        self.assertEqual([n for n, _ in traducao.tradutores(conf, env)], ["anthropic", "mymemory"])
+        conf = {"fornecedores": ["anthropic", "github"]}  # «github» já não existe: é ignorado
+        self.assertEqual([n for n, _ in traducao.tradutores(conf, env)], ["anthropic"])
 
-    def test_github_models_usa_token_e_formato_openai(self):
-        with mock.patch("ciberbot.traducao.enviar_json") as m:
-            m.return_value = (200, {"choices": [{"message": {"content": "[]"}}]})
-            self.assertEqual(traducao.chamar_github("sis", "msg", "openai/gpt-4.1-mini", "TOKEN"), "[]")
-        url, carga, cab = m.call_args[0][:3]
-        self.assertEqual(url, traducao.GITHUB_URL)
-        self.assertEqual(carga["model"], "openai/gpt-4.1-mini")
-        self.assertEqual(carga["messages"][0], {"role": "system", "content": "sis"})
-        self.assertEqual(cab["Authorization"], "Bearer TOKEN")
-
-    def test_erro_do_github_nao_expoe_o_token(self):
-        with mock.patch("ciberbot.traducao.enviar_json", return_value=(401, {"error": {"message": "Bad credentials"}})):
-            with self.assertRaises(traducao.ErroTraducao) as cm:
-                traducao.chamar_github("s", "m", "modelo", "SEGREDO456")
-        self.assertNotIn("SEGREDO456", str(cm.exception))
-        self.assertIn("401", str(cm.exception))
-
-    def test_se_a_claude_falha_o_github_traduz(self):
-        def falso(url, carga, cab, **kw):
-            if url == traducao.API_URL:
-                return 529, {"error": {"message": "overloaded"}}
-            return 200, {"choices": [{"message": {"content": resposta_ia(carga["messages"][1]["content"])}}]}
+    def test_se_a_claude_falha_o_mymemory_traduz(self):
+        obter, _ = mymemory_falso()
         itens = [item(f"Title {k}", id=str(k)) for k in range(3)]
-        env = {"ANTHROPIC_API_KEY": "a", "GITHUB_TOKEN": "g"}
-        with mock.patch("ciberbot.traducao.enviar_json", side_effect=falso):
-            avisos = traducao.traduzir(itens, {"traducao": {"fornecedores": ["anthropic", "github"]}}, env)
+        with mock.patch("ciberbot.traducao.enviar_json", return_value=(529, {"error": {"message": "overloaded"}})):
+            avisos = traducao.traduzir(itens, {"traducao": {}}, {"ANTHROPIC_API_KEY": "a"}, obter_fn=obter)
         self.assertEqual(avisos, [])  # recuperado: a falha fica só nos registos
-        self.assertTrue(all(i.traduzido and i.titulo_pt.startswith("PT ") for i in itens))
+        self.assertTrue(all(i.traduzido for i in itens))
+
+    def test_mymemory_com_email_tem_mais_limite_e_email_nao_aparece_em_erros(self):
+        def obter(url, **kw):
+            raise ErroRede("api.mymemory.translated.net: HTTP 503")
+        obter_ok, pedidos = mymemory_falso()
+        itens = [item("A" * 200, "B" * 300, id=str(k), pontuacao=k) for k in range(20)]
+        env = {"MYMEMORY_EMAIL": "pessoa@exemplo.test"}
+        cfg = {"traducao": {"fornecedores": ["mymemory"]}}
+        self.assertEqual(traducao.traduzir(itens, cfg, env, obter_fn=obter_ok), [])
+        self.assertIn("de=pessoa%40exemplo.test", pedidos[0])
+        outros = [item("Hello", id="h")]
+        avisos = traducao.traduzir(outros, cfg, env, obter_fn=obter)
+        self.assertNotIn("pessoa", " ".join(avisos))
 
     def test_mymemory_traduz_e_desescapa(self):
         obter, pedidos = mymemory_falso()

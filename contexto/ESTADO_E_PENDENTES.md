@@ -11,7 +11,7 @@ A v1 corria todos os dias sem erros, mas falhava no essencial: **0 de 61 itens t
 
 | Problema da v1 | Solução na v2 | Verificação |
 |---|---|---|
-| Tradução só pela Claude (sem chave → nada traduzido) | Cadeia de tradutores `anthropic › github › mymemory` (`[traducao] fornecedores`). O GitHub Models usa o `GITHUB_TOKEN` automático do Actions (`permissions: models: read`). O MyMemory não precisa de chave (~5000 caracteres/dia; os itens mais relevantes primeiro). `aportuguesar()` corrige o pt-BR mais comum do MyMemory. | `--dry-run` local: 16 itens traduzidos pelo MyMemory. **GitHub Models não testado** (precisa do token do Actions). |
+| Tradução só pela Claude (sem chave → nada traduzido) | Cadeia de tradutores `anthropic › mymemory` (`[traducao] fornecedores`). O MyMemory não precisa de chave (~5000 caracteres/dia, ~50 000 com o segredo opcional `MYMEMORY_EMAIL`; os itens mais relevantes primeiro). `aportuguesar()` corrige o pt-BR mais comum. O GitHub Models chegou a ser a segunda opção, mas o GitHub descontinuou-o a 30/07/2026 (o endereço só responde «OK»): retirado. | Actions, 26/10: 16 de 17 itens traduzidos pelo MyMemory. |
 | NVD: HTTP 403 | A causa era o `User-Agent` com «ç»: com o UA novo, só ASCII (`CiberBotPT/2.0 (+URL do projeto)`), o NVD respondeu 200 no mesmo computador onde o UA antigo dava 403. Erros 403 passam a indicar «bloqueado pela proteção anti-robôs» quando é o caso. | `--dry-run` local: 6 CVE críticos do NVD. Falta confirmar a partir dos IP do GitHub. |
 | Sem segunda fonte de vulnerabilidades críticas | Nova fonte `ghsa` (GitHub Advisory Database, revistas e críticas). O mesmo CVE do NVD e do GHSA só aparece uma vez, também entre dias (`Estado.cves_enviados`). | Testes + pedido real à API. |
 | «Segurança Informática» sem itens | O site bloqueia robôs (Cloudflare, HTTP 403). Retirado. Não se contornam proteções anti-robôs. | Pedido real. |
@@ -23,13 +23,13 @@ A v1 corria todos os dias sem erros, mas falhava no essencial: **0 de 61 itens t
 | Acentos rebentavam a consola do Windows | `stdout`/`stderr` em UTF-8. | `demo` no Windows. |
 | Workflow sem testes nem `pull --rebase` | Passo «Testes (sem rede)» antes do resumo; `git pull --rebase` antes do `push`. | — |
 
-Testes: 73 (51 da v1, adaptados, + 22 em `tests/test_melhorias.py`), todos offline.
+Testes: 72 (51 da v1, adaptados, + 21 em `tests/test_melhorias.py`), todos offline.
 
 ## 3. Pendentes, por prioridade
 
-### P1 — Primeira execução no GitHub Actions
-Ativar o GitHub Pages (*Settings → Pages → `main` / `docs`*) e correr *Actions → Resumo diário → Run workflow*. Confirmar no resumo da execução: quantos itens foram traduzidos e por que tradutor («Tradução: N itens traduzidos por github»), e se o NVD respondeu.
-Se o GitHub Models falhar (modelo indisponível, permissão em falta), o MyMemory entra sozinho; corrigir `[traducao] modelo_github` se a API disser que o modelo não existe.
+### P1 — Limite do MyMemory
+Feito a 26/10: primeira execução no Actions com sucesso (17 destaques, 16 traduzidos, nenhuma fonte em baixo) e GitHub Pages ativo (`main` / `docs`).
+Sem email, o MyMemory dá ~5000 caracteres/dia: chega para os títulos e resumos curtos de ~15 itens. Para traduzir tudo com resumos maiores, o utilizador pode criar o segredo `MYMEMORY_EMAIL` (qualquer email seu). Vigiar no resumo da execução a linha «N traduzidos; M em inglês».
 
 ### P2 — Rever a qualidade do pt-PT
 Ler algumas edições. Se aparecer pt-BR, acrescentar pares a `PT_BR_PARA_PT` em `traducao.py` (só afeta o MyMemory) ou reforçar o prompt `SISTEMA`.
@@ -49,7 +49,7 @@ Continuar a procurar fontes pt-PT de cibersegurança com RSS que aceitem robôs.
 - Funcionalidades não pedidas: comando `/pesquisar` no Telegram, alertas imediatos, resumo semanal.
 
 ## 4. Riscos conhecidos
-- GitHub Models e MyMemory são serviços gratuitos: podem mudar limites ou condições. A cadeia de recurso e o aviso «Em inglês» evitam perder informação.
+- O MyMemory é um serviço gratuito: pode mudar limites ou condições (o GitHub Models já desapareceu assim). A cadeia de recurso e o aviso «Em inglês» evitam perder informação.
 - O texto enviado ao MyMemory vai no URL do pedido (é a API deles); só se envia texto público das notícias.
 - A tradução é automática: manter sempre o aviso e o link para a fonte.
 - A data da KEV assume 12:00 UTC (a fonte só dá o dia).

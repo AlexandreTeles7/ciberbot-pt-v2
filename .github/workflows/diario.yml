@@ -10,7 +10,6 @@ on:
 
 permissions:
   contents: write      # para guardar o estado e o site no repositório
-  models: read         # tradução gratuita com o GitHub Models (usa o GITHUB_TOKEN automático)
 
 concurrency:
   group: ciberbot
@@ -33,8 +32,9 @@ jobs:
       - name: Gerar e publicar o resumo
         run: python -m ciberbot run
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # automático; só para a fonte GitHub Advisories
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

@@ -26,14 +26,15 @@ url_publica = "https://alexandreteles7.github.io/ciberbot-pt-v2/"   # aparece na
 ativa = true
 # Tradutores por ordem de preferência; se um falhar ou não estiver disponível, passa ao seguinte.
 #   anthropic: API da Claude (só com o segredo ANTHROPIC_API_KEY)
-#   github:    GitHub Models, grátis com o token automático do GitHub Actions (sem criar nada)
-#   mymemory:  serviço público gratuito, sem chave (limite de ~5000 caracteres por dia)
-fornecedores = ["anthropic", "github", "mymemory"]
+#   mymemory:  serviço público gratuito, sem chave (~5000 caracteres por dia; ~50 000 com o
+#              segredo opcional MYMEMORY_EMAIL, um email de contacto)
+# (O GitHub Models foi descontinuado pelo GitHub a 30/07/2026.)
+fornecedores = ["anthropic", "mymemory"]
 modelo = "claude-haiku-5-5"          # Claude; pode ser substituído pela variável CIBERBOT_MODELO
-modelo_github = "openai/gpt-4.1-mini"  # GitHub Models (ver https://github.com/marketplace?type=models)
-lote = 8                      # itens por pedido (anthropic e github)
+lote = 8                      # itens por pedido à Claude
 resumo_max_caracteres = 380
 mymemory_max_caracteres = 4500        # orçamento diário do MyMemory (os itens mais relevantes primeiro)
+mymemory_max_caracteres_com_email = 45000   # idem, com MYMEMORY_EMAIL (resumos até resumo_max_caracteres)
 mymemory_resumo_max_caracteres = 200
 
 # --------------------------------------------------------------------------------------
