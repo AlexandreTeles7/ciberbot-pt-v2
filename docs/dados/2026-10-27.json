@@ -1,0 +1,292 @@
+{
+ "data": "2026-10-27",
+ "gerado_em": "2026-10-27T10:37:56.293683+00:00",
+ "itens": [
+  {
+   "id": "kev:CVE-2026-109618",
+   "titulo": "CVE-2026-109618: PHP Memory Corruption Vulnerability",
+   "resumo": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+   "fonte": "CISA — Vulnerabilidades exploradas (KEV)",
+   "idioma": "en",
+   "categoria": "exploradas",
+   "publicado": "2026-10-26T12:00:00+00:00",
+   "pontuacao": 75.7,
+   "cves": [
+    "CVE-2026-109618"
+   ],
+   "etiquetas": [
+    "Explorada ativamente",
+    "Prazo CISA: 29/10/2026"
+   ],
+   "titulo_pt": "CVE-2026-109618: Vulnerabilidade de corrupção de memória PHP",
+   "resumo_pt": "O PHP contém uma vulnerabilidade de corrupção de memória insuficiente que permite a execução remota de código não autenticado.",
+   "traduzido": true
+  },
+  {
+   "id": "kev:CVE-2026-109619",
+   "titulo": "CVE-2026-109619: PHP Stale Internal Request-State Vulnerability",
+   "resumo": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+   "fonte": "CISA — Vulnerabilidades exploradas (KEV)",
+   "idioma": "en",
+   "categoria": "exploradas",
+   "publicado": "2026-10-26T12:00:00+00:00",
+   "pontuacao": 75.7,
+   "cves": [
+    "CVE-2026-109619"
+   ],
+   "etiquetas": [
+    "Explorada ativamente",
+    "Prazo CISA: 29/10/2026"
+   ],
+   "titulo_pt": "CVE-2026-109619: Vulnerabilidade de estado de solicitação interna do PHP obsoleto",
+   "resumo_pt": "O PHP contém uma vulnerabilidade de estado de solicitação interna obsoleta que permite a execução de código remoto não autenticado.",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-92885",
+   "titulo": "CVE-2026-92885: The Qode Membership plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and…",
+   "resumo": "The Qode Membership plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and including, 2.0.6.2 via the qode_membership_check_facebook_user AJAX action. This is due to a typographic error in the Facebook OAuth token verification guard within the qode_membership_login_user_from_social_network function — the guard condition tests an undefined variable ($check_social_useqoder instead of $check_social_user), causing empty() to always return true and rendering the Graph API token verification branch dead code, leaving wp_set_auth_cookie()…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92885",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-27T09:16:34.630000+00:00",
+   "pontuacao": 56.4,
+   "cves": [
+    "CVE-2026-92885"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-92885: O plugin Qode Membership para WordPress é vulnerável ao Bypass de Autenticação que leva à Aquisição de Conta em todas as versões até, e...",
+   "resumo_pt": "O plugin Qode Membership para WordPress é vulnerável ao Bypass de Autenticação que leva à Aquisição de Conta em todas as versões até, e incluindo, 2.0.6.2 através do qode_membership_check_facebook_user...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-116214",
+   "titulo": "CVE-2026-116214: MacCMS v10 before 2026.1000.4054 contains an authentication bypass vulnerability that allows unauthenticated attackers to reset any member's…",
+   "resumo": "MacCMS v10 before 2026.1000.4054 contains an authentication bypass vulnerability that allows unauthenticated attackers to reset any member's password because check_msg() never compares msg_to. Attackers can request a recovery code to their own mailbox via user/findpass_msg, then submit it to user/findpass_reset with the victim's email or phone to take over the account.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116214",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-26T14:16:34.173000+00:00",
+   "pontuacao": 48.1,
+   "cves": [
+    "CVE-2026-116214"
+   ],
+   "etiquetas": [
+    "CVSS 9.3"
+   ],
+   "titulo_pt": "CVE-2026-116214: MacCMS v10 antes de 2026.1000.4054 contém uma vulnerabilidade de desvio de autenticação que permite que atacantes não autenticados redefinam a…",
+   "resumo_pt": "O MacCMS v10 antes de 2026.1000.4054 contém uma vulnerabilidade de desvio de autenticação que permite que atacantes não autenticados redefinam a palavra-passe de qualquer membro porque check_msg() nunca compara msg_to...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-116233",
+   "titulo": "CVE-2026-116233: A security vulnerability has been detected in Oray Pugongying X5 Pro 7.6.1",
+   "resumo": "A security vulnerability has been detected in Oray Pugongying X5 Pro 7.6.1. This impacts an unknown function of the component Dnsmasq. The manipulation of the argument rent_time leads to crlf injection. The attack can be initiated remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116233",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-26T09:16:34.787000+00:00",
+   "pontuacao": 45.6,
+   "cves": [
+    "CVE-2026-116233"
+   ],
+   "etiquetas": [
+    "CVSS 9.1"
+   ],
+   "titulo_pt": "CVE-2026-116233: Foi detectada uma vulnerabilidade de segurança no Oray Pugongying X5 Pro 7.6.1",
+   "resumo_pt": "Uma vulnerabilidade de segurança foi detectada no Oray Pugongying X5 Pro 7.6.1. Isso afeta uma função desconhecida do componente Dnsmasq. A manipulação do argumento rent_time leva a crlf...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-116234",
+   "titulo": "CVE-2026-116234: A vulnerability was detected in Oray Pugongying X5 Pro 7.6.1",
+   "resumo": "A vulnerability was detected in Oray Pugongying X5 Pro 7.6.1. Affected is an unknown function of the file /etc/ipsec.conf of the component IPsec Policy Handler. The manipulation of the argument secproto results in crlf injection. The attack can be launched remotely. The exploit is now public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116234",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-26T09:16:34.953000+00:00",
+   "pontuacao": 45.6,
+   "cves": [
+    "CVE-2026-116234"
+   ],
+   "etiquetas": [
+    "CVSS 9.1"
+   ],
+   "titulo_pt": "CVE-2026-116234: Foi detectada uma vulnerabilidade no Oray Pugongying X5 Pro 7.6.1",
+   "resumo_pt": "Foi detectada uma vulnerabilidade no Oray Pugongying X5 Pro 7.6.1. Afetado é uma função desconhecida do ficheiro /etc/ipsec.conf do componente IPsec Policy Handler. A manipulação do argumento...",
+   "traduzido": true
+  },
+  {
+   "id": "0131084012e5632c",
+   "titulo": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+   "resumo": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory",
+   "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-27T04:37:59+00:00",
+   "pontuacao": 60.3,
+   "cves": [
+    "CVE-2026-109618"
+   ],
+   "etiquetas": [
+    "Na lista KEV da CISA"
+   ],
+   "titulo_pt": "A CISA confirma a exploração ativa de duas falhas do PHP2Shell que permitem a execução remota de código",
+   "resumo_pt": "A Agência de Cibersegurança e de Infraestrutura dos EUA (CISA) confirmou na segunda-feira a exploração ativa das falhas PHP2Shell recentemente corrigidas, adicionando-as às suas Vulnerabilidades Exploradas Conhecidas...",
+   "traduzido": true
+  },
+  {
+   "id": "4a36dea4db8df076",
+   "titulo": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+   "resumo": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-27T08:20:54+00:00",
+   "pontuacao": 54.4,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "CISA confirma vulnerabilidades do PHP2Shell agora exploradas em ataques",
+   "resumo_pt": "A Agência de Cibersegurança e de Infraestrutura dos EUA (CISA) adicionou as vulnerabilidades do PHP2Shell ao seu catálogo de falhas de segurança exploradas ativamente e ordenou que as agências federais corrigissem...",
+   "traduzido": true
+  },
+  {
+   "id": "33a9096f1329449b",
+   "titulo": "Energy giant ENGIE discloses data breach affecting customers",
+   "resumo": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-27T09:25:50+00:00",
+   "pontuacao": 44.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Gigante da energia Engie divulga fuga de dados que afeta clientes",
+   "resumo_pt": "A gigante francesa de energia Engie, uma das maiores fornecedoras de energia e gás natural do mundo, confirmou que os atacantes roubaram dados de clientes depois de violar uma plataforma de marketing usada por parceiros de negócios...",
+   "traduzido": true
+  },
+  {
+   "id": "f3a48995b714e9d8",
+   "titulo": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+   "resumo": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers. \"The next steps that we took were to disconnect that Amadey controller from all those",
+   "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-27T09:33:06+00:00",
+   "pontuacao": 34.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Austrália entra no back-end de malware do Amadey e corta acesso a 180 mil computadores infectados",
+   "resumo_pt": "Um criminoso que usa o malware Amadey não pode mais acessar ou roubar dados de 180.000 computadores infectados em todo o mundo, incluindo alguns na Austrália, diz a Australian Signals Directorate (ASD)...",
+   "traduzido": true
+  },
+  {
+   "id": "09ec1655cb59b082",
+   "titulo": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+   "resumo": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text, security firm Xint has shown. OpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as an encrypted item the user cannot read. The method got past",
+   "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-27T08:22:43+00:00",
+   "pontuacao": 34.4,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Falha de Compactação OpenAI Permite que os Investigadores Ignorem as Proteções de Raciocínio Oculto",
+   "resumo_pt": "O recurso de compactação do OpenAI, que reduz uma longa conversa para economizar espaço, pode ser transformado em uma maneira de copiar o raciocínio oculto de um modelo em texto simples, mostrou a empresa de segurança Xint. O OpenAI...",
+   "traduzido": true
+  },
+  {
+   "id": "c6df214dec8979c7",
+   "titulo": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+   "resumo": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP)",
+   "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-27T06:34:47+00:00",
+   "pontuacao": 33.9,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Atacantes sequestram câmeras IP da Dahua na Ucrânia usando acesso P2P e pontos fracos de autenticação",
+   "resumo_pt": "A Equipa de Resposta a Emergências Informáticas da Ucrânia (CERT-UA) emitiu um alerta de acesso remoto não autorizado a sistemas de videovigilância fabricados pela Dahua. \"Casos de PI comprometedora...",
+   "traduzido": true
+  },
+  {
+   "id": "fb157ab0a5ce75d8",
+   "titulo": "DreamHost forces password resets in ongoing \"incident\"",
+   "resumo": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T19:26:20+00:00",
+   "pontuacao": 30.8,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "A DreamHost força a redefinição de palavras-passe no \"incidente\" em andamento",
+   "resumo_pt": "O DreamHost forçou a redefinição de palavras-passe para utilizadores de e-mail e FTP/SFTP após um incidente que interrompeu as conexões com a interface do File Manager. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "bf76f6976935b8e5",
+   "titulo": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+   "resumo": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks. \"When you",
+   "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T18:12:22+00:00",
+   "pontuacao": 30.4,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Hackers infectam 953 lojas online com JavaScript que evita o scanner, principalmente no Magento",
+   "resumo_pt": "Um agente de ameaças desconhecido infectou 953 lojas online, a maioria delas executando o Magento, como parte de uma campanha de longa duração ativa desde julho de 2025. De acordo com a empresa holandesa de segurança de e-commerce Sansec...",
+   "traduzido": true
+  },
+  {
+   "id": "19245d87d714e4e2",
+   "titulo": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+   "resumo": "A new NIST, CISA, and NSA guide treats runaway agents as incidents to be rehearsed. The hard part of the response is answering whose authority the agent used, and that answer has to exist before the incident does. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T14:00:10+00:00",
+   "pontuacao": 29.3,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Quando um Agente de IA é o Incidente, o Registo de Identidade é a Evidência",
+   "resumo_pt": "Um novo guia do NIST, CISA e NSA trata os agentes fugitivos como incidentes a serem ensaiados. A parte difícil da resposta é responder de quem é a autoridade que o agente usou, e essa resposta tem que existir antes do...",
+   "traduzido": true
+  },
+  {
+   "id": "fb0c164b0656aa65",
+   "titulo": "Chinese man extradited for role in $36 million cryptocurrency scam",
+   "resumo": "A Chinese national was arraigned in California after being extradited from the Netherlands for his alleged involvement in a cryptocurrency investment scam that stole nearly $37 million from 174 victims in the United States. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T13:56:44+00:00",
+   "pontuacao": 29.3,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Chinês extraditado para o papel em burla de criptomoeda de $ 36 milhões",
+   "resumo_pt": "Um cidadão chinês foi acusado na Califórnia depois de ser extraditado da Holanda por seu suposto envolvimento em um esquema de investimento em criptomoedas que roubou quase $ 37 milhões de 174...",
+   "traduzido": true
+  }
+ ]
+}

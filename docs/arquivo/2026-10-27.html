@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CiberBot PT — Resumo diário de cibersegurança — 27 de outubro de 2026</title>
+<meta name="description" content="Resumo diário de cibersegurança em português de Portugal: ataques, vulnerabilidades e alertas.">
+<style>
+:root{--fundo:#f6f7f9;--cartao:#fff;--texto:#16191d;--suave:#5b6472;--linha:#e3e6ea;--link:#0b5fd6;--chip:#eef1f5;
+--s-portugal:#1f8a4c;--s-exploradas:#d6322f;--s-criticas:#e07a12;--s-noticias:#3a6fd8;--s-outra:#6b7280}
+@media (prefers-color-scheme:dark){:root{--fundo:#0f1216;--cartao:#171b21;--texto:#e8eaed;--suave:#9aa3af;
+--linha:#262c34;--link:#7db4ff;--chip:#222831;--s-portugal:#4cc17f;--s-exploradas:#ff6b66;--s-criticas:#ffa04a;
+--s-noticias:#7aa2ff;--s-outra:#9aa3af}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fundo);color:var(--texto);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+.caixa{max-width:760px;margin:0 auto;padding:0 16px}
+.topo{padding:28px 0 4px}
+.marca{margin:0;color:var(--suave);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase}
+h1{margin:.25em 0 .15em;font-size:1.7rem;line-height:1.2}
+.data{margin:0;color:var(--suave)}
+h2{font-size:1.1rem;margin:2em 0 .7em}
+.cartao{background:var(--cartao);border:1px solid var(--linha);border-left:4px solid var(--cor);
+border-radius:10px;padding:13px 16px;margin:0 0 12px}
+.s-portugal{--cor:var(--s-portugal)}.s-exploradas{--cor:var(--s-exploradas)}
+.s-criticas{--cor:var(--s-criticas)}.s-noticias{--cor:var(--s-noticias)}.s-outra{--cor:var(--s-outra)}
+.cartao h3{margin:0 0 .3em;font-size:1.02rem;line-height:1.35}
+.cartao h3 a{color:inherit;text-decoration:none}.cartao h3 a:hover{text-decoration:underline}
+.cartao p{margin:.3em 0}
+.meta{color:var(--suave);font-size:.85rem}
+.chip{display:inline-block;background:var(--chip);border-radius:999px;padding:1px 9px;margin:3px 4px 0 0;font-size:.78rem}
+.nota{background:var(--chip);border-radius:10px;padding:10px 14px;font-size:.9rem;color:var(--suave)}
+.arquivo ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 14px}
+.rodape{color:var(--suave);font-size:.82rem;padding:28px 16px 44px}
+</style>
+</head>
+<body>
+<header class="topo caixa">
+<p class="marca">CiberBot PT</p>
+<h1>CiberBot PT — Resumo diário de cibersegurança</h1>
+<p class="data">27 de outubro de 2026 · 16 destaques</p>
+</header>
+<main class="caixa">
+<section><h2>🔴 Vulnerabilidades exploradas ativamente</h2>
+<article class="cartao s-exploradas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-109618" rel="noopener noreferrer">CVE-2026-109618: Vulnerabilidade de corrupção de memória PHP</a></h3><p>O PHP contém uma vulnerabilidade de corrupção de memória insuficiente que permite a execução remota de código não autenticado.</p><p class="meta">CISA — Vulnerabilidades exploradas (KEV) · 26/10</p><span class="chip">Explorada ativamente</span><span class="chip">Prazo CISA: 29/10/2026</span></article>
+<article class="cartao s-exploradas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-109619" rel="noopener noreferrer">CVE-2026-109619: Vulnerabilidade de estado de solicitação interna do PHP obsoleto</a></h3><p>O PHP contém uma vulnerabilidade de estado de solicitação interna obsoleta que permite a execução de código remoto não autenticado.</p><p class="meta">CISA — Vulnerabilidades exploradas (KEV) · 26/10</p><span class="chip">Explorada ativamente</span><span class="chip">Prazo CISA: 29/10/2026</span></article></section>
+<section><h2>🟠 Vulnerabilidades críticas recentes</h2>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-92885" rel="noopener noreferrer">CVE-2026-92885: O plugin Qode Membership para WordPress é vulnerável ao Bypass de Autenticação que leva à Aquisição de Conta em todas as versões até, e...</a></h3><p>O plugin Qode Membership para WordPress é vulnerável ao Bypass de Autenticação que leva à Aquisição de Conta em todas as versões até, e incluindo, 2.0.6.2 através do qode_membership_check_facebook_user...</p><p class="meta">NVD — CVE críticos · 27/10</p><span class="chip">CVSS 9.8</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-116214" rel="noopener noreferrer">CVE-2026-116214: MacCMS v10 antes de 2026.1000.4054 contém uma vulnerabilidade de desvio de autenticação que permite que atacantes não autenticados redefinam a…</a></h3><p>O MacCMS v10 antes de 2026.1000.4054 contém uma vulnerabilidade de desvio de autenticação que permite que atacantes não autenticados redefinam a palavra-passe de qualquer membro porque check_msg() nunca compara msg_to...</p><p class="meta">NVD — CVE críticos · 26/10</p><span class="chip">CVSS 9.3</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-116233" rel="noopener noreferrer">CVE-2026-116233: Foi detectada uma vulnerabilidade de segurança no Oray Pugongying X5 Pro 7.6.1</a></h3><p>Uma vulnerabilidade de segurança foi detectada no Oray Pugongying X5 Pro 7.6.1. Isso afeta uma função desconhecida do componente Dnsmasq. A manipulação do argumento rent_time leva a crlf...</p><p class="meta">NVD — CVE críticos · 26/10</p><span class="chip">CVSS 9.1</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-116234" rel="noopener noreferrer">CVE-2026-116234: Foi detectada uma vulnerabilidade no Oray Pugongying X5 Pro 7.6.1</a></h3><p>Foi detectada uma vulnerabilidade no Oray Pugongying X5 Pro 7.6.1. Afetado é uma função desconhecida do ficheiro /etc/ipsec.conf do componente IPsec Policy Handler. A manipulação do argumento...</p><p class="meta">NVD — CVE críticos · 26/10</p><span class="chip">CVSS 9.1</span></article></section>
+<section><h2>📰 Ataques e notícias</h2>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html" rel="noopener noreferrer">A CISA confirma a exploração ativa de duas falhas do PHP2Shell que permitem a execução remota de código</a></h3><p>A Agência de Cibersegurança e de Infraestrutura dos EUA (CISA) confirmou na segunda-feira a exploração ativa das falhas PHP2Shell recentemente corrigidas, adicionando-as às suas Vulnerabilidades Exploradas Conhecidas...</p><p class="meta">The Hacker News · 27/10</p><span class="chip">Na lista KEV da CISA</span></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/" rel="noopener noreferrer">CISA confirma vulnerabilidades do PHP2Shell agora exploradas em ataques</a></h3><p>A Agência de Cibersegurança e de Infraestrutura dos EUA (CISA) adicionou as vulnerabilidades do PHP2Shell ao seu catálogo de falhas de segurança exploradas ativamente e ordenou que as agências federais corrigissem...</p><p class="meta">BleepingComputer · 27/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/" rel="noopener noreferrer">Gigante da energia Engie divulga fuga de dados que afeta clientes</a></h3><p>A gigante francesa de energia Engie, uma das maiores fornecedoras de energia e gás natural do mundo, confirmou que os atacantes roubaram dados de clientes depois de violar uma plataforma de marketing usada por parceiros de negócios...</p><p class="meta">BleepingComputer · 27/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html" rel="noopener noreferrer">Austrália entra no back-end de malware do Amadey e corta acesso a 180 mil computadores infectados</a></h3><p>Um criminoso que usa o malware Amadey não pode mais acessar ou roubar dados de 180.000 computadores infectados em todo o mundo, incluindo alguns na Austrália, diz a Australian Signals Directorate (ASD)...</p><p class="meta">The Hacker News · 27/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html" rel="noopener noreferrer">Falha de Compactação OpenAI Permite que os Investigadores Ignorem as Proteções de Raciocínio Oculto</a></h3><p>O recurso de compactação do OpenAI, que reduz uma longa conversa para economizar espaço, pode ser transformado em uma maneira de copiar o raciocínio oculto de um modelo em texto simples, mostrou a empresa de segurança Xint. O OpenAI...</p><p class="meta">The Hacker News · 27/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html" rel="noopener noreferrer">Atacantes sequestram câmeras IP da Dahua na Ucrânia usando acesso P2P e pontos fracos de autenticação</a></h3><p>A Equipa de Resposta a Emergências Informáticas da Ucrânia (CERT-UA) emitiu um alerta de acesso remoto não autorizado a sistemas de videovigilância fabricados pela Dahua. "Casos de PI comprometedora...</p><p class="meta">The Hacker News · 27/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/" rel="noopener noreferrer">A DreamHost força a redefinição de palavras-passe no "incidente" em andamento</a></h3><p>O DreamHost forçou a redefinição de palavras-passe para utilizadores de e-mail e FTP/SFTP após um incidente que interrompeu as conexões com a interface do File Manager. [...]</p><p class="meta">BleepingComputer · 26/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html" rel="noopener noreferrer">Hackers infectam 953 lojas online com JavaScript que evita o scanner, principalmente no Magento</a></h3><p>Um agente de ameaças desconhecido infectou 953 lojas online, a maioria delas executando o Magento, como parte de uma campanha de longa duração ativa desde julho de 2025. De acordo com a empresa holandesa de segurança de e-commerce Sansec...</p><p class="meta">The Hacker News · 26/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/" rel="noopener noreferrer">Quando um Agente de IA é o Incidente, o Registo de Identidade é a Evidência</a></h3><p>Um novo guia do NIST, CISA e NSA trata os agentes fugitivos como incidentes a serem ensaiados. A parte difícil da resposta é responder de quem é a autoridade que o agente usou, e essa resposta tem que existir antes do...</p><p class="meta">BleepingComputer · 26/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/" rel="noopener noreferrer">Chinês extraditado para o papel em burla de criptomoeda de $ 36 milhões</a></h3><p>Um cidadão chinês foi acusado na Califórnia depois de ser extraditado da Holanda por seu suposto envolvimento em um esquema de investimento em criptomoedas que roubou quase $ 37 milhões de 174...</p><p class="meta">BleepingComputer · 26/10</p></article></section>
+
+<p><a href="../index.html">← Edição mais recente</a></p>
+</main>
+<footer class="rodape caixa">
+Gerado automaticamente em 27/10/2026 às 10:37. Traduzido automaticamente para português de Portugal. Confirme sempre os detalhes na fonte original.
+</footer>
+</body>
+</html>
