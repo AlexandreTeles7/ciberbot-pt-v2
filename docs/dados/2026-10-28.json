@@ -1,0 +1,342 @@
+{
+ "data": "2026-10-28",
+ "gerado_em": "2026-10-28T11:22:39.353965+00:00",
+ "itens": [
+  {
+   "id": "kev:CVE-2026-48356",
+   "titulo": "CVE-2026-48356: Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+   "resumo": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
+   "fonte": "CISA — Vulnerabilidades exploradas (KEV)",
+   "idioma": "en",
+   "categoria": "exploradas",
+   "publicado": "2026-10-27T12:00:00+00:00",
+   "pontuacao": 63.5,
+   "cves": [
+    "CVE-2026-48356"
+   ],
+   "etiquetas": [
+    "Explorada ativamente",
+    "Prazo CISA: 10/11/2026"
+   ],
+   "titulo_pt": "CVE-2026-48356: Adobe Commerce e Magento Upload irrestrito de ficheiro com vulnerabilidade de tipo perigoso",
+   "resumo_pt": "O Adobe Commerce e o Magento contêm um upload irrestrito de ficheiro com vulnerabilidade de tipo perigoso que pode resultar em execução arbitrária de código no contexto do utilizador atual, potencialmente...",
+   "traduzido": true
+  },
+  {
+   "id": "kev:CVE-2026-111497",
+   "titulo": "CVE-2026-111497: Google Brotli Unchecked Return Value Vulnerability",
+   "resumo": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+   "fonte": "CISA — Vulnerabilidades exploradas (KEV)",
+   "idioma": "en",
+   "categoria": "exploradas",
+   "publicado": "2026-10-27T12:00:00+00:00",
+   "pontuacao": 63.5,
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "etiquetas": [
+    "Explorada ativamente",
+    "Prazo CISA: 10/11/2026"
+   ],
+   "titulo_pt": "CVE-2026-111497: Vulnerabilidade de valor de retorno não verificado do Google Brotli",
+   "resumo_pt": "O Google Brotli contém uma vulnerabilidade de valor de retorno não verificada que permite que um atacante remoto não autenticado corrompa a memória de estado do decodificador adjacente, divulgue conteúdo de memória sensível, cause um…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-109218",
+   "titulo": "CVE-2026-109218: The Contact Manager plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 9.1.2 via the…",
+   "resumo": "The Contact Manager plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 9.1.2 via the add_message function. This is due to an incomplete extension blacklist that fails to detect dangerous extensions when a trailing dot causes the extension-derivation routine to return an empty string, which sanitize_file_name() then silently removes before the file is written to disk. This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible. Successful code execution additionally…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109218",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-28T07:16:44.120000+00:00",
+   "pontuacao": 67.7,
+   "cves": [
+    "CVE-2026-109218"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-109218: O plugin Contact Manager para WordPress é vulnerável ao Upload Arbitrário de Ficheiros em todas as versões até, e incluindo, 9.1.2 através do…",
+   "resumo_pt": "O plugin Contact Manager para WordPress é vulnerável ao Upload Arbitrário de Ficheiros em todas as versões até, e incluindo, 9.1.2 através da função add_message. Isso se deve a uma extensão incompleta...",
+   "traduzido": true
+  },
+  {
+   "id": "ghsa:CVE-2026-116692",
+   "titulo": "CVE-2026-116692: MLflow vulnerable to remote code execution on unauthenticated servers via third-party scorer deserialization importing caller-placed artifact modules",
+   "resumo": "MLflow 3.12.0 introduced registration and deserialization support for third-party scorers in OSS MLflow. During scorer deserialization, the server accepts a request-controlled Python module path beneath one of four allowed package prefixes, imports that module, obtains a request-controlled class, and instantiates it synchronously. An HTTP caller can combine this behavior with MLflow's built-in experiment, run, and artifact-upload endpoints: 1. Create an experiment whose local artifact location points to a writable allowed scorer package. 2. Create a run, causing MLflow to allocate…",
+   "url": "https://github.com/advisories/GHSA-26p8-2jq9-3vq9",
+   "fonte": "GitHub Advisories — críticas",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-27T21:26:32+00:00",
+   "pontuacao": 64.9,
+   "cves": [
+    "CVE-2026-116692"
+   ],
+   "etiquetas": [
+    "CVSS 9.8",
+    "pip: mlflow"
+   ],
+   "titulo_pt": "CVE-2026-116692: MLflow vulnerável à execução remota de código em servidores não autenticados por meio de desserialização de marcador de terceiros importando módulos de artefato colocados no chamador",
+   "resumo_pt": "O MLflow 3.12.0 introduziu o suporte de registo e desserialização para pontuadores de terceiros no OSS MLflow. Durante a desserialização do marcador, o servidor aceita um caminho do módulo Python controlado por solicitação...",
+   "traduzido": true
+  },
+  {
+   "id": "ghsa:CVE-2026-35002",
+   "titulo": "CVE-2026-35002: Agno: Arbitrary code execution via `eval()` on `field_type` in `FunctionCall`",
+   "resumo": "Agno versions prior to 2.3.24 contain an arbitrary code execution vulnerability in the model execution component. The field_type parameter on a FunctionCall input field was passed to Python's built-in eval() , allowing an attacker who could influence that value to execute arbitrary Python code in the Agno process. This is a code injection flaw (CWE-95) with full impact to confidentiality, integrity, and availability. CVSS 3.1 score: 9.3 (Critical). Any deployment that exposes Agno to user-influenced FunctionCall inputs (for example via an API, web UI, or untrusted tool/model output) is…",
+   "url": "https://github.com/advisories/GHSA-m4w4-3r8h-jw98",
+   "fonte": "GitHub Advisories — críticas",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-27T13:30:41+00:00",
+   "pontuacao": 56.7,
+   "cves": [
+    "CVE-2026-35002"
+   ],
+   "etiquetas": [
+    "CVSS 9.8",
+    "pip: agno"
+   ],
+   "titulo_pt": "CVE-2026-35002: Agno: Execução de código arbitrário via `eval()` em `field_type` em `FunctionCall`",
+   "resumo_pt": "As versões do Agno anteriores a 2.3.24 contêm uma vulnerabilidade de execução de código arbitrário no componente de execução do modelo. O parâmetro field_type em um campo de entrada FunctionCall foi passado para o Python...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-84999",
+   "titulo": "CVE-2026-84999: The Pie Register Premium plugin for WordPress is vulnerable to Unrestricted File Type Upload in all versions up to, and including, 3.8.4.0 via…",
+   "resumo": "The Pie Register Premium plugin for WordPress is vulnerable to Unrestricted File Type Upload in all versions up to, and including, 3.8.4.0 via the piereg_file_upload function. This is due to the plugin performing file type validation via wp_check_filetype and wp_check_filetype_and_ext but never checking whether those validation calls produced errors before move_uploaded_file() is called, combined with no nonce or capability check on the AJAX handler. This makes it possible for unauthenticated attackers to upload files of dangerous types (e.g. PHP scripts) that may be executable, which makes…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84999",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-28T03:17:16.157000+00:00",
+   "pontuacao": 54.6,
+   "cves": [
+    "CVE-2026-84999"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-84999: O plugin Pie Register Premium para WordPress é vulnerável ao Unrestricted File Type Upload em todas as versões até, e incluindo, 3.8.4.0 via…",
+   "resumo_pt": "O plugin Pie Register Premium para WordPress é vulnerável ao Unrestricted File Type Upload em todas as versões até, e incluindo, 3.8.4.0 através da função piereg_file_upload. Isso se deve ao...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-106013",
+   "titulo": "CVE-2026-106013: The Jupiter X Core plugin for WordPress is vulnerable to Authentication Bypass via the Twitter/X Social Login handler in all versions up to…",
+   "resumo": "The Jupiter X Core plugin for WordPress is vulnerable to Authentication Bypass via the Twitter/X Social Login handler in all versions up to and including 4.61.0. The vulnerability exists within the verify_twitter_callback function because after exchanging the visitor's oauth_verifier for their access token, the handler never calls setOauthToken() to reassign the returned credentials to the TwitterOAuth client, causing the subsequent account/verify_credentials API call to remain signed with the site operator's stored Access Token and Access Token Secret rather than the authenticating visitor's…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106013",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-28T02:17:01.303000+00:00",
+   "pontuacao": 54.3,
+   "cves": [
+    "CVE-2026-106013"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-106013: O plugin Jupiter X Core para WordPress é vulnerável ao Bypass de Autenticação através do manipulador de Login Social do Twitter/X em todas as versões até...",
+   "resumo_pt": "O plugin Jupiter X Core para WordPress é vulnerável ao Authentication Bypass através do manipulador de Login Social do Twitter/X em todas as versões até e incluindo 4.61.0. A vulnerabilidade existe dentro do...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-105781",
+   "titulo": "CVE-2026-105781: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')…",
+   "resumo": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary SQL commands, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue does not require user interaction. Scope is changed.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105781",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-27T17:16:56.430000+00:00",
+   "pontuacao": 53.0,
+   "cves": [
+    "CVE-2026-105781"
+   ],
+   "etiquetas": [
+    "CVSS 10.0"
+   ],
+   "titulo_pt": "CVE-2026-105781: O Adobe Campaign Classic (ACC) é afetado por uma neutralização inadequada de elementos especiais usados em um comando SQL ('SQL Injection')...",
+   "resumo_pt": "O Adobe Campaign Classic (ACC) é afetado por uma Neutralização Imprópria de Elementos Especiais usada em uma vulnerabilidade de Comando SQL ('Injeção SQL') que pode resultar na execução arbitrária de código no…",
+   "traduzido": true
+  },
+  {
+   "id": "7ff8a46d80fca6af",
+   "titulo": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+   "resumo": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week. Oracle patched all three under a single identifier, CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address",
+   "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-28T06:04:58+00:00",
+   "pontuacao": 64.5,
+   "cves": [
+    "CVE-2026-35273"
+   ],
+   "etiquetas": [],
+   "titulo_pt": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day acaba por ser três falhas acorrentadas",
+   "resumo_pt": "O bug crítico do Oracle PeopleSoft que o ShinyHunters explorou desde maio não é uma falha, mas três encadeadas, disseram os investigadores que o relataram esta semana. Oráculo corrigiu todos os três sob...",
+   "traduzido": true
+  },
+  {
+   "id": "af97a1baa7e30536",
+   "titulo": "Apple backports CoreGraphics zero-day patches to older iPhones",
+   "resumo": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+   "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-27T10:36:12+00:00",
+   "pontuacao": 53.1,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Apple faz backport de patches de dia zero CoreGraphics para iPhones mais antigos",
+   "resumo_pt": "​A Apple fez backport de patches de segurança lançados no mês passado para iPhones e iPads mais antigos, abordando um bug de dia zero explorado em ataques direcionados \"extremamente sofisticados\" em dispositivos iOS. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "bd0fe0e079e67b7a",
+   "titulo": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+   "resumo": "A Ukrainian national was sentenced to 70 months in prison for his role in ransomware attacks targeting hospitals, government entities, and high-revenue businesses worldwide between 2018 and 2021. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-28T09:43:15+00:00",
+   "pontuacao": 49.5,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Afiliada do ransomware Nefilim e Hive pega 70 meses de prisão",
+   "resumo_pt": "Um cidadão ucraniano foi condenado a 70 meses de prisão por seu papel em ataques de ransomware contra hospitais, entidades governamentais e empresas de alta receita em todo o mundo entre 2018 e 2021...",
+   "traduzido": true
+  },
+  {
+   "id": "2317a10c8ae199b9",
+   "titulo": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+   "resumo": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in",
+   "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-28T05:42:26+00:00",
+   "pontuacao": 48.4,
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "etiquetas": [
+    "Na lista KEV da CISA"
+   ],
+   "titulo_pt": "Ataques do Adobe Commerce PolyShell violam centenas de lojas à medida que o tráfego de exploração de Brotli emerge",
+   "resumo_pt": "A Agência de Cibersegurança e de Infraestrutura dos EUA (CISA) adicionou na terça-feira duas vulnerabilidades que afetam o Adobe Commerce e o Magento, e a biblioteca de decodificadores Brotli do Google ao seu Known Exploited...",
+   "traduzido": true
+  },
+  {
+   "id": "7a185c8dd28887ab",
+   "titulo": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+   "resumo": "The GMO Group has urged customers to disconnect their systems from the internet and shut down computers after a threat actor who breached the company's Onamae Desktop Cloud threatened to launch a ransomware attack today. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-27T23:35:51+00:00",
+   "pontuacao": 46.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "GMO do Japão pede aos clientes que desliguem PCs em meio a ameaça de ransomware",
+   "resumo_pt": "O Grupo GMO pediu aos clientes que desconectassem seus sistemas da Internet e desligassem computadores depois que um agente de ameaças que violou a Onamae Desktop Cloud da empresa ameaçou lançar um...",
+   "traduzido": true
+  },
+  {
+   "id": "e8c9ad44f915c99d",
+   "titulo": "UNM Health ransomware attack disrupts patient care, surgeries",
+   "resumo": "The University of New Mexico Health Sciences Center disclosed a cyberattack that caused system outages and disrupted patient care and academic activities. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-27T22:07:34+00:00",
+   "pontuacao": 46.3,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Ataque de ransomware da UNM Health interrompe atendimento ao paciente e cirurgias",
+   "resumo_pt": "O Centro de Ciências da Saúde da Universidade do Novo México divulgou um ataque cibernético que causou interrupções no sistema e interrompeu o atendimento ao paciente e as atividades acadêmicas. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "5060525796dadc15",
+   "titulo": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+   "resumo": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation. The list of eight vulnerabilities is as follows - CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
+   "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-28T11:15:51+00:00",
+   "pontuacao": 41.0,
+   "cves": [
+    "CVE-2026-104351"
+   ],
+   "etiquetas": [],
+   "titulo_pt": "Adobe corrige 8 falhas clássicas críticas de campanha que permitem execução de código e desvio de segurança",
+   "resumo_pt": "A Adobe lançou patches para resolver várias falhas críticas de segurança no Campaign Classic que, se exploradas com sucesso, podem resultar em execução arbitrária de código, desvio de recursos de segurança e...",
+   "traduzido": true
+  },
+  {
+   "id": "e3c586ca8891fcfe",
+   "titulo": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+   "resumo": "On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-28T10:46:23+00:00",
+   "pontuacao": 40.8,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "3f633b938f53c831",
+   "titulo": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+   "resumo": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but",
+   "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-26T17:45:57+00:00",
+   "pontuacao": 40.0,
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "etiquetas": [
+    "Na lista KEV da CISA"
+   ],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "0778766d81ebd40a",
+   "titulo": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+   "resumo": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind. ANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",
+   "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-28T10:30:00+00:00",
+   "pontuacao": 37.8,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  }
+ ]
+}

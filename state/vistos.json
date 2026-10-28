@@ -3,27 +3,44 @@
  "vistos": {
   "0131084012e5632c": "2026-10-27",
   "056dff6934f33a5f": "2026-10-26",
+  "0778766d81ebd40a": "2026-10-28",
   "09ec1655cb59b082": "2026-10-27",
   "19245d87d714e4e2": "2026-10-27",
+  "2317a10c8ae199b9": "2026-10-28",
   "2a000ff73bb6f7ac": "2026-10-26",
   "2c614b999eb78eb4": "2026-10-26",
   "337affeba8e76b96": "2026-10-26",
   "33a9096f1329449b": "2026-10-27",
+  "3f633b938f53c831": "2026-10-28",
   "4a36dea4db8df076": "2026-10-27",
+  "5060525796dadc15": "2026-10-28",
   "621c6b9dc300a1c8": "2026-10-26",
+  "7a185c8dd28887ab": "2026-10-28",
   "7ed092b94a412e68": "2026-10-26",
+  "7ff8a46d80fca6af": "2026-10-28",
   "9c7dbd668911c763": "2026-10-26",
+  "af97a1baa7e30536": "2026-10-28",
   "b18cc5e9f3ba64ec": "2026-10-26",
+  "bd0fe0e079e67b7a": "2026-10-28",
   "bf76f6976935b8e5": "2026-10-27",
   "c6df214dec8979c7": "2026-10-27",
   "da3d205db86b9086": "2026-10-26",
   "dbd63f3f484e39d8": "2026-10-26",
   "e0ae260b2730b53a": "2026-10-26",
+  "e3c586ca8891fcfe": "2026-10-28",
+  "e8c9ad44f915c99d": "2026-10-28",
   "f3a48995b714e9d8": "2026-10-27",
   "fb0c164b0656aa65": "2026-10-27",
   "fb157ab0a5ce75d8": "2026-10-27",
+  "ghsa:CVE-2026-116692": "2026-10-28",
+  "ghsa:CVE-2026-35002": "2026-10-28",
   "kev:CVE-2026-109618": "2026-10-27",
   "kev:CVE-2026-109619": "2026-10-27",
+  "kev:CVE-2026-111497": "2026-10-28",
+  "kev:CVE-2026-48356": "2026-10-28",
+  "nvd:CVE-2026-105781": "2026-10-28",
+  "nvd:CVE-2026-106013": "2026-10-28",
+  "nvd:CVE-2026-109218": "2026-10-28",
   "nvd:CVE-2026-112346": "2026-10-26",
   "nvd:CVE-2026-116214": "2026-10-27",
   "nvd:CVE-2026-116231": "2026-10-26",
@@ -33,6 +50,7 @@
   "nvd:CVE-2026-116504": "2026-10-26",
   "nvd:CVE-2026-116506": "2026-10-26",
   "nvd:CVE-2026-116508": "2026-10-26",
+  "nvd:CVE-2026-84999": "2026-10-28",
   "nvd:CVE-2026-92885": "2026-10-27"
  },
  "titulos": {
@@ -44,6 +62,10 @@
    "2026-10-26",
    "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts"
   ],
+  "0778766d81ebd40a": [
+   "2026-10-28",
+   "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed"
+  ],
   "09ec1655cb59b082": [
    "2026-10-27",
    "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections"
@@ -51,6 +73,10 @@
   "19245d87d714e4e2": [
    "2026-10-27",
    "When an AI Agent Is the Incident, the Identity Record Is the Evidence"
+  ],
+  "2317a10c8ae199b9": [
+   "2026-10-28",
+   "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges"
   ],
   "2a000ff73bb6f7ac": [
    "2026-10-26",
@@ -68,25 +94,49 @@
    "2026-10-27",
    "Energy giant ENGIE discloses data breach affecting customers"
   ],
+  "3f633b938f53c831": [
+   "2026-10-28",
+   "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw"
+  ],
   "4a36dea4db8df076": [
    "2026-10-27",
    "CISA confirms PHP2Shell vulnerabilities now exploited in attacks"
+  ],
+  "5060525796dadc15": [
+   "2026-10-28",
+   "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass"
   ],
   "621c6b9dc300a1c8": [
    "2026-10-26",
    "Former pentester used ARTEX AI to steal 8.2 million data records"
   ],
+  "7a185c8dd28887ab": [
+   "2026-10-28",
+   "Japan's GMO urges customers to shut down PCs amid ransomware threat"
+  ],
   "7ed092b94a412e68": [
    "2026-10-26",
    "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing"
+  ],
+  "7ff8a46d80fca6af": [
+   "2026-10-28",
+   "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws"
   ],
   "9c7dbd668911c763": [
    "2026-10-26",
    "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches"
   ],
+  "af97a1baa7e30536": [
+   "2026-10-28",
+   "Apple backports CoreGraphics zero-day patches to older iPhones"
+  ],
   "b18cc5e9f3ba64ec": [
    "2026-10-26",
    "University of Copenhagen data breach exposes data of 525,000 people"
+  ],
+  "bd0fe0e079e67b7a": [
+   "2026-10-28",
+   "Nefilim and Hive ransomware affiliate gets 70 months in prison"
   ],
   "bf76f6976935b8e5": [
    "2026-10-27",
@@ -108,6 +158,14 @@
    "2026-10-26",
    "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes"
   ],
+  "e3c586ca8891fcfe": [
+   "2026-10-28",
+   "CISA warns of hackers now exploiting critical Node2Shell flaw"
+  ],
+  "e8c9ad44f915c99d": [
+   "2026-10-28",
+   "UNM Health ransomware attack disrupts patient care, surgeries"
+  ],
   "f3a48995b714e9d8": [
    "2026-10-27",
    "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers"
@@ -120,6 +178,14 @@
    "2026-10-27",
    "DreamHost forces password resets in ongoing \"incident\""
   ],
+  "ghsa:CVE-2026-116692": [
+   "2026-10-28",
+   "CVE-2026-116692: MLflow vulnerable to remote code execution on unauthenticated servers via third-party scorer deserialization importing caller-placed artifact modules"
+  ],
+  "ghsa:CVE-2026-35002": [
+   "2026-10-28",
+   "CVE-2026-35002: Agno: Arbitrary code execution via `eval()` on `field_type` in `FunctionCall`"
+  ],
   "kev:CVE-2026-109618": [
    "2026-10-27",
    "CVE-2026-109618: PHP Memory Corruption Vulnerability"
@@ -127,6 +193,26 @@
   "kev:CVE-2026-109619": [
    "2026-10-27",
    "CVE-2026-109619: PHP Stale Internal Request-State Vulnerability"
+  ],
+  "kev:CVE-2026-111497": [
+   "2026-10-28",
+   "CVE-2026-111497: Google Brotli Unchecked Return Value Vulnerability"
+  ],
+  "kev:CVE-2026-48356": [
+   "2026-10-28",
+   "CVE-2026-48356: Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability"
+  ],
+  "nvd:CVE-2026-105781": [
+   "2026-10-28",
+   "CVE-2026-105781: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')…"
+  ],
+  "nvd:CVE-2026-106013": [
+   "2026-10-28",
+   "CVE-2026-106013: The Jupiter X Core plugin for WordPress is vulnerable to Authentication Bypass via the Twitter/X Social Login handler in all versions up to…"
+  ],
+  "nvd:CVE-2026-109218": [
+   "2026-10-28",
+   "CVE-2026-109218: The Contact Manager plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 9.1.2 via the…"
   ],
   "nvd:CVE-2026-112346": [
    "2026-10-26",
@@ -163,6 +249,10 @@
   "nvd:CVE-2026-116508": [
    "2026-10-26",
    "CVE-2026-116508: A security flaw has been discovered in TOTOLINK A950RG 4.1.2cu.5268_B20221104"
+  ],
+  "nvd:CVE-2026-84999": [
+   "2026-10-28",
+   "CVE-2026-84999: The Pie Register Premium plugin for WordPress is vulnerable to Unrestricted File Type Upload in all versions up to, and including, 3.8.4.0 via…"
   ],
   "nvd:CVE-2026-92885": [
    "2026-10-27",

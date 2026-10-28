@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CiberBot PT — Resumo diário de cibersegurança — 28 de outubro de 2026</title>
+<meta name="description" content="Resumo diário de cibersegurança em português de Portugal: ataques, vulnerabilidades e alertas.">
+<style>
+:root{--fundo:#f6f7f9;--cartao:#fff;--texto:#16191d;--suave:#5b6472;--linha:#e3e6ea;--link:#0b5fd6;--chip:#eef1f5;
+--s-portugal:#1f8a4c;--s-exploradas:#d6322f;--s-criticas:#e07a12;--s-noticias:#3a6fd8;--s-outra:#6b7280}
+@media (prefers-color-scheme:dark){:root{--fundo:#0f1216;--cartao:#171b21;--texto:#e8eaed;--suave:#9aa3af;
+--linha:#262c34;--link:#7db4ff;--chip:#222831;--s-portugal:#4cc17f;--s-exploradas:#ff6b66;--s-criticas:#ffa04a;
+--s-noticias:#7aa2ff;--s-outra:#9aa3af}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fundo);color:var(--texto);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+.caixa{max-width:760px;margin:0 auto;padding:0 16px}
+.topo{padding:28px 0 4px}
+.marca{margin:0;color:var(--suave);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase}
+h1{margin:.25em 0 .15em;font-size:1.7rem;line-height:1.2}
+.data{margin:0;color:var(--suave)}
+h2{font-size:1.1rem;margin:2em 0 .7em}
+.cartao{background:var(--cartao);border:1px solid var(--linha);border-left:4px solid var(--cor);
+border-radius:10px;padding:13px 16px;margin:0 0 12px}
+.s-portugal{--cor:var(--s-portugal)}.s-exploradas{--cor:var(--s-exploradas)}
+.s-criticas{--cor:var(--s-criticas)}.s-noticias{--cor:var(--s-noticias)}.s-outra{--cor:var(--s-outra)}
+.cartao h3{margin:0 0 .3em;font-size:1.02rem;line-height:1.35}
+.cartao h3 a{color:inherit;text-decoration:none}.cartao h3 a:hover{text-decoration:underline}
+.cartao p{margin:.3em 0}
+.meta{color:var(--suave);font-size:.85rem}
+.chip{display:inline-block;background:var(--chip);border-radius:999px;padding:1px 9px;margin:3px 4px 0 0;font-size:.78rem}
+.nota{background:var(--chip);border-radius:10px;padding:10px 14px;font-size:.9rem;color:var(--suave)}
+.arquivo ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 14px}
+.rodape{color:var(--suave);font-size:.82rem;padding:28px 16px 44px}
+</style>
+</head>
+<body>
+<header class="topo caixa">
+<p class="marca">CiberBot PT</p>
+<h1>CiberBot PT — Resumo diário de cibersegurança</h1>
+<p class="data">28 de outubro de 2026 · 18 destaques</p>
+</header>
+<main class="caixa">
+<section><h2>🔴 Vulnerabilidades exploradas ativamente</h2>
+<article class="cartao s-exploradas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-48356" rel="noopener noreferrer">CVE-2026-48356: Adobe Commerce e Magento Upload irrestrito de ficheiro com vulnerabilidade de tipo perigoso</a></h3><p>O Adobe Commerce e o Magento contêm um upload irrestrito de ficheiro com vulnerabilidade de tipo perigoso que pode resultar em execução arbitrária de código no contexto do utilizador atual, potencialmente...</p><p class="meta">CISA — Vulnerabilidades exploradas (KEV) · 27/10</p><span class="chip">Explorada ativamente</span><span class="chip">Prazo CISA: 10/11/2026</span></article>
+<article class="cartao s-exploradas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-111497" rel="noopener noreferrer">CVE-2026-111497: Vulnerabilidade de valor de retorno não verificado do Google Brotli</a></h3><p>O Google Brotli contém uma vulnerabilidade de valor de retorno não verificada que permite que um atacante remoto não autenticado corrompa a memória de estado do decodificador adjacente, divulgue conteúdo de memória sensível, cause um…</p><p class="meta">CISA — Vulnerabilidades exploradas (KEV) · 27/10</p><span class="chip">Explorada ativamente</span><span class="chip">Prazo CISA: 10/11/2026</span></article></section>
+<section><h2>🟠 Vulnerabilidades críticas recentes</h2>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-109218" rel="noopener noreferrer">CVE-2026-109218: O plugin Contact Manager para WordPress é vulnerável ao Upload Arbitrário de Ficheiros em todas as versões até, e incluindo, 9.1.2 através do…</a></h3><p>O plugin Contact Manager para WordPress é vulnerável ao Upload Arbitrário de Ficheiros em todas as versões até, e incluindo, 9.1.2 através da função add_message. Isso se deve a uma extensão incompleta...</p><p class="meta">NVD — CVE críticos · 28/10</p><span class="chip">CVSS 9.8</span></article>
+<article class="cartao s-criticas"><h3><a href="https://github.com/advisories/GHSA-26p8-2jq9-3vq9" rel="noopener noreferrer">CVE-2026-116692: MLflow vulnerável à execução remota de código em servidores não autenticados por meio de desserialização de marcador de terceiros importando módulos de artefato colocados no chamador</a></h3><p>O MLflow 3.12.0 introduziu o suporte de registo e desserialização para pontuadores de terceiros no OSS MLflow. Durante a desserialização do marcador, o servidor aceita um caminho do módulo Python controlado por solicitação...</p><p class="meta">GitHub Advisories — críticas · 27/10</p><span class="chip">CVSS 9.8</span><span class="chip">pip: mlflow</span></article>
+<article class="cartao s-criticas"><h3><a href="https://github.com/advisories/GHSA-m4w4-3r8h-jw98" rel="noopener noreferrer">CVE-2026-35002: Agno: Execução de código arbitrário via `eval()` em `field_type` em `FunctionCall`</a></h3><p>As versões do Agno anteriores a 2.3.24 contêm uma vulnerabilidade de execução de código arbitrário no componente de execução do modelo. O parâmetro field_type em um campo de entrada FunctionCall foi passado para o Python...</p><p class="meta">GitHub Advisories — críticas · 27/10</p><span class="chip">CVSS 9.8</span><span class="chip">pip: agno</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-84999" rel="noopener noreferrer">CVE-2026-84999: O plugin Pie Register Premium para WordPress é vulnerável ao Unrestricted File Type Upload em todas as versões até, e incluindo, 3.8.4.0 via…</a></h3><p>O plugin Pie Register Premium para WordPress é vulnerável ao Unrestricted File Type Upload em todas as versões até, e incluindo, 3.8.4.0 através da função piereg_file_upload. Isso se deve ao...</p><p class="meta">NVD — CVE críticos · 28/10</p><span class="chip">CVSS 9.8</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106013" rel="noopener noreferrer">CVE-2026-106013: O plugin Jupiter X Core para WordPress é vulnerável ao Bypass de Autenticação através do manipulador de Login Social do Twitter/X em todas as versões até...</a></h3><p>O plugin Jupiter X Core para WordPress é vulnerável ao Authentication Bypass através do manipulador de Login Social do Twitter/X em todas as versões até e incluindo 4.61.0. A vulnerabilidade existe dentro do...</p><p class="meta">NVD — CVE críticos · 28/10</p><span class="chip">CVSS 9.8</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-105781" rel="noopener noreferrer">CVE-2026-105781: O Adobe Campaign Classic (ACC) é afetado por uma neutralização inadequada de elementos especiais usados em um comando SQL ('SQL Injection')...</a></h3><p>O Adobe Campaign Classic (ACC) é afetado por uma Neutralização Imprópria de Elementos Especiais usada em uma vulnerabilidade de Comando SQL ('Injeção SQL') que pode resultar na execução arbitrária de código no…</p><p class="meta">NVD — CVE críticos · 27/10</p><span class="chip">CVSS 10.0</span></article></section>
+<section><h2>📰 Ataques e notícias</h2>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html" rel="noopener noreferrer">ShinyHunters-Exploited Oracle PeopleSoft Zero-Day acaba por ser três falhas acorrentadas</a></h3><p>O bug crítico do Oracle PeopleSoft que o ShinyHunters explorou desde maio não é uma falha, mas três encadeadas, disseram os investigadores que o relataram esta semana. Oráculo corrigiu todos os três sob...</p><p class="meta">The Hacker News · 28/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/" rel="noopener noreferrer">Apple faz backport de patches de dia zero CoreGraphics para iPhones mais antigos</a></h3><p>​A Apple fez backport de patches de segurança lançados no mês passado para iPhones e iPads mais antigos, abordando um bug de dia zero explorado em ataques direcionados "extremamente sofisticados" em dispositivos iOS. [...]</p><p class="meta">BleepingComputer · 27/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/" rel="noopener noreferrer">Afiliada do ransomware Nefilim e Hive pega 70 meses de prisão</a></h3><p>Um cidadão ucraniano foi condenado a 70 meses de prisão por seu papel em ataques de ransomware contra hospitais, entidades governamentais e empresas de alta receita em todo o mundo entre 2018 e 2021...</p><p class="meta">BleepingComputer · 28/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html" rel="noopener noreferrer">Ataques do Adobe Commerce PolyShell violam centenas de lojas à medida que o tráfego de exploração de Brotli emerge</a></h3><p>A Agência de Cibersegurança e de Infraestrutura dos EUA (CISA) adicionou na terça-feira duas vulnerabilidades que afetam o Adobe Commerce e o Magento, e a biblioteca de decodificadores Brotli do Google ao seu Known Exploited...</p><p class="meta">The Hacker News · 28/10</p><span class="chip">Na lista KEV da CISA</span></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/" rel="noopener noreferrer">GMO do Japão pede aos clientes que desliguem PCs em meio a ameaça de ransomware</a></h3><p>O Grupo GMO pediu aos clientes que desconectassem seus sistemas da Internet e desligassem computadores depois que um agente de ameaças que violou a Onamae Desktop Cloud da empresa ameaçou lançar um...</p><p class="meta">BleepingComputer · 27/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/" rel="noopener noreferrer">Ataque de ransomware da UNM Health interrompe atendimento ao paciente e cirurgias</a></h3><p>O Centro de Ciências da Saúde da Universidade do Novo México divulgou um ataque cibernético que causou interrupções no sistema e interrompeu o atendimento ao paciente e as atividades acadêmicas. [...]</p><p class="meta">BleepingComputer · 27/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html" rel="noopener noreferrer">Adobe corrige 8 falhas clássicas críticas de campanha que permitem execução de código e desvio de segurança</a></h3><p>A Adobe lançou patches para resolver várias falhas críticas de segurança no Campaign Classic que, se exploradas com sucesso, podem resultar em execução arbitrária de código, desvio de recursos de segurança e...</p><p class="meta">The Hacker News · 28/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/" rel="noopener noreferrer">CISA warns of hackers now exploiting critical Node2Shell flaw</a></h3><p>On Tuesday, the US Cybersecurity and Infrastructure Security Agency (CISA) confirmed that hackers have begun exploiting a critical Brotli vulnerability known as Node2Shell, Broccoli2Shell, and HTTP2Shell. [...]</p><p class="meta">BleepingComputer · 28/10</p><span class="chip">Em inglês</span></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/php-issues-second-windows-security.html" rel="noopener noreferrer">PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw</a></h3><p>PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but</p><p class="meta">The Hacker News · 26/10</p><span class="chip">Na lista KEV da CISA</span><span class="chip">Em inglês</span></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/american-organizations-under-attack.html" rel="noopener noreferrer">American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed</a></h3><p>Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind. ANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations</p><p class="meta">The Hacker News · 28/10</p><span class="chip">Em inglês</span></article></section>
+
+<p><a href="../index.html">← Edição mais recente</a></p>
+</main>
+<footer class="rodape caixa">
+Gerado automaticamente em 28/10/2026 às 11:22. Traduzido automaticamente para português de Portugal. Confirme sempre os detalhes na fonte original.
+</footer>
+</body>
+</html>
