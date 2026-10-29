@@ -1,0 +1,369 @@
+{
+ "data": "2026-10-29",
+ "gerado_em": "2026-10-29T11:33:22.003156+00:00",
+ "itens": [
+  {
+   "id": "858c4af9cde14190",
+   "titulo": "Grupos alinhados com a Rússia colaboram em ciberataque destrutivo contra empresa na Ucrânia",
+   "resumo": "Dois grupos de atacantes alinhados com a Rússia fizeram parte de uma operação contra uma empresa ucraniana de logística de cereais. Uma investigação da ESET mostra como os grupos se infiltraram na rede e usaram uma backdoor até agora desconhecida para preparar um ataque concebido para destruir dados. The post Grupos alinhados com a Rússia colaboram em ciberataque destrutivo contra empresa na Ucrânia appeared first on Tek Notícias .",
+   "url": "https://tek.sapo.pt/noticias/internet/artigos/grupos-alinhados-com-a-russia-colaboram-em-ciberataque-destrutivo-contra-empresa-na-ucrania/",
+   "fonte": "SAPO Tek",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-10-29T11:30:37+00:00",
+   "pontuacao": 46.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "0da4d471e0487353",
+   "titulo": "A regra de backups 3-2-1-1-0 é a nova ciberresiliência contra o ransomware",
+   "resumo": "Com os ciberataques a visar em primeiro lugar os repositórios de cópias de segurança, a tradicional estratégia de proteção de dados tornou-se insuficiente, exigindo uma evolução para garantir a recuperação efetiva da informação. The post A regra de backups 3-2-1-1-0 é a nova ciberresiliência contra o ransomware appeared first on Tek Notícias .",
+   "url": "https://tek.sapo.pt/noticias/computadores/artigos/a-regra-de-backups-3-2-1-1-0-e-a-nova-ciberresiliencia-contra-o-ransomware/",
+   "fonte": "SAPO Tek",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-10-28T11:41:00+00:00",
+   "pontuacao": 38.4,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "kev:CVE-2026-41709",
+   "titulo": "CVE-2026-41709: Broadcom VMWare ESX Insufficient Logging Vulnerability",
+   "resumo": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
+   "fonte": "CISA — Vulnerabilidades exploradas (KEV)",
+   "idioma": "en",
+   "categoria": "exploradas",
+   "publicado": "2026-10-28T12:00:00+00:00",
+   "pontuacao": 63.5,
+   "cves": [
+    "CVE-2026-41709"
+   ],
+   "etiquetas": [
+    "Explorada ativamente",
+    "Prazo CISA: 11/11/2026"
+   ],
+   "titulo_pt": "CVE-2026-41709: Vulnerabilidade de registo insuficiente do Broadcom VMWare ESX",
+   "resumo_pt": "O Broadcom VMWare ESX contém uma vulnerabilidade de registo insuficiente que pode permitir que um agente mal-intencionado com acesso de administrador execute determinadas operações sem ser registrado.",
+   "traduzido": true
+  },
+  {
+   "id": "kev:CVE-2026-46300",
+   "titulo": "CVE-2026-46300: Linux Kernel Missing Initialization of a Variable Vulnerability",
+   "resumo": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
+   "fonte": "CISA — Vulnerabilidades exploradas (KEV)",
+   "idioma": "en",
+   "categoria": "exploradas",
+   "publicado": "2026-10-28T12:00:00+00:00",
+   "pontuacao": 63.5,
+   "cves": [
+    "CVE-2026-46300"
+   ],
+   "etiquetas": [
+    "Explorada ativamente",
+    "Prazo CISA: 31/10/2026"
+   ],
+   "titulo_pt": "CVE-2026-46300: Inicialização ausente do kernel Linux de uma vulnerabilidade variável",
+   "resumo_pt": "O Kernel do Linux contém uma inicialização ausente de uma vulnerabilidade variável que poderia permitir a modificação não intencional de dados apoiados em cache de página por meio da falha em preservar o marcador de fragmento compartilhado...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-118579",
+   "titulo": "CVE-2026-118579: A weakness has been identified in D-Link DIR-505 1.10B02",
+   "resumo": "A weakness has been identified in D-Link DIR-505 1.10B02. The impacted element is the function main of the file /secmark1524.cgi of the component Web Management CGI. This manipulation of the argument accu/pass/code/hash/cmds causes backdoor. The attack is possible to be carried out remotely. The exploit has been made available to the public and could be used for attacks.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118579",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-28T23:17:09.940000+00:00",
+   "pontuacao": 62.6,
+   "cves": [
+    "CVE-2026-118579"
+   ],
+   "etiquetas": [
+    "CVSS 10.0"
+   ],
+   "titulo_pt": "CVE-2026-118579: Uma fraqueza foi identificada em D-Link DIR-505 1.10B02",
+   "resumo_pt": "Uma fraqueza foi identificada em D-Link DIR-505 1.10B02. O elemento impactado é a função principal do ficheiro /secmark1524.cgi do componente Web Management CGI. Essa manipulação do argumento...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-103409",
+   "titulo": "CVE-2026-103409: A Missing authentication for critical function vulnerability in Juniper Networks Session Smart Router allows an unauthenticated network-based…",
+   "resumo": "A Missing authentication for critical function vulnerability in Juniper Networks Session Smart Router allows an unauthenticated network-based attacker to obtain administrative privileges by passing crafted URL parameters to an insecure endpoint running as root. Note that this vulnerability can only be exploited prior to the device being onboarded to Mist/Conductor. The issue can no longer be exploited once a device is onboarded to Mist/Conductor.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103409",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-28T17:17:27.840000+00:00",
+   "pontuacao": 57.7,
+   "cves": [
+    "CVE-2026-103409"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-103409: Uma autenticação ausente para vulnerabilidade de função crítica no Roteador Inteligente de Sessão da Juniper Networks permite uma autenticação de rede não autenticada…",
+   "resumo_pt": "Uma autenticação ausente para vulnerabilidade de função crítica no Juniper Networks Session Smart Router permite que um atacante não autenticado baseado em rede obtenha privilégios administrativos passando...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-42922",
+   "titulo": "CVE-2026-42922: A authorization bypass vulnerability exists in the /nodered functionality of FUXA (version(s): 1.3.2-2809)",
+   "resumo": "A authorization bypass vulnerability exists in the /nodered functionality of FUXA (version(s): 1.3.2-2809). A specially crafted HTTP request can lead to a arbitrary code execution. An attacker can make an unauthenticated HTTP request to trigger this vulnerability.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42922",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-29T04:18:36.777000+00:00",
+   "pontuacao": 54.8,
+   "cves": [
+    "CVE-2026-42922"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-42922: Existe uma vulnerabilidade de desvio de autorização na funcionalidade/nodered da fuxa (versão(ões): 1.3.2-2809)",
+   "resumo_pt": "Existe uma vulnerabilidade de desvio de autorização na funcionalidade/nodered da fuxa (versão(ões): 1.3.2-2809). Uma solicitação HTTP especialmente criada pode levar a uma execução arbitrária de código. Um atacante pode...",
+   "traduzido": true
+  },
+  {
+   "id": "ghsa:CVE-2026-115893",
+   "titulo": "CVE-2026-115893: Wasmtime: Cranelift backend on aarch64 can jump to incorrect target on large Wasm `br_table` instruction",
+   "resumo": "When running with the Cranelift compiler backend on an aarch64 target, Wasmtime can compile a Wasm module with more than ~256k targets on one br_table instruction in a way that results in an incorrect conditional branch target. This conditional branch could then jump to arbitrary other code (at an user-controlled offset), leading to arbitrary sandbox escapes. Any Wasmtime engine running on aarch64 with default settings can be forced to jump to arbitrary code by a user-controlled Wasm module. All versions of Wasmtime/Cranelift that support aarch64, since the initial release of that support in…",
+   "url": "https://github.com/advisories/GHSA-mghf-wjfp-p5xm",
+   "fonte": "GitHub Advisories — críticas",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-28T21:14:14+00:00",
+   "pontuacao": 53.4,
+   "cves": [
+    "CVE-2026-115893"
+   ],
+   "etiquetas": [
+    "CVSS 9.9",
+    "rust: wasmtime"
+   ],
+   "titulo_pt": "CVE-2026-115893: Wasmtime: O backend do Cranelift no aarch64 pode saltar para o alvo incorreto na instrução `br_table` do Wasm grande",
+   "resumo_pt": "Ao executar com o back-end do compilador Cranelift em um destino aarch64, o Wasmtime pode compilar um módulo Wasm com mais de ~256k destinos em uma instrução br_table de uma maneira que resulte em um...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-118690",
+   "titulo": "CVE-2026-118690: Signal K Server before 2.33.0 contains a missing authentication vulnerability that allows unauthenticated remote attackers to download log…",
+   "resumo": "Signal K Server before 2.33.0 contains a missing authentication vulnerability that allows unauthenticated remote attackers to download log archives via the /skServer/ziplogs endpoint. Attackers can extract the JWT secretKey from security.json in the ZIP, forge administrator tokens, and create persistent admin accounts for full server control.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118690",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-28T22:17:13.070000+00:00",
+   "pontuacao": 53.1,
+   "cves": [
+    "CVE-2026-118690"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-118690: O Signal K Server antes do 2.33.0 contém uma vulnerabilidade de autenticação ausente que permite que atacantes remotos não autenticados baixem o log...",
+   "resumo_pt": "O Signal K Server anterior ao 2.33.0 contém uma vulnerabilidade de autenticação ausente que permite que atacantes remotos não autenticados baixem ficheiros de log por meio do ponto de extremidade/skServer/ziplogs. Os atacantes podem...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-103406",
+   "titulo": "CVE-2026-103406: An Improper Neutralization of Special Elements used in an OS Command vulnerability in the AutomatedProvisioner in Juniper Networks Session…",
+   "resumo": "An Improper Neutralization of Special Elements used in an OS Command vulnerability in the AutomatedProvisioner in Juniper Networks Session Smart Conductor allows a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-28T17:17:25.830000+00:00",
+   "pontuacao": 51.7,
+   "cves": [
+    "CVE-2026-103406"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-103406: Uma Neutralização Imprópria de Elementos Especiais usados em uma vulnerabilidade de Comando de SO no AutomatedProvisioner na Sessão de Redes da Juniper...",
+   "resumo_pt": "Uma neutralização inadequada de elementos especiais usados em uma vulnerabilidade de comando do sistema operacional no AutomatedProvisioner no Juniper Networks Session Smart Conductor permite que um atacante remoto execute...",
+   "traduzido": true
+  },
+  {
+   "id": "8c6e20208c035ba2",
+   "titulo": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+   "resumo": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
+   "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-29T10:44:46+00:00",
+   "pontuacao": 74.8,
+   "cves": [
+    "CVE-2026-76418"
+   ],
+   "etiquetas": [],
+   "titulo_pt": "Cisco corrige falhas de VPN asa e FTD ativamente exploradas que podem travar firewalls",
+   "resumo_pt": "A Cisco lançou patches para resolver uma falha de segurança de alta gravidade no Software Secure Firewall Adaptive Security Appliance (ASA) e no Software Secure Firewall Threat Defense (FTD) que disse ter...",
+   "traduzido": true
+  },
+  {
+   "id": "30dfb98cd1b9df64",
+   "titulo": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+   "resumo": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:",
+   "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-29T06:22:33+00:00",
+   "pontuacao": 73.6,
+   "cves": [
+    "CVE-2026-41709"
+   ],
+   "etiquetas": [
+    "Na lista KEV da CISA"
+   ],
+   "titulo_pt": "Hackers vinculados à China exploraram o VMware ESX Zero-Day para reduzir a visibilidade da trilha de auditoria",
+   "resumo_pt": "A Agência de Cibersegurança e de Infraestrutura dos EUA (CISA) adicionou na quarta-feira uma falha de segurança que afeta o Broadcom VMware ESX ao seu catálogo de Vulnerabilidades Exploradas Conhecidas (KEV), após...",
+   "traduzido": true
+  },
+  {
+   "id": "fa6478a9df14d955",
+   "titulo": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+   "resumo": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are exploiting to remotely crash vulnerable firewall devices. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-29T11:10:13+00:00",
+   "pontuacao": 59.9,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Novo firewall Cisco zero-day explorado para travar dispositivos SSL VPN",
+   "resumo_pt": "A Cisco lançou atualizações de segurança para corrigir um dia zero de negação de serviço nos softwares Adaptive Security Appliance (ASA) e Threat Defense (FTD) que os atacantes estão a explorar para travar remotamente vulnerável...",
+   "traduzido": true
+  },
+  {
+   "id": "247e49d809980bd7",
+   "titulo": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+   "resumo": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access. \"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared",
+   "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-28T18:08:33+00:00",
+   "pontuacao": 55.2,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "O Tufão Volt Usou a Rede Secreta de Trem Silencioso em Quatro Campanhas de Exploração de Dia Zero",
+   "resumo_pt": "O grupo de espionagem cibernética da China, conhecido como Volt Typhoon, foi atribuído a uma rede de acesso secreto agora interrompida, chamada Silent Train, que foi usada para exploração de dia zero e...",
+   "traduzido": true
+  },
+  {
+   "id": "3cff7520904e9c06",
+   "titulo": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+   "resumo": "Chinese state-sponsored hacking group Volt Typhoon has been using a framework that relies on rotating chains of connected devices compromised on demand, including for zero-day attacks targeting high-value systems. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-28T16:00:00+00:00",
+   "pontuacao": 54.6,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "O Volt Typhoon esconde ataques de dia zero usando a estrutura 'Silent Train'",
+   "resumo_pt": "O grupo de hackers chinês patrocinado pelo Estado, Volt Typhoon, tem usado uma estrutura que se baseia em cadeias rotativas de dispositivos conectados comprometidos sob demanda, inclusive para ataques de dia zero visando...",
+   "traduzido": true
+  },
+  {
+   "id": "e0f0bac86d45ea83",
+   "titulo": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+   "resumo": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
+   "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-29T09:05:39+00:00",
+   "pontuacao": 40.3,
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "etiquetas": [],
+   "titulo_pt": "Atacante tentou explorar o GitLab do Alpine Linux através do CVSS 10.0 Flaw Its Ruby Left Open",
+   "resumo_pt": "Um atacante tentou explorar uma vulnerabilidade crítica do GitLab no próprio servidor GitLab do projeto Alpine Linux uma semana depois que o GitLab lançou uma correção, disse o Alpine Linux em 28 de outubro. A falha...",
+   "traduzido": true
+  },
+  {
+   "id": "8312b7e4bcf8250d",
+   "titulo": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+   "resumo": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use, Cisco Talos said on October 28. Talos calls the attacks historical but does not specify when they",
+   "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-29T08:24:22+00:00",
+   "pontuacao": 40.1,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Hackers exploraram a falha de SD-WAN da Cisco para plantar malware criado para roubar chaves de criptografia",
+   "resumo_pt": "Os hackers exploraram uma falha crítica da SD-WAN do Cisco Catalyst, corrigida em fevereiro, para plantar malware personalizado dentro dos sistemas que controlam a rede SD-WAN de uma organização. O malware, chamado KeyDrift, é...",
+   "traduzido": true
+  },
+  {
+   "id": "86fc80d7d9005f72",
+   "titulo": "Sony ISP subsidiary data breach exposes 2.5 million customer records",
+   "resumo": "Sony Network Communications has confirmed a data breach that compromised approximately 2.5 million records containing current and former customers' personal information. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-28T16:45:47+00:00",
+   "pontuacao": 39.8,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "a5e06b6c2bd3e8ae",
+   "titulo": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+   "resumo": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces of firewalls, VPNs, application delivery controllers, and other appliances at risk. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-28T14:00:00+00:00",
+   "pontuacao": 35.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "1ed402d754598112",
+   "titulo": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+   "resumo": "PHP2Shell shows how quickly attackers can exploit critical vulnerabilities, often before organizations have time to patch. Token Security explains why limiting the access of service accounts, API keys, and AI agents is just as important as fixing vulnerabilities to reduce the damage from a breach. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-28T13:50:59+00:00",
+   "pontuacao": 35.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  }
+ ]
+}
