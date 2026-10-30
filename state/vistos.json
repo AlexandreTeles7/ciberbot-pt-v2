@@ -2,21 +2,27 @@
  "versao": 1,
  "vistos": {
   "0131084012e5632c": "2026-10-27",
+  "05324fe81587751b": "2026-10-30",
   "056dff6934f33a5f": "2026-10-26",
   "0778766d81ebd40a": "2026-10-28",
   "09ec1655cb59b082": "2026-10-27",
   "0da4d471e0487353": "2026-10-29",
+  "147e205edeec7f3b": "2026-10-30",
+  "14a5052ffb36aa11": "2026-10-30",
   "19245d87d714e4e2": "2026-10-27",
+  "1b100421a944fc79": "2026-10-30",
   "1ed402d754598112": "2026-10-29",
   "2317a10c8ae199b9": "2026-10-28",
   "247e49d809980bd7": "2026-10-29",
   "2a000ff73bb6f7ac": "2026-10-26",
   "2c614b999eb78eb4": "2026-10-26",
   "30dfb98cd1b9df64": "2026-10-29",
+  "322cd6145e6d248e": "2026-10-30",
   "337affeba8e76b96": "2026-10-26",
   "33a9096f1329449b": "2026-10-27",
   "3cff7520904e9c06": "2026-10-29",
   "3f633b938f53c831": "2026-10-28",
+  "3f83b693ec236afb": "2026-10-30",
   "4a36dea4db8df076": "2026-10-27",
   "5060525796dadc15": "2026-10-28",
   "621c6b9dc300a1c8": "2026-10-26",
@@ -27,25 +33,34 @@
   "858c4af9cde14190": "2026-10-29",
   "86fc80d7d9005f72": "2026-10-29",
   "8c6e20208c035ba2": "2026-10-29",
+  "931d1d1fb61725d1": "2026-10-30",
   "9c7dbd668911c763": "2026-10-26",
+  "9ede2fbb7007f983": "2026-10-30",
   "a5e06b6c2bd3e8ae": "2026-10-29",
+  "ad4ab055d32c0e10": "2026-10-30",
   "af97a1baa7e30536": "2026-10-28",
   "b18cc5e9f3ba64ec": "2026-10-26",
+  "bce02685043c12f2": "2026-10-30",
   "bd0fe0e079e67b7a": "2026-10-28",
   "bf76f6976935b8e5": "2026-10-27",
   "c6df214dec8979c7": "2026-10-27",
+  "d7d0b1ca37bb0612": "2026-10-30",
   "da3d205db86b9086": "2026-10-26",
   "dbd63f3f484e39d8": "2026-10-26",
   "e0ae260b2730b53a": "2026-10-26",
   "e0f0bac86d45ea83": "2026-10-29",
   "e3c586ca8891fcfe": "2026-10-28",
+  "e7dae52ad41239d5": "2026-10-30",
   "e8c9ad44f915c99d": "2026-10-28",
   "f3a48995b714e9d8": "2026-10-27",
   "fa6478a9df14d955": "2026-10-29",
   "fb0c164b0656aa65": "2026-10-27",
   "fb157ab0a5ce75d8": "2026-10-27",
+  "ff9ec537fd50f75c": "2026-10-30",
   "ghsa:CVE-2026-115893": "2026-10-29",
+  "ghsa:CVE-2026-115905": "2026-10-30",
   "ghsa:CVE-2026-116692": "2026-10-28",
+  "ghsa:CVE-2026-117601": "2026-10-30",
   "ghsa:CVE-2026-35002": "2026-10-28",
   "kev:CVE-2026-109618": "2026-10-27",
   "kev:CVE-2026-109619": "2026-10-27",
@@ -53,6 +68,9 @@
   "kev:CVE-2026-41709": "2026-10-29",
   "kev:CVE-2026-46300": "2026-10-29",
   "kev:CVE-2026-48356": "2026-10-28",
+  "kev:CVE-2026-76418": "2026-10-30",
+  "kev:CVE-2026-97229": "2026-10-30",
+  "nvd:CVE-2026-103039": "2026-10-30",
   "nvd:CVE-2026-103406": "2026-10-29",
   "nvd:CVE-2026-103409": "2026-10-29",
   "nvd:CVE-2026-105781": "2026-10-28",
@@ -78,6 +96,10 @@
    "2026-10-27",
    "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution"
   ],
+  "05324fe81587751b": [
+   "2026-10-30",
+   "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV"
+  ],
   "056dff6934f33a5f": [
    "2026-10-26",
    "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts"
@@ -94,9 +116,21 @@
    "2026-10-29",
    "A regra de backups 3-2-1-1-0 é a nova ciberresiliência contra o ransomware"
   ],
+  "147e205edeec7f3b": [
+   "2026-10-30",
+   "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor"
+  ],
+  "14a5052ffb36aa11": [
+   "2026-10-30",
+   "PHP2Shell: Vulnerabilidades já têm correção, mas a segurança dos sistemas está mesmo garantida?"
+  ],
   "19245d87d714e4e2": [
    "2026-10-27",
    "When an AI Agent Is the Incident, the Identity Record Is the Evidence"
+  ],
+  "1b100421a944fc79": [
+   "2026-10-30",
+   "75% das PME consideram a ciberguerra uma ameaça aos negócios"
   ],
   "1ed402d754598112": [
    "2026-10-29",
@@ -122,6 +156,10 @@
    "2026-10-29",
    "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility"
   ],
+  "322cd6145e6d248e": [
+   "2026-10-30",
+   "Microsoft finally fixes VPN issues caused by September updates"
+  ],
   "337affeba8e76b96": [
    "2026-10-26",
    "Chegou o Kali Linux 2026.3 e traz novas ferramentas de hacking ético"
@@ -137,6 +175,10 @@
   "3f633b938f53c831": [
    "2026-10-28",
    "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw"
+  ],
+  "3f83b693ec236afb": [
+   "2026-10-30",
+   "Pentágono investiga avarias em congeladores de bases militares como possível ciberataque semelhante ao de França"
   ],
   "4a36dea4db8df076": [
    "2026-10-27",
@@ -178,13 +220,25 @@
    "2026-10-29",
    "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls"
   ],
+  "931d1d1fb61725d1": [
+   "2026-10-30",
+   "Japan Airlines suffers third-party data breach exposing passenger info"
+  ],
   "9c7dbd668911c763": [
    "2026-10-26",
    "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches"
   ],
+  "9ede2fbb7007f983": [
+   "2026-10-30",
+   "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories"
+  ],
   "a5e06b6c2bd3e8ae": [
    "2026-10-29",
    "InfraTrust report warns of exploited flaws in critical network infrastructure"
+  ],
+  "ad4ab055d32c0e10": [
+   "2026-10-30",
+   "Drupal warns of critical Commerce Core flaw exploited in attacks"
   ],
   "af97a1baa7e30536": [
    "2026-10-28",
@@ -193,6 +247,10 @@
   "b18cc5e9f3ba64ec": [
    "2026-10-26",
    "University of Copenhagen data breach exposes data of 525,000 people"
+  ],
+  "bce02685043c12f2": [
+   "2026-10-30",
+   "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities"
   ],
   "bd0fe0e079e67b7a": [
    "2026-10-28",
@@ -205,6 +263,10 @@
   "c6df214dec8979c7": [
    "2026-10-27",
    "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses"
+  ],
+  "d7d0b1ca37bb0612": [
+   "2026-10-30",
+   "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw"
   ],
   "da3d205db86b9086": [
    "2026-10-26",
@@ -226,6 +288,10 @@
    "2026-10-28",
    "CISA warns of hackers now exploiting critical Node2Shell flaw"
   ],
+  "e7dae52ad41239d5": [
+   "2026-10-30",
+   "Binance links $6.3 billion crypto theft to compromised DevOps laptop"
+  ],
   "e8c9ad44f915c99d": [
    "2026-10-28",
    "UNM Health ransomware attack disrupts patient care, surgeries"
@@ -246,13 +312,25 @@
    "2026-10-27",
    "DreamHost forces password resets in ongoing \"incident\""
   ],
+  "ff9ec537fd50f75c": [
+   "2026-10-30",
+   "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut"
+  ],
   "ghsa:CVE-2026-115893": [
    "2026-10-29",
    "CVE-2026-115893: Wasmtime: Cranelift backend on aarch64 can jump to incorrect target on large Wasm `br_table` instruction"
   ],
+  "ghsa:CVE-2026-115905": [
+   "2026-10-30",
+   "CVE-2026-115905: zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE"
+  ],
   "ghsa:CVE-2026-116692": [
    "2026-10-28",
    "CVE-2026-116692: MLflow vulnerable to remote code execution on unauthenticated servers via third-party scorer deserialization importing caller-placed artifact modules"
+  ],
+  "ghsa:CVE-2026-117601": [
+   "2026-10-30",
+   "CVE-2026-117601: Electrum: Malicious server can replace a just-broadcast tx and try to trick user into RBF-ing it"
   ],
   "ghsa:CVE-2026-35002": [
    "2026-10-28",
@@ -281,6 +359,18 @@
   "kev:CVE-2026-48356": [
    "2026-10-28",
    "CVE-2026-48356: Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability"
+  ],
+  "kev:CVE-2026-76418": [
+   "2026-10-30",
+   "CVE-2026-76418: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability"
+  ],
+  "kev:CVE-2026-97229": [
+   "2026-10-30",
+   "CVE-2026-97229: GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability"
+  ],
+  "nvd:CVE-2026-103039": [
+   "2026-10-30",
+   "CVE-2026-103039: The Gravity Forms plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.1.2 via a Post Custom…"
   ],
   "nvd:CVE-2026-103406": [
    "2026-10-29",

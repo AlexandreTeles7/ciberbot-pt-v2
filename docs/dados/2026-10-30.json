@@ -1,0 +1,323 @@
+{
+ "data": "2026-10-30",
+ "gerado_em": "2026-10-30T11:25:48.648720+00:00",
+ "itens": [
+  {
+   "id": "3f83b693ec236afb",
+   "titulo": "Pentágono investiga avarias em congeladores de bases militares como possível ciberataque semelhante ao de França",
+   "resumo": "As avarias que estragaram comida em pelo menos seis lojas militares em agosto estão a ser investigadas como possível sabotagem digital. Os investigadores contactaram a França, onde um ataque semelhante afetou centenas de supermercados. The post Pentágono investiga avarias em congeladores de bases militares como possível ciberataque semelhante ao de França appeared first on Tek Notícias .",
+   "url": "https://tek.sapo.pt/noticias/internet/artigos/pentagono-investiga-avarias-em-congeladores-de-bases-militares-como-possivel-ciberataque-semelhante-ao-de-franca/",
+   "fonte": "SAPO Tek",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-10-29T15:19:00+00:00",
+   "pontuacao": 32.4,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "1b100421a944fc79",
+   "titulo": "75% das PME consideram a ciberguerra uma ameaça aos negócios",
+   "resumo": "Um estudo da ESET revela que três em cada quatro pequenas e médias empresas consideram os conflitos globais uma ameaça à cibersegurança. Apesar disso, o phishing, as vulnerabilidades por corrigir e a falta de monitorização continuam a ser algumas das principais causas de incidentes. A ciberguerra e os conflitos internacionais estão a ganhar peso nas […]",
+   "url": "https://pplware.sapo.pt/internet/75-das-pme-consideram-a-ciberguerra-uma-ameaca-aos-negocios/",
+   "fonte": "Pplware",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-10-29T20:30:00+00:00",
+   "pontuacao": 28.9,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "14a5052ffb36aa11",
+   "titulo": "PHP2Shell: Vulnerabilidades já têm correção, mas a segurança dos sistemas está mesmo garantida?",
+   "resumo": "As correções para as vulnerabilidades PHP2Shell resolvem as falhas, mas não permitem saber se um sistema foi comprometido antes de ser atualizado. Especialistas aconselham a verificar os sistemas expostos e a procurar sinais de atividade suspeita anteriores à divulgação das falhas de segurança. The post PHP2Shell: Vulnerabilidades já têm correção, mas a segurança dos sistemas está mesmo garantida? appeared first on Tek Notícias .",
+   "url": "https://tek.sapo.pt/noticias/internet/artigos/php2shell-vulnerabilidades-ja-tem-correcao-mas-atualizar-pode-nao-ser-suficiente-para-evitar-ataques/",
+   "fonte": "SAPO Tek",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-10-30T07:20:00+00:00",
+   "pontuacao": 28.9,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "kev:CVE-2026-97229",
+   "titulo": "CVE-2026-97229: GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+   "resumo": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
+   "fonte": "CISA — Vulnerabilidades exploradas (KEV)",
+   "idioma": "en",
+   "categoria": "exploradas",
+   "publicado": "2026-10-29T12:00:00+00:00",
+   "pontuacao": 63.5,
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "etiquetas": [
+    "Explorada ativamente",
+    "Prazo CISA: 01/11/2026"
+   ],
+   "titulo_pt": "CVE-2026-97229: Vulnerabilidade de overflow ou sobreposição de números inteiros no GitLab Community Edition e Enterprise Edition",
+   "resumo_pt": "O GitLab Community Edition e o Enterprise Edition contêm uma vulnerabilidade de estouro de número inteiro ou envolvente que pode permitir que um utilizador não autenticado execute código arbitrário no servidor GitLab por meio de um...",
+   "traduzido": true
+  },
+  {
+   "id": "kev:CVE-2026-76418",
+   "titulo": "CVE-2026-76418: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+   "resumo": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+   "fonte": "CISA — Vulnerabilidades exploradas (KEV)",
+   "idioma": "en",
+   "categoria": "exploradas",
+   "publicado": "2026-10-29T12:00:00+00:00",
+   "pontuacao": 63.5,
+   "cves": [
+    "CVE-2026-76418"
+   ],
+   "etiquetas": [
+    "Explorada ativamente",
+    "Prazo CISA: 01/11/2026"
+   ],
+   "titulo_pt": "CVE-2026-76418: O Cisco Secure Firewall asa Software e o Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference Vulnerability",
+   "resumo_pt": "O Cisco Secure Firewall asa Software e o Cisco Secure FTD Software contêm um valor de retorno não verificado para a vulnerabilidade de desreferência do ponteiro NULO que pode permitir que um atacante remoto não autenticado...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-103039",
+   "titulo": "CVE-2026-103039: The Gravity Forms plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.1.2 via a Post Custom…",
+   "resumo": "The Gravity Forms plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.1.2 via a Post Custom Field whose input type is List. This is due to GFFormsModel::create_post() passing the submitted value to WordPress' unrestricted global maybe_unserialize() rather than the plugin's own hardened GFCommon::maybe_unserialize(), which was added in 3.1.1 and passes allowed_classes => false precisely to prevent object instantiation. Where the field has a content template enabled, the submitted row reaches that call verbatim. This makes it possible for…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103039",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-30T07:16:30.733000+00:00",
+   "pontuacao": 55.6,
+   "cves": [
+    "CVE-2026-103039"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-103039: O plugin Gravity Forms para WordPress é vulnerável ao PHP Object Injection em todas as versões até, e incluindo, 3.1.2 através de um Post Custom…",
+   "resumo_pt": "O plugin Gravity Forms para WordPress é vulnerável ao PHP Object Injection em todas as versões até, e incluindo, 3.1.2 através de um Post Custom Field cujo tipo de entrada é List. Isso se deve a...",
+   "traduzido": true
+  },
+  {
+   "id": "ghsa:CVE-2026-115905",
+   "titulo": "CVE-2026-115905: zip: Critical Parser Differential & Security Control Bypass via Dual-Header Inconsistencies (Zip Cloaking) Leading to Arbitrary File Overwrite & RCE",
+   "resumo": "A critical architectural parser differential exists in the zip crate ( <= 9.0.4 ) between random-access archive readers ( ZipArchive ) and streaming readers ( ZipStreamReader ). ZipArchive considers the Central Directory File Header (CDFH) authoritative and ignores the filename declared in the Local File Header (LFH). In contrast, ZipStreamReader relies exclusively on the Local File Header (LFH) when extracting files to the filesystem. This discrepancy enables ZIP archives to appear to have different file paths and contents according to which tool is reading them. --- Architectural Root Cause…",
+   "url": "https://github.com/advisories/GHSA-m665-v7pm-7grj",
+   "fonte": "GitHub Advisories — críticas",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-28T21:09:50+00:00",
+   "pontuacao": 36.0,
+   "cves": [
+    "CVE-2026-115905"
+   ],
+   "etiquetas": [
+    "rust: zip"
+   ],
+   "titulo_pt": "CVE-2026-115905: ZIP: Diferencial de analisador crítico e desvio de controle de segurança através de inconsistências de cabeçalho duplo (Zip Cloaking) levando à substituição arbitrária de ficheiros e RCE",
+   "resumo_pt": "Existe um diferencial crítico de analisador arquitetural na caixa zip ( <= 9.0.4 ) entre leitores de ficheiro de acesso aleatório ( ZipArchive ) e leitores de streaming ( ZipStreamReader ). O ZipArchive considera...",
+   "traduzido": true
+  },
+  {
+   "id": "ghsa:CVE-2026-117601",
+   "titulo": "CVE-2026-117601: Electrum: Malicious server can replace a just-broadcast tx and try to trick user into RBF-ing it",
+   "resumo": "The main Electrum server the client connects to is trusted with mempool (\"unconfirmed\") transactions. This is documented design. [0] However now someone figured out a way to practically exploit it: - when the client broadcasts a new tx1, a malicious server can swallow it, - and update the client's history with a conflicting (invalid) tx2 that replaces the outputs with the attacker's output address. - Tx2 has invalid signatures, but this is not checked (due to light client design). - The wallet will display tx2 as an unconfirmed transaction - tx1 will not be displayed. - If the client then…",
+   "url": "https://github.com/advisories/GHSA-6jp4-8v48-cc5v",
+   "fonte": "GitHub Advisories — críticas",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-28T21:23:44+00:00",
+   "pontuacao": 33.0,
+   "cves": [
+    "CVE-2026-117601"
+   ],
+   "etiquetas": [
+    "CVSS 7.5",
+    "pip: electrum"
+   ],
+   "titulo_pt": "CVE-2026-117601: Electrum: Servidor malicioso pode substituir um tx de transmissão justa e tentar enganar o utilizador para RBF-ing",
+   "resumo_pt": "O servidor Electrum principal ao qual o cliente se conecta é confiável com transações mempool (\"não confirmadas\"). Isso é design documentado. [0] No entanto, agora alguém descobriu uma maneira de explorá-lo na prática...",
+   "traduzido": true
+  },
+  {
+   "id": "05324fe81587751b",
+   "titulo": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+   "resumo": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
+   "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T07:27:05+00:00",
+   "pontuacao": 68.9,
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "etiquetas": [
+    "Na lista KEV da CISA"
+   ],
+   "titulo_pt": "CISA Adiciona Falhas de DoS do GitLab RCE e Cisco Firewall Exploradas Ativamente ao KEV",
+   "resumo_pt": "A Agência de Cibersegurança e de Infraestrutura dos EUA (CISA) adicionou na quinta-feira duas falhas de segurança que afetam o software Cisco e GitLab às suas Vulnerabilidades Exploradas Conhecidas (KEV), citando evidências...",
+   "traduzido": true
+  },
+  {
+   "id": "147e205edeec7f3b",
+   "titulo": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
+   "resumo": "Cybersecurity researchers have disclosed that the official Anthropic Claude Code extension was compromised on the Open VSX registry to install a persistent SSH backdoor on infected hosts. The issue has since been traced to the compromise of the Cursor Marketplace, prompting the AI coding platform Cursor to briefly take down the service to remove the malware. \"We identified a security incident",
+   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T08:55:47+00:00",
+   "pontuacao": 42.3,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Código Claude Oficial VS Extensão do Código Comprometida para Instalar o Backdoor SSH Persistente",
+   "resumo_pt": "Investigadores de cibersegurança revelaram que a extensão oficial Anthropic Claude Code foi comprometida no registo Open VSX para instalar um backdoor SSH persistente em hosts infectados. O problema...",
+   "traduzido": true
+  },
+  {
+   "id": "931d1d1fb61725d1",
+   "titulo": "Japan Airlines suffers third-party data breach exposing passenger info",
+   "resumo": "Japan Airlines (JAL) has announced that a data breach at Amadeus's Passenger Service System exposed the data of about 92,000 customers. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-29T22:08:04+00:00",
+   "pontuacao": 41.3,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Japan Airlines sofre fuga de dados de terceiros expondo informações de passageiros",
+   "resumo_pt": "A Japan Airlines (Jal) anunciou que uma fuga de dados no Sistema de Serviço de Passageiros da Amadeus expôs os dados de cerca de 92.000 clientes. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "ad4ab055d32c0e10",
+   "titulo": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+   "resumo": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T10:16:07+00:00",
+   "pontuacao": 40.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Drupal alerta sobre falha crítica do Commerce Core explorada em ataques",
+   "resumo_pt": "O Drupal alertou os administradores para corrigir uma vulnerabilidade de desvio de acesso crítico no módulo Commerce Core que os atacantes estão a explorar na natureza. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "d7d0b1ca37bb0612",
+   "titulo": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+   "resumo": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
+   "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T07:45:30+00:00",
+   "pontuacao": 40.0,
+   "cves": [
+    "CVE-2026-118539"
+   ],
+   "etiquetas": [],
+   "titulo_pt": "Hackers exploram ativamente a falha de contorno de autorização de núcleo de comércio Drupal altamente crítica",
+   "resumo_pt": "O Drupal alertou que os agentes de ameaças estão a explorar uma falha de segurança \"altamente crítica\" em seu componente Commerce Core. A vulnerabilidade, rastreada como CVE-2026-118539 (pontuação CVSS: N/A), é um caso de...",
+   "traduzido": true
+  },
+  {
+   "id": "9ede2fbb7007f983",
+   "titulo": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+   "resumo": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't. There's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their",
+   "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-29T19:11:58+00:00",
+   "pontuacao": 36.5,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Dia das Ameaças: Falhas Críticas de Firewall, Trojans Bancários Alugados, PDF Armado, Roubo de Token + 26 Mais Histórias",
+   "resumo_pt": "Alguns ataques exigem habilidade real. Outros só precisam que alguém deixe uma porta aberta. Esta semana tem os dois. Palavras-passe expostas, bugs antigos ainda sendo explorados e softwares confiáveis fazendo coisas que não deveriam...",
+   "traduzido": true
+  },
+  {
+   "id": "322cd6145e6d248e",
+   "titulo": "Microsoft finally fixes VPN issues caused by September updates",
+   "resumo": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T11:20:26+00:00",
+   "pontuacao": 35.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "A Microsoft finalmente corrige os problemas de VPN causados pelas atualizações de setembro",
+   "resumo_pt": "A Microsoft resolveu as falhas de conexão Always On VPN acionadas após a instalação das atualizações de segurança do Windows 11 de setembro de 2026. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "bce02685043c12f2",
+   "titulo": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+   "resumo": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and",
+   "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-29T13:42:40+00:00",
+   "pontuacao": 35.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Gemini 4 Carbon da Google lidera benchmarks para encontrar, explorar e corrigir vulnerabilidades",
+   "resumo_pt": "O Google divulgou na quarta-feira o Gemini 4 Carbon, seu mais recente modelo de fronteira com recursos de cibersegurança e horizonte longo de última geração. \"Mostra ganhos significativos na codificação e...",
+   "traduzido": true
+  },
+  {
+   "id": "e7dae52ad41239d5",
+   "titulo": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+   "resumo": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T09:18:13+00:00",
+   "pontuacao": 34.4,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Binance vincula roubo de criptomoedas de $ 6,3 bilhões a laptop DevOps comprometido",
+   "resumo_pt": "A Binance, a maior exchange de criptomoedas do mundo, vinculou o roubo de cerca de $ 6,3 bilhões em criptomoedas ao laptop comprometido de um engenheiro de DevOps. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "ff9ec537fd50f75c",
+   "titulo": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
+   "resumo": "OpenAI says it won't reduce usage limits for the $100, $200, and $500 ChatGPT Pro plans, as well as Business Premium, and it also promised to keep Dots usage independent. [...]",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-29T23:35:52+00:00",
+   "pontuacao": 31.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "O OpenAI duplica os limites de uso do ChatGPT Pro após uma reação negativa em relação ao corte planejado de 50%",
+   "resumo_pt": "A OpenAI diz que não reduzirá os limites de uso para os planos ChatGPT Pro de US $ 100, US $ 200 e US $ 500, bem como para o Business Premium, e também prometeu manter o uso do Dots independente. [...]",
+   "traduzido": true
+  }
+ ]
+}
