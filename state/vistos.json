@@ -13,20 +13,28 @@
   "1b100421a944fc79": "2026-10-30",
   "1ed402d754598112": "2026-10-29",
   "2317a10c8ae199b9": "2026-10-28",
+  "2460d737b382d422": "2026-10-31",
   "247e49d809980bd7": "2026-10-29",
   "2a000ff73bb6f7ac": "2026-10-26",
   "2c614b999eb78eb4": "2026-10-26",
   "30dfb98cd1b9df64": "2026-10-29",
   "322cd6145e6d248e": "2026-10-30",
+  "325ff25b77b765bd": "2026-10-31",
   "337affeba8e76b96": "2026-10-26",
   "33a9096f1329449b": "2026-10-27",
+  "35bed86130fbe803": "2026-10-31",
+  "36070a61b35a19b2": "2026-10-31",
+  "3870674ce3d3bf77": "2026-10-31",
   "3cff7520904e9c06": "2026-10-29",
   "3f633b938f53c831": "2026-10-28",
   "3f83b693ec236afb": "2026-10-30",
+  "47209968a5bd49e4": "2026-10-31",
   "4a36dea4db8df076": "2026-10-27",
   "5060525796dadc15": "2026-10-28",
   "621c6b9dc300a1c8": "2026-10-26",
   "7a185c8dd28887ab": "2026-10-28",
+  "7a56590de43658cf": "2026-10-31",
+  "7e4a62a39299b0f2": "2026-10-31",
   "7ed092b94a412e68": "2026-10-26",
   "7ff8a46d80fca6af": "2026-10-28",
   "8312b7e4bcf8250d": "2026-10-29",
@@ -36,6 +44,7 @@
   "931d1d1fb61725d1": "2026-10-30",
   "9c7dbd668911c763": "2026-10-26",
   "9ede2fbb7007f983": "2026-10-30",
+  "a212e990851bb9aa": "2026-10-31",
   "a5e06b6c2bd3e8ae": "2026-10-29",
   "ad4ab055d32c0e10": "2026-10-30",
   "af97a1baa7e30536": "2026-10-28",
@@ -44,6 +53,8 @@
   "bd0fe0e079e67b7a": "2026-10-28",
   "bf76f6976935b8e5": "2026-10-27",
   "c6df214dec8979c7": "2026-10-27",
+  "ccf3e44e7f67cd8e": "2026-10-31",
+  "d1ec5e3e407810cd": "2026-10-31",
   "d7d0b1ca37bb0612": "2026-10-30",
   "da3d205db86b9086": "2026-10-26",
   "dbd63f3f484e39d8": "2026-10-26",
@@ -62,9 +73,13 @@
   "ghsa:CVE-2026-116692": "2026-10-28",
   "ghsa:CVE-2026-117601": "2026-10-30",
   "ghsa:CVE-2026-35002": "2026-10-28",
+  "ghsa:GHSA-4xm8-rg9h-jhq2": "2026-10-31",
+  "ghsa:GHSA-hff9-5pqw-6w9f": "2026-10-31",
   "kev:CVE-2026-109618": "2026-10-27",
   "kev:CVE-2026-109619": "2026-10-27",
+  "kev:CVE-2026-111357": "2026-10-31",
   "kev:CVE-2026-111497": "2026-10-28",
+  "kev:CVE-2026-118527": "2026-10-31",
   "kev:CVE-2026-41709": "2026-10-29",
   "kev:CVE-2026-46300": "2026-10-29",
   "kev:CVE-2026-48356": "2026-10-28",
@@ -73,6 +88,7 @@
   "nvd:CVE-2026-103039": "2026-10-30",
   "nvd:CVE-2026-103406": "2026-10-29",
   "nvd:CVE-2026-103409": "2026-10-29",
+  "nvd:CVE-2026-103882": "2026-10-31",
   "nvd:CVE-2026-105781": "2026-10-28",
   "nvd:CVE-2026-106013": "2026-10-28",
   "nvd:CVE-2026-109218": "2026-10-28",
@@ -85,8 +101,11 @@
   "nvd:CVE-2026-116504": "2026-10-26",
   "nvd:CVE-2026-116506": "2026-10-26",
   "nvd:CVE-2026-116508": "2026-10-26",
+  "nvd:CVE-2026-116512": "2026-10-31",
+  "nvd:CVE-2026-118235": "2026-10-31",
   "nvd:CVE-2026-118579": "2026-10-29",
   "nvd:CVE-2026-118690": "2026-10-29",
+  "nvd:CVE-2026-119706": "2026-10-31",
   "nvd:CVE-2026-42922": "2026-10-29",
   "nvd:CVE-2026-84999": "2026-10-28",
   "nvd:CVE-2026-92885": "2026-10-27"
@@ -140,6 +159,10 @@
    "2026-10-28",
    "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges"
   ],
+  "2460d737b382d422": [
+   "2026-10-31",
+   "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone"
+  ],
   "247e49d809980bd7": [
    "2026-10-29",
    "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns"
@@ -160,6 +183,10 @@
    "2026-10-30",
    "Microsoft finally fixes VPN issues caused by September updates"
   ],
+  "325ff25b77b765bd": [
+   "2026-10-31",
+   "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access"
+  ],
   "337affeba8e76b96": [
    "2026-10-26",
    "Chegou o Kali Linux 2026.3 e traz novas ferramentas de hacking ético"
@@ -167,6 +194,18 @@
   "33a9096f1329449b": [
    "2026-10-27",
    "Energy giant ENGIE discloses data breach affecting customers"
+  ],
+  "35bed86130fbe803": [
+   "2026-10-31",
+   "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours"
+  ],
+  "36070a61b35a19b2": [
+   "2026-10-31",
+   "Malicious Claude Code extension on Cursor planted SSH backdoors"
+  ],
+  "3870674ce3d3bf77": [
+   "2026-10-31",
+   "“SMS da Morte” pode bloquear o seu Android sem tocar em nada! Saiba como se proteger"
   ],
   "3cff7520904e9c06": [
    "2026-10-29",
@@ -179,6 +218,10 @@
   "3f83b693ec236afb": [
    "2026-10-30",
    "Pentágono investiga avarias em congeladores de bases militares como possível ciberataque semelhante ao de França"
+  ],
+  "47209968a5bd49e4": [
+   "2026-10-31",
+   "Critical Linux kernel flaw allows remote root attacks on MPTCP servers"
   ],
   "4a36dea4db8df076": [
    "2026-10-27",
@@ -195,6 +238,14 @@
   "7a185c8dd28887ab": [
    "2026-10-28",
    "Japan's GMO urges customers to shut down PCs amid ransomware threat"
+  ],
+  "7a56590de43658cf": [
+   "2026-10-31",
+   "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%"
+  ],
+  "7e4a62a39299b0f2": [
+   "2026-10-31",
+   "CISA says max severity GitLab flaw now exploited in the wild"
   ],
   "7ed092b94a412e68": [
    "2026-10-26",
@@ -232,6 +283,10 @@
    "2026-10-30",
    "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories"
   ],
+  "a212e990851bb9aa": [
+   "2026-10-31",
+   "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats"
+  ],
   "a5e06b6c2bd3e8ae": [
    "2026-10-29",
    "InfraTrust report warns of exploited flaws in critical network infrastructure"
@@ -263,6 +318,14 @@
   "c6df214dec8979c7": [
    "2026-10-27",
    "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses"
+  ],
+  "ccf3e44e7f67cd8e": [
+   "2026-10-31",
+   "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving"
+  ],
+  "d1ec5e3e407810cd": [
+   "2026-10-31",
+   "Trezor warns of suspected crypto-theft implant in hardware wallet"
   ],
   "d7d0b1ca37bb0612": [
    "2026-10-30",
@@ -336,6 +399,14 @@
    "2026-10-28",
    "CVE-2026-35002: Agno: Arbitrary code execution via `eval()` on `field_type` in `FunctionCall`"
   ],
+  "ghsa:GHSA-4xm8-rg9h-jhq2": [
+   "2026-10-31",
+   "GHSA-4xm8-rg9h-jhq2: Signal K resources API path traversal can disclose the JWT signing secret and enable remote code execution"
+  ],
+  "ghsa:GHSA-hff9-5pqw-6w9f": [
+   "2026-10-31",
+   "GHSA-hff9-5pqw-6w9f: imgproxy has integer overflow in imgproxy ICO loader that causes denial of service and may permit remote code execution"
+  ],
   "kev:CVE-2026-109618": [
    "2026-10-27",
    "CVE-2026-109618: PHP Memory Corruption Vulnerability"
@@ -344,9 +415,17 @@
    "2026-10-27",
    "CVE-2026-109619: PHP Stale Internal Request-State Vulnerability"
   ],
+  "kev:CVE-2026-111357": [
+   "2026-10-31",
+   "CVE-2026-111357: Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability"
+  ],
   "kev:CVE-2026-111497": [
    "2026-10-28",
    "CVE-2026-111497: Google Brotli Unchecked Return Value Vulnerability"
+  ],
+  "kev:CVE-2026-118527": [
+   "2026-10-31",
+   "CVE-2026-118527: Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability"
   ],
   "kev:CVE-2026-41709": [
    "2026-10-29",
@@ -379,6 +458,10 @@
   "nvd:CVE-2026-103409": [
    "2026-10-29",
    "CVE-2026-103409: A Missing authentication for critical function vulnerability in Juniper Networks Session Smart Router allows an unauthenticated network-based…"
+  ],
+  "nvd:CVE-2026-103882": [
+   "2026-10-31",
+   "CVE-2026-103882: The Acadlix LMS – AI Quiz Maker, Online Exam & Course Plugin for WordPress plugin for WordPress is vulnerable to arbitrary file deletion due…"
   ],
   "nvd:CVE-2026-105781": [
    "2026-10-28",
@@ -428,6 +511,14 @@
    "2026-10-26",
    "CVE-2026-116508: A security flaw has been discovered in TOTOLINK A950RG 4.1.2cu.5268_B20221104"
   ],
+  "nvd:CVE-2026-116512": [
+   "2026-10-31",
+   "CVE-2026-116512: The Project Manager – AI Powered Project Management, Task Management, Kanban Board & Time Tracker plugin for WordPress is vulnerable to Remote…"
+  ],
+  "nvd:CVE-2026-118235": [
+   "2026-10-31",
+   "CVE-2026-118235: The SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plugin for WordPress is vulnerable to Arbitrary File…"
+  ],
   "nvd:CVE-2026-118579": [
    "2026-10-29",
    "CVE-2026-118579: A weakness has been identified in D-Link DIR-505 1.10B02"
@@ -435,6 +526,10 @@
   "nvd:CVE-2026-118690": [
    "2026-10-29",
    "CVE-2026-118690: Signal K Server before 2.33.0 contains a missing authentication vulnerability that allows unauthenticated remote attackers to download log…"
+  ],
+  "nvd:CVE-2026-119706": [
+   "2026-10-31",
+   "CVE-2026-119706: InternLM LMDeploy 0.9.0 through 0.18.0 contains an unauthenticated remote code execution vulnerability that allows remote attackers to run OS…"
   ],
   "nvd:CVE-2026-42922": [
    "2026-10-29",

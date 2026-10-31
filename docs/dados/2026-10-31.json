@@ -1,0 +1,346 @@
+{
+ "data": "2026-10-31",
+ "gerado_em": "2026-10-31T10:56:55.443736+00:00",
+ "itens": [
+  {
+   "id": "3870674ce3d3bf77",
+   "titulo": "“SMS da Morte” pode bloquear o seu Android sem tocar em nada! Saiba como se proteger",
+   "resumo": "Basta uma simples mensagem de texto para congelar um smartphone Android, sem que o utilizador precise sequer de abrir a notificação ou carregar em qualquer link. O alerta recente de especialistas em cibersegurança expôs uma vulnerabilidade grave , já apelidada como o “SMS da Morte”. Este tipo de ataque, categorizado como zero-click, funciona em silêncio […]",
+   "url": "https://pplware.sapo.pt/internet/seguranca/sms-da-morte-pode-bloquear-o-seu-android-sem-tocar-em-nada-saiba-como-se-proteger/",
+   "fonte": "Pplware",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-10-31T07:00:00+00:00",
+   "pontuacao": 28.9,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "kev:CVE-2026-111357",
+   "titulo": "CVE-2026-111357: Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+   "resumo": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+   "fonte": "CISA — Vulnerabilidades exploradas (KEV)",
+   "idioma": "en",
+   "categoria": "exploradas",
+   "publicado": "2026-10-30T12:00:00+00:00",
+   "pontuacao": 69.6,
+   "cves": [
+    "CVE-2026-111357"
+   ],
+   "etiquetas": [
+    "Explorada ativamente",
+    "Prazo CISA: 02/11/2026"
+   ],
+   "titulo_pt": "CVE-2026-111357: Ivanti Connect Secure Falta de Autenticação para Vulnerabilidade de Função Crítica",
+   "resumo_pt": "O Ivanti Connect Secure contém uma autenticação ausente para vulnerabilidades de funções críticas que podem permitir que um atacante local autenticado aumente seus privilégios. Esta vulnerabilidade pode ser...",
+   "traduzido": true
+  },
+  {
+   "id": "kev:CVE-2026-118527",
+   "titulo": "CVE-2026-118527: Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+   "resumo": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+   "fonte": "CISA — Vulnerabilidades exploradas (KEV)",
+   "idioma": "en",
+   "categoria": "exploradas",
+   "publicado": "2026-10-30T12:00:00+00:00",
+   "pontuacao": 63.6,
+   "cves": [
+    "CVE-2026-118527"
+   ],
+   "etiquetas": [
+    "Explorada ativamente",
+    "Prazo CISA: 13/11/2026"
+   ],
+   "titulo_pt": "CVE-2026-118527: Vulnerabilidade Ivanti Connect Secure Generation of Predictable Numbers or Identifiers",
+   "resumo_pt": "O Ivanti Connect Secure contém uma geração de números previsíveis ou identificadores de vulnerabilidade que permitem que um atacante autenticado remotamente carregue ficheiros com conteúdo controlado pelo atacante para um...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-118235",
+   "titulo": "CVE-2026-118235: The SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plugin for WordPress is vulnerable to Arbitrary File…",
+   "resumo": "The SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.10.2 via the handle_upload function. This is due to missing server-side file key allowlist and pre-sanitization extension derivation that allows a trailing-dot filename to bypass all extension and MIME validation in handle_upload. This makes it possible for unauthenticated attackers to upload files that may be executable, which makes remote code execution possible. The only access control is a nonce that is…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118235",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-31T09:16:33.620000+00:00",
+   "pontuacao": 68.3,
+   "cves": [
+    "CVE-2026-118235"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-118235: O plugin SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications para WordPress é vulnerável a ficheiros arbitrários...",
+   "resumo_pt": "O plugin SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications para WordPress é vulnerável ao Upload Arbitrário de Ficheiros em todas as versões até, e incluindo, 3.10.2 através do…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-116512",
+   "titulo": "CVE-2026-116512: The Project Manager – AI Powered Project Management, Task Management, Kanban Board & Time Tracker plugin for WordPress is vulnerable to Remote…",
+   "resumo": "The Project Manager – AI Powered Project Management, Task Management, Kanban Board & Time Tracker plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.1.1 via the 'id' parameter parameter. This is due to unsanitized 'id' parameter value concatenated directly into the pipe-delimited validation rule string, which is then split and each token invoked as a dynamic PHP function with no allowlist check. This makes it possible for unauthenticated attackers to execute code on the server. This is exploitable by unauthenticated attackers because WordPress…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116512",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-31T08:16:48.603000+00:00",
+   "pontuacao": 68.1,
+   "cves": [
+    "CVE-2026-116512"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-116512: O plugin Project Manager – AI Powered Project Management, Task Management, Kanban Board & Time Tracker para WordPress é vulnerável ao Remote...",
+   "resumo_pt": "O plugin Project Manager – AI Powered Project Management, Task Management, Kanban Board & Time Tracker para WordPress é vulnerável à Execução Remota de Código em todas as versões até, e incluindo...",
+   "traduzido": true
+  },
+  {
+   "id": "ghsa:GHSA-4xm8-rg9h-jhq2",
+   "titulo": "GHSA-4xm8-rg9h-jhq2: Signal K resources API path traversal can disclose the JWT signing secret and enable remote code execution",
+   "resumo": "Path traversal in the Signal K resources and applicationData APIs lets an unauthenticated or low-privileged user read, write and delete files outside the storage root. Reading <config /security.json discloses the JWT signing secret, enabling admin token forgery and remote code execution. The v2 REST resources API GET /signalk/v2/api/resources/:resourceType/:resourceId passes resourceId to FileStore.getResource() without validation. getResource() builds the file path with path.join(this.resources[type].path, itemUuid) followed by readFile + JSON.parse , so a %2F -encoded multi-level traversal…",
+   "url": "https://github.com/advisories/GHSA-4xm8-rg9h-jhq2",
+   "fonte": "GitHub Advisories — críticas",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-30T22:57:22+00:00",
+   "pontuacao": 65.5,
+   "cves": [],
+   "etiquetas": [
+    "CVSS 9.8",
+    "npm: signalk-server, npm: @signalk/resources-provider"
+   ],
+   "titulo_pt": "GHSA-4xm8-rg9h-jhq2: O caminho da API de recursos do Signal K pode divulgar o segredo de assinatura JWT e permitir a execução remota de código",
+   "resumo_pt": "A travessia de caminho nos recursos Signal K e nas APIs applicationData permite que um utilizador não autenticado ou de baixo privilégio leia, escreva e exclua ficheiros fora da raiz de armazenamento. Lendo <config /security.json…",
+   "traduzido": true
+  },
+  {
+   "id": "ghsa:GHSA-hff9-5pqw-6w9f",
+   "titulo": "GHSA-hff9-5pqw-6w9f: imgproxy has integer overflow in imgproxy ICO loader that causes denial of service and may permit remote code execution",
+   "resumo": "The ICO loader allocates data_size + BMP_FILE_HEADER_LEN bytes after reading a 32-bit attacker-controlled data_size . For data_size UINT32_MAX - BMP_FILE_HEADER_LEN , the addition wraps before allocation. imgproxy then writes the ICO prefix and reads up to the original declared size starting 14 bytes into the undersized allocation. A network client can turn this heap overflow into remote denial of service or remote code execution. Technical details The vulnerable path is in vips/icoload.c at commit f4fedbb : The crafted directory entry contains: The allocation is therefore three bytes…",
+   "url": "https://github.com/advisories/GHSA-hff9-5pqw-6w9f",
+   "fonte": "GitHub Advisories — críticas",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-30T22:57:00+00:00",
+   "pontuacao": 65.5,
+   "cves": [],
+   "etiquetas": [
+    "CVSS 9.8",
+    "go: github.com/imgproxy/imgproxy/v3, go…"
+   ],
+   "titulo_pt": "GHSA-hff9-5pqw-6w9f: imgproxy tem estouro de número inteiro no carregador de ICO imgproxy que causa negação de serviço e pode permitir a execução remota de código",
+   "resumo_pt": "O carregador ICO aloca data_size + BMP_FILE_header_LEN bytes depois de ler um data_size controlado por atacante de 32 bits. Para data_size UINT32_MAX - BMP_FILE_Header_LEN , a adição se encerra antes de…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-103882",
+   "titulo": "CVE-2026-103882: The Acadlix LMS – AI Quiz Maker, Online Exam & Course Plugin for WordPress plugin for WordPress is vulnerable to arbitrary file deletion due…",
+   "resumo": "The Acadlix LMS – AI Quiz Maker, Online Exam & Course Plugin for WordPress plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the post_delete_assessment_file_by_id function in all versions up to, and including, 1.1.9. This makes it possible for authenticated attackers, with subscriber-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). The route's permission callback only verifies a generic wp_rest nonce that the plugin…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103882",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-31T09:16:32.510000+00:00",
+   "pontuacao": 64.1,
+   "cves": [
+    "CVE-2026-103882"
+   ],
+   "etiquetas": [
+    "CVSS 9.1"
+   ],
+   "titulo_pt": "CVE-2026-103882: O plugin Acadlix LMS – AI Quiz Maker, Online Exam & Course para WordPress para WordPress é vulnerável à exclusão arbitrária de ficheiros devido...",
+   "resumo_pt": "O plugin Acadlix LMS – AI Quiz Maker, Online Exam & Course para WordPress é vulnerável à exclusão arbitrária de ficheiros devido à validação insuficiente do caminho do ficheiro no…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-119706",
+   "titulo": "CVE-2026-119706: InternLM LMDeploy 0.9.0 through 0.18.0 contains an unauthenticated remote code execution vulnerability that allows remote attackers to run OS…",
+   "resumo": "InternLM LMDeploy 0.9.0 through 0.18.0 contains an unauthenticated remote code execution vulnerability that allows remote attackers to run OS commands by sending pickled data to the /update_weights endpoint. Attackers can submit a base64-encoded crafted pickle in serialized_named_tensors, which ForkingPickler.loads deserializes without validation, executing commands as the api_server process.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119706",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-30T16:17:51.673000+00:00",
+   "pontuacao": 63.6,
+   "cves": [
+    "CVE-2026-119706"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-119706: InternLM LMDeploy 0.9.0 a 0.18.0 contém uma vulnerabilidade de execução remota de código não autenticada que permite que atacantes remotos executem o sistema operacional...",
+   "resumo_pt": "O InternLM LMDeploy 0.9.0 a 0.18.0 contém uma vulnerabilidade de execução remota de código não autenticada que permite que atacantes remotos executem comandos do sistema operacional enviando dados em conserva para o /update_weights...",
+   "traduzido": true
+  },
+  {
+   "id": "325ff25b77b765bd",
+   "titulo": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "resumo": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a",
+   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-31T08:27:43+00:00",
+   "pontuacao": 55.3,
+   "cves": [
+    "CVE-2026-111357"
+   ],
+   "etiquetas": [
+    "Na lista KEV da CISA"
+   ],
+   "titulo_pt": "Atacantes encadeiam três falhas seguras do Ivanti Connect para obter acesso raiz não autenticado",
+   "resumo_pt": "A Agência de Cibersegurança e de Infraestrutura dos EUA (CISA) adicionou na sexta-feira duas falhas de segurança que afetam o Ivanti Connect Secure (ICS) ao seu catálogo de Vulnerabilidades Exploradas Conhecidas (KEV)...",
+   "traduzido": true
+  },
+  {
+   "id": "7e4a62a39299b0f2",
+   "titulo": "CISA says max severity GitLab flaw now exploited in the wild",
+   "resumo": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T13:00:32+00:00",
+   "pontuacao": 48.9,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "A CISA diz que a falha de gravidade máxima do GitLab agora é explorada na natureza",
+   "resumo_pt": "Os atacantes começaram a explorar uma vulnerabilidade GitLab de gravidade máxima corrigida no início deste mês, de acordo com a Agência de Cibersegurança e de Infraestrutura dos EUA (CISA). [...]",
+   "traduzido": true
+  },
+  {
+   "id": "35bed86130fbe803",
+   "titulo": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+   "resumo": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October",
+   "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T14:08:14+00:00",
+   "pontuacao": 41.2,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Falha RCE do WordPress atrai quase 63.000 tentativas de ataque em apenas 24 horas",
+   "resumo_pt": "Agentes de ameaças foram observados tentando explorar uma falha de segurança de alta gravidade no WordPress Core logo após o lançamento dos patches. A vulnerabilidade, que não tem um identificador CVE...",
+   "traduzido": true
+  },
+  {
+   "id": "47209968a5bd49e4",
+   "titulo": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+   "resumo": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T21:09:46+00:00",
+   "pontuacao": 37.2,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Falha crítica do kernel do Linux permite ataques de raiz remotos em servidores MPTCP",
+   "resumo_pt": "Investigadores de segurança da Anthropic desenvolveram um exploit para uma vulnerabilidade crítica do kernel do Linux que permite que atacantes não autenticados executem comandos remotamente como root em servidores em execução...",
+   "traduzido": true
+  },
+  {
+   "id": "ccf3e44e7f67cd8e",
+   "titulo": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+   "resumo": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything. Their concerns are practical. An IPS protection could block legitimate traffic. A configuration change could interrupt a service. An endpoint policy could affect an application",
+   "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T11:58:53+00:00",
+   "pontuacao": 34.6,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Por que as correções de segurança urgentes não são corrigidas. Observe, prove, aja, confirme faz com que se movam",
+   "resumo_pt": "O alerta é crítico. A correção é conhecida. E o bilhete fica na fila por dias. As equipes de segurança entendem o risco, mas as pessoas que mantêm as aplicações disponíveis precisam de provas de que a mudança não vai...",
+   "traduzido": true
+  },
+  {
+   "id": "a212e990851bb9aa",
+   "titulo": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+   "resumo": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.",
+   "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-31T05:33:41+00:00",
+   "pontuacao": 33.5,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Um link compartilhado do ChatGPT pode executar o código do atacante na sua sessão e ler conversas privadas",
+   "resumo_pt": "Um link de compartilhamento ChatGPT malicioso poderia executar o código de um atacante na sessão logada de qualquer pessoa que o abrisse, permitindo que eles lessem suas conversas privadas, disseram investigadores da empresa de segurança...",
+   "traduzido": true
+  },
+  {
+   "id": "7a56590de43658cf",
+   "titulo": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+   "resumo": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
+   "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-31T04:56:12+00:00",
+   "pontuacao": 33.3,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "d1ec5e3e407810cd",
+   "titulo": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+   "resumo": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T15:58:20+00:00",
+   "pontuacao": 29.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "36070a61b35a19b2",
+   "titulo": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+   "resumo": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T14:36:54+00:00",
+   "pontuacao": 29.4,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "2460d737b382d422",
+   "titulo": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+   "resumo": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. Cape explains how these attacks exploit trust between networks and how its security-focused mobile service helps defend against them. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-30T14:00:10+00:00",
+   "pontuacao": 29.2,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  }
+ ]
+}
