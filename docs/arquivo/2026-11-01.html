@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CiberBot PT — Resumo diário de cibersegurança — 1 de novembro de 2026</title>
+<meta name="description" content="Resumo diário de cibersegurança em português de Portugal: ataques, vulnerabilidades e alertas.">
+<style>
+:root{--fundo:#f6f7f9;--cartao:#fff;--texto:#16191d;--suave:#5b6472;--linha:#e3e6ea;--link:#0b5fd6;--chip:#eef1f5;
+--s-portugal:#1f8a4c;--s-exploradas:#d6322f;--s-criticas:#e07a12;--s-noticias:#3a6fd8;--s-outra:#6b7280}
+@media (prefers-color-scheme:dark){:root{--fundo:#0f1216;--cartao:#171b21;--texto:#e8eaed;--suave:#9aa3af;
+--linha:#262c34;--link:#7db4ff;--chip:#222831;--s-portugal:#4cc17f;--s-exploradas:#ff6b66;--s-criticas:#ffa04a;
+--s-noticias:#7aa2ff;--s-outra:#9aa3af}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fundo);color:var(--texto);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+.caixa{max-width:760px;margin:0 auto;padding:0 16px}
+.topo{padding:28px 0 4px}
+.marca{margin:0;color:var(--suave);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase}
+h1{margin:.25em 0 .15em;font-size:1.7rem;line-height:1.2}
+.data{margin:0;color:var(--suave)}
+h2{font-size:1.1rem;margin:2em 0 .7em}
+.cartao{background:var(--cartao);border:1px solid var(--linha);border-left:4px solid var(--cor);
+border-radius:10px;padding:13px 16px;margin:0 0 12px}
+.s-portugal{--cor:var(--s-portugal)}.s-exploradas{--cor:var(--s-exploradas)}
+.s-criticas{--cor:var(--s-criticas)}.s-noticias{--cor:var(--s-noticias)}.s-outra{--cor:var(--s-outra)}
+.cartao h3{margin:0 0 .3em;font-size:1.02rem;line-height:1.35}
+.cartao h3 a{color:inherit;text-decoration:none}.cartao h3 a:hover{text-decoration:underline}
+.cartao p{margin:.3em 0}
+.meta{color:var(--suave);font-size:.85rem}
+.chip{display:inline-block;background:var(--chip);border-radius:999px;padding:1px 9px;margin:3px 4px 0 0;font-size:.78rem}
+.nota{background:var(--chip);border-radius:10px;padding:10px 14px;font-size:.9rem;color:var(--suave)}
+.arquivo ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 14px}
+.rodape{color:var(--suave);font-size:.82rem;padding:28px 16px 44px}
+</style>
+</head>
+<body>
+<header class="topo caixa">
+<p class="marca">CiberBot PT</p>
+<h1>CiberBot PT — Resumo diário de cibersegurança</h1>
+<p class="data">1 de novembro de 2026 · 16 destaques</p>
+</header>
+<main class="caixa">
+<section><h2>🟠 Vulnerabilidades críticas recentes</h2>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-120209" rel="noopener noreferrer">CVE-2026-120209: AJ-Report através de sinais 1.7.1 compartilham tokens com um segredo JWT codificado, permitindo que os atacantes forjem Share-Tokens válidos offline</a></h3><p>Os sinais AJ-Report através do 1.7.1 compartilham tokens com um segredo JWT codificado, permitindo que os atacantes forjem tokens de compartilhamento válidos offline. Os atacantes podem cunhar um token com o reportCode 'dataSet' para aceder ao…</p><p class="meta">NVD — CVE críticos · 31/10</p><span class="chip">CVSS 9.8</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-120198" rel="noopener noreferrer">CVE-2026-120198: Foi encontrada uma vulnerabilidade no WAVLINK WL-WN530BE1-A V251117</a></h3><p>Foi encontrada uma vulnerabilidade no WAVLINK WL-WN530BE1-A V251117. Afetada é a função con_check_read_finish do ficheiro /protocolo.csp. Tal manipulação do argumento group_NAME/IP-FROM leva...</p><p class="meta">NVD — CVE críticos · 01/11</p><span class="chip">CVSS 10.0</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-120195" rel="noopener noreferrer">CVE-2026-120195: Foi detectada uma vulnerabilidade de segurança no WAVLINK WL-WN579A3-A 2026-03-10-94f93d4</a></h3><p>Foi detectada uma vulnerabilidade de segurança no WAVLINK WL-WN579A3-A 2026-03-10-94f93d4. O elemento impactado é a função set_wzdgwMesh do ficheiro /cgi-bin/adm.cgi do componente Initial Setup…</p><p class="meta">NVD — CVE críticos · 01/11</p><span class="chip">CVSS 10.0</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-120196" rel="noopener noreferrer">CVE-2026-120196: Foi detectada uma vulnerabilidade no WAVLINK WN579X3-D V250402</a></h3><p>Foi detectada uma vulnerabilidade no WAVLINK WN579X3-D V250402. Isso afeta a função port_forward do ficheiro /cgi-bin/wapi.cgi. A manipulação do argumento Name resulta na injeção do comando os…</p><p class="meta">NVD — CVE críticos · 01/11</p><span class="chip">CVSS 9.9</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-120197" rel="noopener noreferrer">CVE-2026-120197: Foi encontrada uma falha no WAVLINK WL-WN530HG4B M_V260724</a></h3><p>Foi encontrada uma falha no WAVLINK WL-WN530HG4B M_V260724. Isso afeta a função port_forward do ficheiro /cgi-bin/wapi.cgi. Essa manipulação do argumento Name causa injeção de comando os. Ele…</p><p class="meta">NVD — CVE críticos · 01/11</p><span class="chip">CVSS 9.9</span></article>
+<article class="cartao s-criticas"><h3><a href="https://nvd.nist.gov/vuln/detail/CVE-2026-120189" rel="noopener noreferrer">CVE-2026-120189: Foi identificada uma vulnerabilidade no D-Link DIR-505 1.10B02</a></h3><p>Foi identificada uma vulnerabilidade na D-Link DIR-505 1.10B02. Afetada é a função save_upload_file/mp_upload_file do ficheiro /usr/bin/tftpd do componente TFTP Upload Filename Handler. O…</p><p class="meta">NVD — CVE críticos · 01/11</p><span class="chip">CVSS 10.0</span></article></section>
+<section><h2>📰 Ataques e notícias</h2>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html" rel="noopener noreferrer">Falha do CVSS 10.0 LXD, MicroCloud permite que atacantes se passem por clientes confiáveis sem uma chave privada</a></h3><p>Uma falha crítica no LXD e no MicroCloud da Canonical permitiu que um atacante fizesse login como um cliente confiável sem manter a chave privada desse cliente. Para fazer isso, o atacante precisava acessar a API https pelo...</p><p class="meta">The Hacker News · 01/11</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/" rel="noopener noreferrer">Chainalysis divulga fuga de dados de "técnicas agênticas ofensivas"</a></h3><p>A empresa de análise de blockchain Chainalysis divulgou uma fuga de dados depois que os atacantes usaram "técnicas agênticas ofensivas" para acessar sistemas e ferramentas internas, expondo nomes de clientes, endereços de e-mail, utilizadores...</p><p class="meta">BleepingComputer · 31/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html" rel="noopener noreferrer">Hackers roubam cerca de $ 2,7 milhões de traders do Polymarket por meio do script DebugBear sequestrado</a></h3><p>Código malicioso no site do mercado de previsão Polymarket vendeu algumas posições de traders conectados e transferiu seus fundos para os hackers em 29 de outubro. O código substituiu um script de velocidade de página que...</p><p class="meta">The Hacker News · 01/11</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html" rel="noopener noreferrer">FBI vincula TraderTraitor da Coreia do Norte a roubo recorde de $ 6,43 bilhões da Binance</a></h3><p>O Federal Bureau of Investigation (FBI) dos EUA atribuiu oficialmente o roubo de mais de $ 6 bilhões em ativos virtuais à TraderTraitor, um grupo de hackers de elite alinhado à Coreia do Norte que também rastreou...</p><p class="meta">The Hacker News · 01/11</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/11/netamloader-malware-targets-government.html" rel="noopener noreferrer">O malware NetamLoader tem como alvo os sistemas governamentais Windows 10 na Ásia por meio da injeção .NET</a></h3><p>Investigadores de cibersegurança divulgaram detalhes do que foi descrito como uma "cadeia de infecção altamente sofisticada" visando organizações governamentais na Ásia. A atividade, detalhada pela Kaspersky...</p><p class="meta">The Hacker News · 01/11</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/" rel="noopener noreferrer">Violação de segurança do Northflank leva ao abuso das chaves de API de IA dos clientes</a></h3><p>A plataforma de hospedagem de aplicações em nuvem Northflank está a alertar os clientes para girar todas as credenciais e segredos armazenados em sua plataforma depois que uma violação de segurança levou ao uso não autorizado da API de IA dos clientes...</p><p class="meta">BleepingComputer · 31/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/" rel="noopener noreferrer">A nova exploração de SMS de morte do Android pode travar remotamente telefones não corrigidos</a></h3><p>Um investigador de segurança lançou uma exploração de prova de conceito para uma vulnerabilidade do Android recentemente corrigida, apelidada de "SMS da Morte" e rastreada como CVE-2026-58882, que permite que os atacantes interrompam remotamente...</p><p class="meta">BleepingComputer · 31/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/" rel="noopener noreferrer">O Reddit bloqueia o conteúdo por trás dos logins para combater os raspadores</a></h3><p>O Reddit anunciou em uma publicação do cofundador Steve Huffman que o site se tornará gradualmente um "serviço conectado", oferecendo acesso limitado a visitantes sem contas. [...]</p><p class="meta">BleepingComputer · 31/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/" rel="noopener noreferrer">From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era (Do iniciante ao caçador de bugs: aprendendo</a></h3><p>Os relatórios de vulnerabilidade gerados por IA estão a sobrecarregar alguns programas de recompensas por bugs, tornando mais difícil para os aspirantes a investigadores de segurança saberem por onde começar. TryHackMe explica como os iniciantes podem construir...</p><p class="meta">BleepingComputer · 31/10</p></article>
+<article class="cartao s-noticias"><h3><a href="https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html" rel="noopener noreferrer">Chainalysis Confirma Intrusão em Ferramentas Internas e Exposição de Dados de Identidade do Cliente</a></h3><p>A empresa americana de análise de blockchain Chainalysis disse que foi alvo de um incidente de cibersegurança no qual um ator externo acessou dados não confidenciais de clientes. No entanto, a empresa observou que o...</p><p class="meta">The Hacker News · 31/10</p></article></section>
+
+<p><a href="../index.html">← Edição mais recente</a></p>
+</main>
+<footer class="rodape caixa">
+Gerado automaticamente em 01/11/2026 às 11:51. Traduzido automaticamente para português de Portugal. Confirme sempre os detalhes na fonte original.
+</footer>
+</body>
+</html>

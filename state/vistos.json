@@ -11,6 +11,7 @@
   "14a5052ffb36aa11": "2026-10-30",
   "19245d87d714e4e2": "2026-10-27",
   "1b100421a944fc79": "2026-10-30",
+  "1b52ce14888974c1": "2026-11-01",
   "1ed402d754598112": "2026-10-29",
   "2317a10c8ae199b9": "2026-10-28",
   "2460d737b382d422": "2026-10-31",
@@ -18,6 +19,7 @@
   "2a000ff73bb6f7ac": "2026-10-26",
   "2c614b999eb78eb4": "2026-10-26",
   "30dfb98cd1b9df64": "2026-10-29",
+  "31fd152f9956be6a": "2026-11-01",
   "322cd6145e6d248e": "2026-10-30",
   "325ff25b77b765bd": "2026-10-31",
   "337affeba8e76b96": "2026-10-26",
@@ -29,19 +31,24 @@
   "3f633b938f53c831": "2026-10-28",
   "3f83b693ec236afb": "2026-10-30",
   "47209968a5bd49e4": "2026-10-31",
+  "475c39df4ec690c2": "2026-11-01",
   "4a36dea4db8df076": "2026-10-27",
   "5060525796dadc15": "2026-10-28",
   "621c6b9dc300a1c8": "2026-10-26",
+  "77867c1a3e93bbaf": "2026-11-01",
   "7a185c8dd28887ab": "2026-10-28",
   "7a56590de43658cf": "2026-10-31",
   "7e4a62a39299b0f2": "2026-10-31",
   "7ed092b94a412e68": "2026-10-26",
   "7ff8a46d80fca6af": "2026-10-28",
+  "80ea3f790938b473": "2026-11-01",
   "8312b7e4bcf8250d": "2026-10-29",
   "858c4af9cde14190": "2026-10-29",
   "86fc80d7d9005f72": "2026-10-29",
   "8c6e20208c035ba2": "2026-10-29",
   "931d1d1fb61725d1": "2026-10-30",
+  "9a9c7ae127735754": "2026-11-01",
+  "9bb9f09dc3ac9075": "2026-11-01",
   "9c7dbd668911c763": "2026-10-26",
   "9ede2fbb7007f983": "2026-10-30",
   "a212e990851bb9aa": "2026-10-31",
@@ -49,12 +56,15 @@
   "ad4ab055d32c0e10": "2026-10-30",
   "af97a1baa7e30536": "2026-10-28",
   "b18cc5e9f3ba64ec": "2026-10-26",
+  "b65441b6fb2b5a93": "2026-11-01",
   "bce02685043c12f2": "2026-10-30",
   "bd0fe0e079e67b7a": "2026-10-28",
   "bf76f6976935b8e5": "2026-10-27",
   "c6df214dec8979c7": "2026-10-27",
   "ccf3e44e7f67cd8e": "2026-10-31",
+  "cf7bf66c31737ed8": "2026-11-01",
   "d1ec5e3e407810cd": "2026-10-31",
+  "d6ad234eaf6da46c": "2026-11-01",
   "d7d0b1ca37bb0612": "2026-10-30",
   "da3d205db86b9086": "2026-10-26",
   "dbd63f3f484e39d8": "2026-10-26",
@@ -106,6 +116,12 @@
   "nvd:CVE-2026-118579": "2026-10-29",
   "nvd:CVE-2026-118690": "2026-10-29",
   "nvd:CVE-2026-119706": "2026-10-31",
+  "nvd:CVE-2026-120189": "2026-11-01",
+  "nvd:CVE-2026-120195": "2026-11-01",
+  "nvd:CVE-2026-120196": "2026-11-01",
+  "nvd:CVE-2026-120197": "2026-11-01",
+  "nvd:CVE-2026-120198": "2026-11-01",
+  "nvd:CVE-2026-120209": "2026-11-01",
   "nvd:CVE-2026-42922": "2026-10-29",
   "nvd:CVE-2026-84999": "2026-10-28",
   "nvd:CVE-2026-92885": "2026-10-27"
@@ -151,6 +167,10 @@
    "2026-10-30",
    "75% das PME consideram a ciberguerra uma ameaça aos negócios"
   ],
+  "1b52ce14888974c1": [
+   "2026-11-01",
+   "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection"
+  ],
   "1ed402d754598112": [
    "2026-10-29",
    "Even after PHP2Shell, blast radius matters more than a CVSS score"
@@ -178,6 +198,10 @@
   "30dfb98cd1b9df64": [
    "2026-10-29",
    "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility"
+  ],
+  "31fd152f9956be6a": [
+   "2026-11-01",
+   "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era."
   ],
   "322cd6145e6d248e": [
    "2026-10-30",
@@ -223,6 +247,10 @@
    "2026-10-31",
    "Critical Linux kernel flaw allows remote root attacks on MPTCP servers"
   ],
+  "475c39df4ec690c2": [
+   "2026-11-01",
+   "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key"
+  ],
   "4a36dea4db8df076": [
    "2026-10-27",
    "CISA confirms PHP2Shell vulnerabilities now exploited in attacks"
@@ -234,6 +262,10 @@
   "621c6b9dc300a1c8": [
    "2026-10-26",
    "Former pentester used ARTEX AI to steal 8.2 million data records"
+  ],
+  "77867c1a3e93bbaf": [
+   "2026-11-01",
+   "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist"
   ],
   "7a185c8dd28887ab": [
    "2026-10-28",
@@ -255,6 +287,10 @@
    "2026-10-28",
    "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws"
   ],
+  "80ea3f790938b473": [
+   "2026-11-01",
+   "Chainalysis discloses data breach from \"offensive agentic techniques\""
+  ],
   "8312b7e4bcf8250d": [
    "2026-10-29",
    "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys"
@@ -274,6 +310,14 @@
   "931d1d1fb61725d1": [
    "2026-10-30",
    "Japan Airlines suffers third-party data breach exposing passenger info"
+  ],
+  "9a9c7ae127735754": [
+   "2026-11-01",
+   "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script"
+  ],
+  "9bb9f09dc3ac9075": [
+   "2026-11-01",
+   "Northflank security breach leads to abuse of customers' AI API keys"
   ],
   "9c7dbd668911c763": [
    "2026-10-26",
@@ -303,6 +347,10 @@
    "2026-10-26",
    "University of Copenhagen data breach exposes data of 525,000 people"
   ],
+  "b65441b6fb2b5a93": [
+   "2026-11-01",
+   "New Android SMS of Death exploit can remotely crash unpatched phones"
+  ],
   "bce02685043c12f2": [
    "2026-10-30",
    "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities"
@@ -323,9 +371,17 @@
    "2026-10-31",
    "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving"
   ],
+  "cf7bf66c31737ed8": [
+   "2026-11-01",
+   "Reddit to lock content behind logins to fight scrapers"
+  ],
   "d1ec5e3e407810cd": [
    "2026-10-31",
    "Trezor warns of suspected crypto-theft implant in hardware wallet"
+  ],
+  "d6ad234eaf6da46c": [
+   "2026-11-01",
+   "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data"
   ],
   "d7d0b1ca37bb0612": [
    "2026-10-30",
@@ -530,6 +586,30 @@
   "nvd:CVE-2026-119706": [
    "2026-10-31",
    "CVE-2026-119706: InternLM LMDeploy 0.9.0 through 0.18.0 contains an unauthenticated remote code execution vulnerability that allows remote attackers to run OS…"
+  ],
+  "nvd:CVE-2026-120189": [
+   "2026-11-01",
+   "CVE-2026-120189: A vulnerability was identified in D-Link DIR-505 1.10B02"
+  ],
+  "nvd:CVE-2026-120195": [
+   "2026-11-01",
+   "CVE-2026-120195: A security vulnerability has been detected in WAVLINK WL-WN579A3-A 2026-03-10-94f93d4"
+  ],
+  "nvd:CVE-2026-120196": [
+   "2026-11-01",
+   "CVE-2026-120196: A vulnerability was detected in WAVLINK WN579X3-D V250402"
+  ],
+  "nvd:CVE-2026-120197": [
+   "2026-11-01",
+   "CVE-2026-120197: A flaw has been found in WAVLINK WL-WN530HG4B M_V260724"
+  ],
+  "nvd:CVE-2026-120198": [
+   "2026-11-01",
+   "CVE-2026-120198: A vulnerability has been found in WAVLINK WL-WN530BE1-A V251117"
+  ],
+  "nvd:CVE-2026-120209": [
+   "2026-11-01",
+   "CVE-2026-120209: AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline"
   ],
   "nvd:CVE-2026-42922": [
    "2026-10-29",

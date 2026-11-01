@@ -1,0 +1,288 @@
+{
+ "data": "2026-11-01",
+ "gerado_em": "2026-11-01T11:51:53.631257+00:00",
+ "itens": [
+  {
+   "id": "nvd:CVE-2026-120209",
+   "titulo": "CVE-2026-120209: AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline",
+   "resumo": "AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline. Attackers can mint a token with reportCode 'dataSet' to access the testTransform endpoint, which passes scripts to GroovyClassLoader for unauthenticated remote code execution.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120209",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-10-31T18:17:09.263000+00:00",
+   "pontuacao": 63.9,
+   "cves": [
+    "CVE-2026-120209"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-120209: AJ-Report através de sinais 1.7.1 compartilham tokens com um segredo JWT codificado, permitindo que os atacantes forjem Share-Tokens válidos offline",
+   "resumo_pt": "Os sinais AJ-Report através do 1.7.1 compartilham tokens com um segredo JWT codificado, permitindo que os atacantes forjem tokens de compartilhamento válidos offline. Os atacantes podem cunhar um token com o reportCode 'dataSet' para aceder ao…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-120198",
+   "titulo": "CVE-2026-120198: A vulnerability has been found in WAVLINK WL-WN530BE1-A V251117",
+   "resumo": "A vulnerability has been found in WAVLINK WL-WN530BE1-A V251117. Affected is the function con_check_read_finish of the file /protocol.csp. Such manipulation of the argument group_name/IP-FROM leads to command injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120198",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-01T05:18:57.620000+00:00",
+   "pontuacao": 56.2,
+   "cves": [
+    "CVE-2026-120198"
+   ],
+   "etiquetas": [
+    "CVSS 10.0"
+   ],
+   "titulo_pt": "CVE-2026-120198: Foi encontrada uma vulnerabilidade no WAVLINK WL-WN530BE1-A V251117",
+   "resumo_pt": "Foi encontrada uma vulnerabilidade no WAVLINK WL-WN530BE1-A V251117. Afetada é a função con_check_read_finish do ficheiro /protocolo.csp. Tal manipulação do argumento group_NAME/IP-FROM leva...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-120195",
+   "titulo": "CVE-2026-120195: A security vulnerability has been detected in WAVLINK WL-WN579A3-A 2026-03-10-94f93d4",
+   "resumo": "A security vulnerability has been detected in WAVLINK WL-WN579A3-A 2026-03-10-94f93d4. The impacted element is the function set_wzdgwMesh of the file /cgi-bin/adm.cgi of the component Initial Setup Wizard. The manipulation of the argument wlan_ssid leads to os command injection. The attack is possible to be carried out remotely. The exploit has been disclosed publicly and may be used. The vendor was contacted early about this disclosure.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120195",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-01T04:18:46.687000+00:00",
+   "pontuacao": 55.9,
+   "cves": [
+    "CVE-2026-120195"
+   ],
+   "etiquetas": [
+    "CVSS 10.0"
+   ],
+   "titulo_pt": "CVE-2026-120195: Foi detectada uma vulnerabilidade de segurança no WAVLINK WL-WN579A3-A 2026-03-10-94f93d4",
+   "resumo_pt": "Foi detectada uma vulnerabilidade de segurança no WAVLINK WL-WN579A3-A 2026-03-10-94f93d4. O elemento impactado é a função set_wzdgwMesh do ficheiro /cgi-bin/adm.cgi do componente Initial Setup…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-120196",
+   "titulo": "CVE-2026-120196: A vulnerability was detected in WAVLINK WN579X3-D V250402",
+   "resumo": "A vulnerability was detected in WAVLINK WN579X3-D V250402. This affects the function port_forward of the file /cgi-bin/wapi.cgi. The manipulation of the argument Name results in os command injection. The attack may be performed from remote. The exploit is now public and may be used. The vendor was contacted early about this disclosure.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120196",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-01T04:18:46.943000+00:00",
+   "pontuacao": 55.3,
+   "cves": [
+    "CVE-2026-120196"
+   ],
+   "etiquetas": [
+    "CVSS 9.9"
+   ],
+   "titulo_pt": "CVE-2026-120196: Foi detectada uma vulnerabilidade no WAVLINK WN579X3-D V250402",
+   "resumo_pt": "Foi detectada uma vulnerabilidade no WAVLINK WN579X3-D V250402. Isso afeta a função port_forward do ficheiro /cgi-bin/wapi.cgi. A manipulação do argumento Name resulta na injeção do comando os…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-120197",
+   "titulo": "CVE-2026-120197: A flaw has been found in WAVLINK WL-WN530HG4B M_V260724",
+   "resumo": "A flaw has been found in WAVLINK WL-WN530HG4B M_V260724. This impacts the function port_forward of the file /cgi-bin/wapi.cgi. This manipulation of the argument Name causes os command injection. It is possible to initiate the attack remotely. The exploit has been published and may be used. The vendor was contacted early about this disclosure.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120197",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-01T04:18:47.147000+00:00",
+   "pontuacao": 55.3,
+   "cves": [
+    "CVE-2026-120197"
+   ],
+   "etiquetas": [
+    "CVSS 9.9"
+   ],
+   "titulo_pt": "CVE-2026-120197: Foi encontrada uma falha no WAVLINK WL-WN530HG4B M_V260724",
+   "resumo_pt": "Foi encontrada uma falha no WAVLINK WL-WN530HG4B M_V260724. Isso afeta a função port_forward do ficheiro /cgi-bin/wapi.cgi. Essa manipulação do argumento Name causa injeção de comando os. Ele…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-120189",
+   "titulo": "CVE-2026-120189: A vulnerability was identified in D-Link DIR-505 1.10B02",
+   "resumo": "A vulnerability was identified in D-Link DIR-505 1.10B02. Affected is the function save_upload_file/mp_upload_file of the file /usr/bin/tftpd of the component TFTP Upload Filename Handler. The manipulation leads to stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit is publicly available and might be used.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120189",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-01T01:17:16.877000+00:00",
+   "pontuacao": 55.1,
+   "cves": [
+    "CVE-2026-120189"
+   ],
+   "etiquetas": [
+    "CVSS 10.0"
+   ],
+   "titulo_pt": "CVE-2026-120189: Foi identificada uma vulnerabilidade no D-Link DIR-505 1.10B02",
+   "resumo_pt": "Foi identificada uma vulnerabilidade na D-Link DIR-505 1.10B02. Afetada é a função save_upload_file/mp_upload_file do ficheiro /usr/bin/tftpd do componente TFTP Upload Filename Handler. O…",
+   "traduzido": true
+  },
+  {
+   "id": "475c39df4ec690c2",
+   "titulo": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+   "resumo": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate. Once in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
+   "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-01T08:51:31+00:00",
+   "pontuacao": 40.2,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Falha do CVSS 10.0 LXD, MicroCloud permite que atacantes se passem por clientes confiáveis sem uma chave privada",
+   "resumo_pt": "Uma falha crítica no LXD e no MicroCloud da Canonical permitiu que um atacante fizesse login como um cliente confiável sem manter a chave privada desse cliente. Para fazer isso, o atacante precisava acessar a API https pelo...",
+   "traduzido": true
+  },
+  {
+   "id": "80ea3f790938b473",
+   "titulo": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+   "resumo": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user IDs, and organizational roles. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-31T12:50:09+00:00",
+   "pontuacao": 38.6,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Chainalysis divulga fuga de dados de \"técnicas agênticas ofensivas\"",
+   "resumo_pt": "A empresa de análise de blockchain Chainalysis divulgou uma fuga de dados depois que os atacantes usaram \"técnicas agênticas ofensivas\" para acessar sistemas e ferramentas internas, expondo nomes de clientes, endereços de e-mail, utilizadores...",
+   "traduzido": true
+  },
+  {
+   "id": "9a9c7ae127735754",
+   "titulo": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+   "resumo": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company. Polymarket says it is refunding about $2.7 million to 726 affected wallets. Blockchain records show crypto worth about $2.64 million reached",
+   "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-01T07:25:40+00:00",
+   "pontuacao": 33.8,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Hackers roubam cerca de $ 2,7 milhões de traders do Polymarket por meio do script DebugBear sequestrado",
+   "resumo_pt": "Código malicioso no site do mercado de previsão Polymarket vendeu algumas posições de traders conectados e transferiu seus fundos para os hackers em 29 de outubro. O código substituiu um script de velocidade de página que...",
+   "traduzido": true
+  },
+  {
+   "id": "77867c1a3e93bbaf",
+   "titulo": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+   "resumo": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899. The FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI), said it",
+   "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-01T07:03:00+00:00",
+   "pontuacao": 33.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "FBI vincula TraderTraitor da Coreia do Norte a roubo recorde de $ 6,43 bilhões da Binance",
+   "resumo_pt": "O Federal Bureau of Investigation (FBI) dos EUA atribuiu oficialmente o roubo de mais de $ 6 bilhões em ativos virtuais à TraderTraitor, um grupo de hackers de elite alinhado à Coreia do Norte que também rastreou...",
+   "traduzido": true
+  },
+  {
+   "id": "1b52ce14888974c1",
+   "titulo": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+   "resumo": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and involves the deployment of a previously undocumented .NET assembly-loading framework codenamed",
+   "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-01T07:02:58+00:00",
+   "pontuacao": 33.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "O malware NetamLoader tem como alvo os sistemas governamentais Windows 10 na Ásia por meio da injeção .NET",
+   "resumo_pt": "Investigadores de cibersegurança divulgaram detalhes do que foi descrito como uma \"cadeia de infecção altamente sofisticada\" visando organizações governamentais na Ásia. A atividade, detalhada pela Kaspersky...",
+   "traduzido": true
+  },
+  {
+   "id": "9bb9f09dc3ac9075",
+   "titulo": "Northflank security breach leads to abuse of customers' AI API keys",
+   "resumo": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-31T18:01:12+00:00",
+   "pontuacao": 30.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Violação de segurança do Northflank leva ao abuso das chaves de API de IA dos clientes",
+   "resumo_pt": "A plataforma de hospedagem de aplicações em nuvem Northflank está a alertar os clientes para girar todas as credenciais e segredos armazenados em sua plataforma depois que uma violação de segurança levou ao uso não autorizado da API de IA dos clientes...",
+   "traduzido": true
+  },
+  {
+   "id": "b65441b6fb2b5a93",
+   "titulo": "New Android SMS of Death exploit can remotely crash unpatched phones",
+   "resumo": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-31T15:35:11+00:00",
+   "pontuacao": 29.4,
+   "cves": [
+    "CVE-2026-58882"
+   ],
+   "etiquetas": [],
+   "titulo_pt": "A nova exploração de SMS de morte do Android pode travar remotamente telefones não corrigidos",
+   "resumo_pt": "Um investigador de segurança lançou uma exploração de prova de conceito para uma vulnerabilidade do Android recentemente corrigida, apelidada de \"SMS da Morte\" e rastreada como CVE-2026-58882, que permite que os atacantes interrompam remotamente...",
+   "traduzido": true
+  },
+  {
+   "id": "cf7bf66c31737ed8",
+   "titulo": "Reddit to lock content behind logins to fight scrapers",
+   "resumo": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-31T14:05:15+00:00",
+   "pontuacao": 29.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "O Reddit bloqueia o conteúdo por trás dos logins para combater os raspadores",
+   "resumo_pt": "O Reddit anunciou em uma publicação do cofundador Steve Huffman que o site se tornará gradualmente um \"serviço conectado\", oferecendo acesso limitado a visitantes sem contas. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "31fd152f9956be6a",
+   "titulo": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+   "resumo": "AI-generated vulnerability reports are overwhelming some bug bounty programs, making it harder for aspiring security researchers to know where to start. TryHackMe explains how beginners can build practical cybersecurity skills, use AI responsibly, and produce reproducible findings that stand up to scrutiny. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-31T13:10:19+00:00",
+   "pontuacao": 28.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era (Do iniciante ao caçador de bugs: aprendendo",
+   "resumo_pt": "Os relatórios de vulnerabilidade gerados por IA estão a sobrecarregar alguns programas de recompensas por bugs, tornando mais difícil para os aspirantes a investigadores de segurança saberem por onde começar. TryHackMe explica como os iniciantes podem construir...",
+   "traduzido": true
+  },
+  {
+   "id": "d6ad234eaf6da46c",
+   "titulo": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+   "resumo": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens. \"This month, Chainalysis detected an external actor using offensive agentic",
+   "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-10-31T12:01:56+00:00",
+   "pontuacao": 28.4,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Chainalysis Confirma Intrusão em Ferramentas Internas e Exposição de Dados de Identidade do Cliente",
+   "resumo_pt": "A empresa americana de análise de blockchain Chainalysis disse que foi alvo de um incidente de cibersegurança no qual um ator externo acessou dados não confidenciais de clientes. No entanto, a empresa observou que o...",
+   "traduzido": true
+  }
+ ]
+}
