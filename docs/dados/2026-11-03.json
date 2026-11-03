@@ -1,0 +1,338 @@
+{
+ "data": "2026-11-03",
+ "gerado_em": "2026-11-03T12:49:14.168458+00:00",
+ "itens": [
+  {
+   "id": "0a5e43d574ac43b3",
+   "titulo": "Ciberataques afetam supermercados em vários países europeus. Portugal também está entre os alvos",
+   "resumo": "Supermercados de vários países europeus foram afetados por ciberataques contra os sistemas de refrigeração e congelação. Em Portugal, pelo menos sete lojas Intermarché foram afetadas. Os incidentes estão a ser investigados, mas, até ao momento, a autoria dos ataques ainda não foi reivindicada. The post Ciberataques afetam supermercados em vários países europeus. Portugal também está entre os alvos appeared first on Tek Notícias .",
+   "url": "https://tek.sapo.pt/noticias/internet/artigos/supermercados-europeus-voltam-a-ser-alvo-de-ciberataques-incidentes-afetam-frigorificos-e-congeladores-em-varios-paises/",
+   "fonte": "SAPO Tek",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-11-02T15:19:41+00:00",
+   "pontuacao": 44.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "5656f14a20a101f7",
+   "titulo": "Apple alerta utilizadores em 99 países para ataques de spyware mercenário",
+   "resumo": "A Apple emitiu uma nova vaga de alertas de segurança para utilizadores em 99 países, avisando sobre possíveis ataques de spyware mercenário. As autoridades alemãs já estão a investigar relatos de que deputados e membros do governo possam ter sido visados. Alerta da Apple para spyware mercenário Segundo o Financial Times e o TechCrunch, a […]",
+   "url": "https://pplware.sapo.pt/apple/apple-alerta-utilizadores-em-99-paises-para-ataques-de-spyware-mercenario/",
+   "fonte": "Pplware",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-11-03T09:30:00+00:00",
+   "pontuacao": 29.1,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "ecf977d1a9b859fc",
+   "titulo": "Tem uma destas boxes Android TV? Google cortou o acesso a um malware pré-instalado",
+   "resumo": "A compra de leitores multimédia económicos com Android é uma prática comum, mas os riscos associados voltaram a ser expostos. A Google confirmou uma operação para desmantelar uma rede criminosa suportada por backdoors instaladas de fábrica em mais de 1,3 milhões de dispositivos. A vulnerabilidade não resultou de falhas acidentais de segurança, mas antes de […]",
+   "url": "https://pplware.sapo.pt/smartphones-tablets/android/tem-uma-destas-boxes-android-tv-google-cortou-o-acesso-a-um-malware-pre-instalado/",
+   "fonte": "Pplware",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-11-03T08:00:00+00:00",
+   "pontuacao": 28.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "nvd:CVE-2026-86596",
+   "titulo": "CVE-2026-86596: The s2Member plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, <= 260927 via the 'item_name'…",
+   "resumo": "The s2Member plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, <= 260927 via the 'item_name' parameter parameter. This is due to insufficient sanitization in strip_php_tags_deep(), which only strips literal '<?' sequences, combined with a post-interpolation placeholder cleanup that reassembles a valid '<?php' opener after the attacker-controlled value has already been embedded in the email template. This makes it possible for authenticated attackers, with custom-level access and above, to execute code on the server.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86596",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-02T22:17:23.490000+00:00",
+   "pontuacao": 64.8,
+   "cves": [
+    "CVE-2026-86596"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-86596: O plugin s2Member para WordPress é vulnerável à Execução Remota de Código em todas as versões até, e incluindo, <= 260927 através do 'item_name'...",
+   "resumo_pt": "O plugin s2Member para WordPress é vulnerável à Execução Remota de Código em todas as versões até, e incluindo, <= 260927 através do parâmetro 'item_name'. Isso se deve à insuficiência...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-102435",
+   "titulo": "CVE-2026-102435: The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in…",
+   "resumo": "The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the _getObjAttr function in all versions up to, and including, 3.5.54. This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). This requires the PDF Generator add-on to be active and a Contact Form 7 form to be configured for PDF generation, as the WPCF7_Submission POP gadget chain relies on CF7 being present to…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102435",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-02T20:17:26.287000+00:00",
+   "pontuacao": 64.2,
+   "cves": [
+    "CVE-2026-102435"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-102435: O plugin Ultra Addons for Contact Form 7 para WordPress é vulnerável à exclusão arbitrária de ficheiros devido à validação insuficiente do caminho do ficheiro em...",
+   "resumo_pt": "O plugin Ultra Addons for Contact Form 7 para WordPress é vulnerável à exclusão arbitrária de ficheiros devido à validação insuficiente do caminho do ficheiro na função_getObjAttr em todas as versões até, e...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-120534",
+   "titulo": "CVE-2026-120534: The Advanced Custom Fields: Extended PRO plugin for WordPress is vulnerable to Limited Code Injection in all versions up to, and including…",
+   "resumo": "The Advanced Custom Fields: Extended PRO plugin for WordPress is vulnerable to Limited Code Injection in all versions up to, and including, 0.9.2.6 via the render_field function. This is due to insufficient validation of form configuration parameters before merging into field settings and passing to call_user_func_array in the render_field method. This makes it possible for unauthenticated attackers to call arbitrary WordPress functions with controlled arguments. Method 1 requires the administrator to enable the non-default 'shortcode_preview' setting for the target form, while Method 2…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120534",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-03T05:18:31.987000+00:00",
+   "pontuacao": 54.7,
+   "cves": [
+    "CVE-2026-120534"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-120534: O plugin Advanced Custom Fields: Extended PRO para WordPress é vulnerável à injeção limitada de código em todas as versões até, e incluindo...",
+   "resumo_pt": "O plugin Advanced Custom Fields: Extended PRO para WordPress é vulnerável à Injeção de Código Limitado em todas as versões até, e incluindo, 0.9.2.6 através da função render_field. Isso se deve a...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-77876",
+   "titulo": "CVE-2026-77876: Control Web Panel (CWP) before webpanel_version 1.16 contains an OS command injection vulnerability in the protected_directory user panel…",
+   "resumo": "Control Web Panel (CWP) before webpanel_version 1.16 contains an OS command injection vulnerability in the protected_directory user panel module that allows attackers to execute arbitrary commands by submitting unescaped input through the file POST parameter in the acc=deletedp action. Attackers can exploit this flaw, which passes attacker-controlled input directly into a shell_exec call, to achieve code execution in the user panel context.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77876",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-02T16:17:43.293000+00:00",
+   "pontuacao": 51.1,
+   "cves": [
+    "CVE-2026-77876"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-77876: Control Web Panel (CWP) before webpanel_version 1.16 contains an OS command injection vulnerability in the protected_directory user panel…",
+   "resumo_pt": "Control Web Panel (CWP) antes do webpanel_version 1.16 contém uma vulnerabilidade de injeção de comando OS no módulo do painel de utilizador protected_directory que permite que os atacantes executem comandos arbitrários por…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-120442",
+   "titulo": "CVE-2026-120442: ape-volo-admin before 3.6.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator…",
+   "resumo": "ape-volo-admin before 3.6.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tokens using a hardcoded JWT signing key in appsettings.json. Attackers can sign tokens offline with the jti claim set to the seeded administrator id to gain full API control over users, roles, permissions and data.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120442",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-02T15:17:26.490000+00:00",
+   "pontuacao": 50.8,
+   "cves": [
+    "CVE-2026-120442"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-120442: ape-volo-admin antes de 3.6.1 contém uma vulnerabilidade de desvio de autenticação que permite que atacantes não autenticados forjem o administrador...",
+   "resumo_pt": "ape-volo-admin antes de 3.6.1 contém uma vulnerabilidade de desvio de autenticação que permite que atacantes não autenticados forjem tokens de administrador usando uma chave de assinatura JWT codificada em appsettings.json…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-120518",
+   "titulo": "CVE-2026-120518: The BuddyPress XProfile Image Field plugin for WordPress is vulnerable to arbitrary file deletion in all versions up to, and including, 3.1.0",
+   "resumo": "The BuddyPress XProfile Image Field plugin for WordPress is vulnerable to arbitrary file deletion in all versions up to, and including, 3.1.0. This is due to bpxp_image_field_update_on_user_activation() calling unlink() on a path built from visitor-supplied signup metadata with no realpath() resolution, no containment check against the profile-image directory and no extension allow-list. Submitting a zero-byte file with the 'field_N_hidden' parameter during registration makes the plugin store the raw value, which is then resolved against the document root when the pending signup is activated…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120518",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-03T05:18:31.380000+00:00",
+   "pontuacao": 50.5,
+   "cves": [
+    "CVE-2026-120518"
+   ],
+   "etiquetas": [
+    "CVSS 9.1"
+   ],
+   "titulo_pt": "CVE-2026-120518: O plugin BuddyPress XProfile Image Field para WordPress é vulnerável à exclusão arbitrária de ficheiros em todas as versões até 3.1.0",
+   "resumo_pt": "O plugin BuddyPress XProfile Image Field para WordPress é vulnerável à exclusão arbitrária de ficheiros em todas as versões até 3.1.0, inclusive. Isso se deve a...",
+   "traduzido": true
+  },
+  {
+   "id": "923a6f68d1dc2a26",
+   "titulo": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+   "resumo": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
+   "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-03T07:43:07+00:00",
+   "pontuacao": 48.6,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Dispositivos nas Synology direcionados a ataques de ransomware que exploram a falha DSM corrigida",
+   "resumo_pt": "A Synology está a pedir aos clientes que atualizem o software DiskStation Manager (DSM) que alimenta seus dispositivos Network Attached Storage (nas) após ataques de ransomware. O vendedor taiwanês disse que observou...",
+   "traduzido": true
+  },
+  {
+   "id": "531efb27f6159372",
+   "titulo": "Harvard University data breach exposed info of 851,000 accounts",
+   "resumo": "Hackers who breached Harvard University's Alumni Affairs and Development systems in November 2025 stole data linked to more than 850,000 unique email addresses, according to breach notification service Have I Been Pwned. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-03T10:53:25+00:00",
+   "pontuacao": 44.5,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Fuga de dados da Universidade de Harvard expôs informações de 851.000 contas",
+   "resumo_pt": "Os hackers que violaram os sistemas de Assuntos e Desenvolvimento de Ex-Alunos da Universidade de Harvard em novembro de 2025 roubaram dados vinculados a mais de 850.000 endereços de e-mail exclusivos, de acordo com a notificação de violação...",
+   "traduzido": true
+  },
+  {
+   "id": "cd17200bec849aee",
+   "titulo": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+   "resumo": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running",
+   "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-03T05:34:41+00:00",
+   "pontuacao": 39.0,
+   "cves": [
+    "CVE-2026-58115"
+   ],
+   "etiquetas": [],
+   "titulo_pt": "Atacantes exploram falha crítica do Siemens IoT2050 para plantar backdoors de comando remoto",
+   "resumo_pt": "Uma falha de segurança de gravidade máxima que afeta os dispositivos avançados Siemens SIMATIC IoT2050 está sob exploração ativa, revelou a VulnCheck. A vulnerabilidade, rastreada como CVE-2026-58115 (CVSS…",
+   "traduzido": true
+  },
+  {
+   "id": "adc722ef6f8bb031",
+   "titulo": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+   "resumo": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against",
+   "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-02T16:57:56+00:00",
+   "pontuacao": 38.5,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Resumo ⚡ semanal: CVEs críticos, botnet DDoS para Linux, phishing de código de dispositivo, spyware para Android e muito mais",
+   "resumo_pt": "Alguns ataques desta semana não precisaram de muito truque. Uma chamada de suporte falsa, uma extensão confiável, um link compartilhado ou um dispositivo sem palavra-passe. Pequenas coisas em que as pessoas mal pensam. No entanto, cada um era...",
+   "traduzido": true
+  },
+  {
+   "id": "43a45abe0c3f3e56",
+   "titulo": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+   "resumo": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google. Google says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals. They used the boxes for ad fraud and to pass other people's internet traffic through owners' home",
+   "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-02T15:50:26+00:00",
+   "pontuacao": 37.2,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Google interrompe a botnet Android de 1,3 milhão de dispositivos, diz que fabricante de caixas de TV vendeu acesso criminoso",
+   "resumo_pt": "Uma botnet de mais de 1,3 milhão de dispositivos Android, principalmente decodificadores de TV, perdeu o controle de seus servidores no final de outubro, em uma derrubada liderada pelo Google. O Google diz que está altamente confiante de que o dispositivo...",
+   "traduzido": true
+  },
+  {
+   "id": "be72867527b132f3",
+   "titulo": "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs",
+   "resumo": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new top-tier reward for high-impact architectural security flaws. [...]",
+   "url": "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-03T12:05:52+00:00",
+   "pontuacao": 34.8,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Google adiciona nova recompensa de $ 250.000 em Cloud VRP para bugs Root-in-Cloud",
+   "resumo_pt": "O Google expandiu seu Cloud Vulnerability Reward Program (VRP) com uma nova recompensa de primeira linha para falhas de segurança arquitetônica de alto impacto. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "0539d07ef28f9ef3",
+   "titulo": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+   "resumo": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update. The flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can",
+   "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-03T11:23:53+00:00",
+   "pontuacao": 34.6,
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "etiquetas": [],
+   "titulo_pt": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+   "resumo_pt": "Os kernels corrigidos para uma vulnerabilidade de uso pós-livre no código TCP IPv4 do kernel Linux agora estão disponíveis para o Red Hat Enterprise Linux 8, 9 e 10, enquanto as correções do Ubuntu para seus três mais novos...",
+   "traduzido": true
+  },
+  {
+   "id": "32607fa838bd3a98",
+   "titulo": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+   "resumo": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown say the action is likely to sever the botnet's access to more than 10 million additional compromised systems, including other Internet of Things (IoT) products such as Android-based healthcare devices and karaoke machines.",
+   "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+   "fonte": "Krebs on Security",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-03T02:24:31+00:00",
+   "pontuacao": 32.1,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Empresas de tecnologia desmantelam botnet que transformou 1,3 milhão de caixas de TV em proxies",
+   "resumo_pt": "O Google disse hoje que trabalhou com parceiros da indústria para desmantelar uma botnet composta por mais de 1,3 milhão de decodificadores de Android TV que são fornecidos com software malicioso que aluga secretamente os...",
+   "traduzido": true
+  },
+  {
+   "id": "a5176becbb240c1d",
+   "titulo": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+   "resumo": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-02T21:40:14+00:00",
+   "pontuacao": 30.8,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Hackers chineses usam IA da ARTEX em ataques automatizados contra 200 organizações",
+   "resumo_pt": "Os hackers chineses usaram a ARTEX, uma estrutura de teste de penetração de IA de código aberto e com vários agentes, em ataques contra mais de 200 organizações em 14 países. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "3ac01fc8940f2831",
+   "titulo": "Fintech platform Sageworks taken offline after suspected cyberattack",
+   "resumo": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-02T19:00:45+00:00",
+   "pontuacao": 30.1,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  }
+ ]
+}
