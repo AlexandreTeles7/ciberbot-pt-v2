@@ -1,0 +1,394 @@
+{
+ "data": "2026-11-04",
+ "gerado_em": "2026-11-04T13:01:50.866225+00:00",
+ "itens": [
+  {
+   "id": "3b60483ee5fd7217",
+   "titulo": "AlertaFraude: site português ajuda a identificar burlas e a saber como agir",
+   "resumo": "As burlas online estão cada vez mais sofisticadas e podem chegar por SMS, email, chamadas telefónicas, redes sociais ou através de anúncios fraudulentos. Perante tantas ameaças, saber identificar os sinais de alerta é fundamental. É precisamente neste contexto que surge o AlertaFraude, uma plataforma portuguesa dedicada à prevenção e esclarecimento sobre fraudes. O site disponibiliza […]",
+   "url": "https://pplware.sapo.pt/internet/alertafraude-site-portugues-ajuda-a-identificar-burlas-e-a-saber-como-agir/",
+   "fonte": "Pplware",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-11-03T22:49:17+00:00",
+   "pontuacao": 46.1,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "effe275183c17117",
+   "titulo": "4 mil empresas já fizeram o registo na plataforma do Regime Jurídico da Cibersegurança",
+   "resumo": "Cerca de 4 mil empresas já cumpriram o registo na plataforma MyCiber, avançou Tiago Macieirinha, secretário de Estado da Presidência do Conselho de Ministros, que sublinhou que “o Governo assumiu a cibersegurança como uma prioridade da sua ação”. The post 4 mil empresas já fizeram o registo na plataforma do Regime Jurídico da Cibersegurança appeared first on Tek Notícias .",
+   "url": "https://tek.sapo.pt/noticias/internet/artigos/4-mil-empresas-ja-fizeram-o-registo-na-plataforma-do-regime-juridico-da-ciberseguranca/",
+   "fonte": "SAPO Tek",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-11-04T12:20:31+00:00",
+   "pontuacao": 29.8,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "82869ab1c5811ee9",
+   "titulo": "Nuno Melo alvo de ataque informático: hackers usaram o WhatsApp até para tentar roubar dinheiro",
+   "resumo": "O telemóvel do ministro da Defesa Nacional, Nuno Melo, foi alvo de um ataque informático que permitiu a terceiros utilizar o seu número de telefone e enviar mensagens através do WhatsApp, fazendo-se passar pelo governante. Cidadãos pela Cibersegurança pede explicações ao Governo. O caso aconteceu durante uma deslocação oficial a Atenas, na Grécia. Segundo Nuno […]",
+   "url": "https://pplware.sapo.pt/internet/nuno-melo-alvo-de-ataque-informatico-hackers-usaram-o-whatsapp-ate-para-tentar-roubar-dinheiro/",
+   "fonte": "Pplware",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-11-03T21:30:00+00:00",
+   "pontuacao": 25.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "95ebfda0a670079d",
+   "titulo": "Alemanha investiga possível ataque com spyware a iPhones de deputados e membros do governo",
+   "resumo": "A Apple alertou utilizadores em 99 países para possíveis ataques com spyware, incluindo membros do parlamento e do governo alemão. As autoridades já aconselharam os afetados a assumir que os seus equipamentos poderão ter sido comprometidos. The post Alemanha investiga possível ataque com spyware a iPhones de deputados e membros do governo appeared first on Tek Notícias .",
+   "url": "https://tek.sapo.pt/noticias/internet/artigos/alemanha-investiga-possivel-ataque-com-spyware-a-iphones-de-deputados-e-membros-do-governo/",
+   "fonte": "SAPO Tek",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-11-03T18:35:03+00:00",
+   "pontuacao": 24.9,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "df92b48a596a42b5",
+   "titulo": "À procura de um iPhone Duo? Burlas e sites falsos usam dobrável da Apple para roubar dados e dinheiro",
+   "resumo": "Os investigadores da Kaspersky detetaram várias tentativas de burla que envolvem o iPhone Duo, com sites falsos que prometem descontos e que imitam o design da Apple. Os esquemas podem resultar em perdas financeiras e recorrem a diferentes estratégias para tentar convencer as vítimas a partilhar dados pessoais. The post À procura de um iPhone Duo? Burlas e sites falsos usam dobrável da Apple para roubar dados e dinheiro appeared first on Tek Notícias .",
+   "url": "https://tek.sapo.pt/noticias/internet/artigos/a-procura-de-um-iphone-duo-burlas-e-sites-falsos-usam-dobravel-da-apple-para-roubar-dados-e-dinheiro/",
+   "fonte": "SAPO Tek",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-11-03T16:23:48+00:00",
+   "pontuacao": 24.3,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "kev:CVE-2026-119977",
+   "titulo": "CVE-2026-119977: WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability",
+   "resumo": "WordPress WordPress Core contains a time-of-check time-of-use (TOCTOU) race condition vulnerability that could allow unauthenticated attackers to execute code on the server during the upgrade window. This is due to predictable, web-accessible staging paths used during full-package core upgrades.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119977",
+   "fonte": "CISA — Vulnerabilidades exploradas (KEV)",
+   "idioma": "en",
+   "categoria": "exploradas",
+   "publicado": "2026-11-03T12:00:00+00:00",
+   "pontuacao": 63.0,
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "etiquetas": [
+    "Explorada ativamente",
+    "Prazo CISA: 06/11/2026"
+   ],
+   "titulo_pt": "CVE-2026-119977: Vulnerabilidade de Condição de Corrida do WordPress Core Time-of-check Time-of-use (TOCTOU)",
+   "resumo_pt": "O WordPress WordPress Core contém uma vulnerabilidade de condição de tempo de uso (TOCTOU) que pode permitir que atacantes não autenticados executem código no servidor durante a janela de atualização...",
+   "traduzido": true
+  },
+  {
+   "id": "ghsa:CVE-2026-44266",
+   "titulo": "CVE-2026-44266: Elo Ruby backend has Remote Code Execution via unescaped `#{...}` interpolation in emitted string literals and subtype-constraint labels",
+   "resumo": "Elo's Ruby backend emits attacker-controlled text into Ruby double-quoted strings without escaping the character. Because begins Ruby's interpolation sequences — {expr} , @ivar , @@cvar , $gvar — and any expression wrapped in {...} may use backticks for shell execution, an Elo program that contains a crafted string literal or a labelled subtype constraint compiles to Ruby that evaluates attacker-chosen Ruby, and through backticks runs attacker-chosen shell commands, at runtime. The same Elo source compiled to JavaScript, Python, or SQL is benign, so the bug also breaks the cross-target…",
+   "url": "https://github.com/advisories/GHSA-7w38-ggh5-v542",
+   "fonte": "GitHub Advisories — críticas",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-03T17:51:30+00:00",
+   "pontuacao": 63.5,
+   "cves": [
+    "CVE-2026-44266"
+   ],
+   "etiquetas": [
+    "CVSS 9.8",
+    "npm: @enspirit/elo"
+   ],
+   "titulo_pt": "CVE-2026-44266: Elo Ruby backend has Remote Code Execution via unescaped `#{...}` interpolation in emitted string literals and subtype-constraint labels",
+   "resumo_pt": "O back-end Ruby da Elo emite texto controlado pelo atacante em sequências de caracteres com aspas duplas do Ruby sem escapar do caractere. Porque começa as sequências de interpolação de Ruby — {expr} , @ivar , @@cvar , $gvar — e…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-121615",
+   "titulo": "CVE-2026-121615: A vulnerability was determined in Linksys E5600 1.1.0.26",
+   "resumo": "A vulnerability was determined in Linksys E5600 1.1.0.26. Affected is an unknown function of the file /cgi-bin/mesh_login.cgi of the component Login Handler. Executing a manipulation can lead to improper authentication. The attack can be launched remotely. The exploit has been publicly disclosed and may be utilized. The vendor was contacted early about this disclosure but did not respond in any way. This vulnerability only affects products that are no longer supported by the maintainer.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121615",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-04T03:17:14.810000+00:00",
+   "pontuacao": 55.3,
+   "cves": [
+    "CVE-2026-121615"
+   ],
+   "etiquetas": [
+    "CVSS 10.0"
+   ],
+   "titulo_pt": "CVE-2026-121615: Uma vulnerabilidade foi determinada no Linksys E5600 1.1.0.26",
+   "resumo_pt": "Uma vulnerabilidade foi determinada no Linksys E5600 1.1.0.26. Afetado é uma função desconhecida do ficheiro /cgi-bin/mesh_login.cgi do componente Login Handler. Executar uma manipulação pode levar a...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-121607",
+   "titulo": "CVE-2026-121607: A vulnerability was found in Qihoo 360 D603-2, D600-2, D606-6 and D706 up to 6.4.9",
+   "resumo": "A vulnerability was found in Qihoo 360 D603-2, D600-2, D606-6 and D706 up to 6.4.9. This affects the function testspeed_command of the file /fs2/bin/iscm. Performing a manipulation of the argument host results in os command injection. The attack may be initiated remotely. The exploit has been made public and could be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121607",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-04T02:17:19.753000+00:00",
+   "pontuacao": 55.0,
+   "cves": [
+    "CVE-2026-121607"
+   ],
+   "etiquetas": [
+    "CVSS 10.0"
+   ],
+   "titulo_pt": "CVE-2026-121607: Foi encontrada uma vulnerabilidade no Qihoo 360 D603-2, D600-2, D606-6 e D706 até 6.4.9",
+   "resumo_pt": "Foi encontrada uma vulnerabilidade no Qihoo 360 D603-2, D600-2, D606-6 e D706 até 6.4.9. Isso afeta a função testspeed_command do ficheiro /fs2/bin/iscm. Executando uma manipulação do argumento...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-121609",
+   "titulo": "CVE-2026-121609: A vulnerability was identified in Qihoo 360 Whole Home Router M5 4.0.17.1566",
+   "resumo": "A vulnerability was identified in Qihoo 360 Whole Home Router M5 4.0.17.1566. This issue affects the function Home of the file /etc/init.d/mpt of the component Boot Script. The manipulation leads to hard-coded credentials. Remote exploitation of the attack is possible. The exploit is publicly available and might be used. The vendor was contacted early about this disclosure but did not respond in any way.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121609",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-04T02:17:20.243000+00:00",
+   "pontuacao": 55.0,
+   "cves": [
+    "CVE-2026-121609"
+   ],
+   "etiquetas": [
+    "CVSS 10.0"
+   ],
+   "titulo_pt": "CVE-2026-121609: Foi identificada uma vulnerabilidade no Qihoo 360 Whole Home Router M5 4.0.17.1566",
+   "resumo_pt": "Foi identificada uma vulnerabilidade no Qihoo 360 Whole Home Router M5 4.0.17.1566. Esse problema afeta a função Início do ficheiro /etc/init.d/mpt do componente Script de inicialização. A manipulação leva a...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-121598",
+   "titulo": "CVE-2026-121598: A security vulnerability has been detected in TOTOLINK A950RG 4.1.2cu.5268_B20221104",
+   "resumo": "A security vulnerability has been detected in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the function strcpy of the file /cgi-bin/cstecgi.cgi of the component Basic Wireless Configuration Handler. The manipulation of the argument wepkey leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed publicly and may be used.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121598",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-04T01:17:23.160000+00:00",
+   "pontuacao": 54.1,
+   "cves": [
+    "CVE-2026-121598"
+   ],
+   "etiquetas": [
+    "CVSS 9.9"
+   ],
+   "titulo_pt": "CVE-2026-121598: Foi detectada uma vulnerabilidade de segurança no TOTOLINK A950RG 4.1.2cu.5268_B20221104",
+   "resumo_pt": "Foi detectada uma vulnerabilidade de segurança no TOTOLINK A950RG 4.1.2cu.5268_B20221104. Isso afeta a função strcpy do ficheiro /cgi-bin/cstecgi.cgi do componente Basic Wireless Configuration…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-121600",
+   "titulo": "CVE-2026-121600: A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104",
+   "resumo": "A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this vulnerability is the function setMacFilterRules of the file /cgi-bin/cstecgi.cgi of the component MAC Filter Handler. This manipulation of the argument addEffect causes stack-based buffer overflow. The attack can be initiated remotely. The exploit has been published and may be used.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121600",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-04T01:17:23.647000+00:00",
+   "pontuacao": 54.1,
+   "cves": [
+    "CVE-2026-121600"
+   ],
+   "etiquetas": [
+    "CVSS 9.9"
+   ],
+   "titulo_pt": "CVE-2026-121600: Foi encontrada uma falha no TOTOLINK A950RG 4.1.2cu.5268_B20221104",
+   "resumo_pt": "Foi encontrada uma falha no TOTOLINK A950RG 4.1.2cu.5268_B20221104. Afetado por esta vulnerabilidade está a função setMacFilterRules do ficheiro /cgi-bin/cstecgi.cgi do componente MAC Filter Handler…",
+   "traduzido": true
+  },
+  {
+   "id": "7da7001e78b0225e",
+   "titulo": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+   "resumo": "The US Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that attackers have started exploiting a recently patched high-severity WordPress vulnerability in the wild. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-04T12:11:05+00:00",
+   "pontuacao": 54.8,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "CISA sinaliza falha RCE do WordPress como ativamente explorada em ataques",
+   "resumo_pt": "A Agência de Cibersegurança e de Infraestrutura dos EUA (CISA) alertou as agências federais que os atacantes começaram a explorar uma vulnerabilidade de alta gravidade do WordPress recentemente corrigida na natureza...",
+   "traduzido": true
+  },
+  {
+   "id": "ff4fa7f7f457c5af",
+   "titulo": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+   "resumo": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",
+   "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-04T05:43:11+00:00",
+   "pontuacao": 48.0,
+   "cves": [
+    "CVE-2026-119977"
+   ],
+   "etiquetas": [
+    "Na lista KEV da CISA"
+   ],
+   "titulo_pt": "CISA confirma que hackers exploram a falha principal do WordPress durante atualizações de software",
+   "resumo_pt": "A Agência de Cibersegurança e de Infraestrutura dos EUA (CISA) adicionou uma falha de segurança no WordPress Core ao catálogo de Vulnerabilidades Exploradas Conhecidas (KEV), citando evidências de...",
+   "traduzido": true
+  },
+  {
+   "id": "aa00a83e706f1432",
+   "titulo": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+   "resumo": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-03T14:00:00+00:00",
+   "pontuacao": 43.6,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Propriedade escolar do Reino Unido atingida por ransomware ÀS 3H DA MANHÃ em suspeita de ataque assistido por IA",
+   "resumo_pt": "Um afiliado de ransomware DA 3AM atacou uma propriedade escolar no Reino Unido e criptografou com sucesso cerca de 37 das quase 50 máquinas alcançadas por um anfitrião não gerenciado. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "7d4c87ceae4423a3",
+   "titulo": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+   "resumo": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP). The campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
+   "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-04T11:24:31+00:00",
+   "pontuacao": 42.5,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Hackers Alinhados com a China Sequestram Solicitações de DNS do Método de Entrada Sogou para Implantar o Backdoor DarkVigil",
+   "resumo_pt": "Um agente de ameaças alinhado com a China conhecido como SlippyNunchucks foi atribuído a uma operação de sequestro do Sistema de Nomes de Domínio (DNS) abusando de comunicações HTTP inseguras nas versões do Windows do Sogou Input...",
+   "traduzido": true
+  },
+  {
+   "id": "2a0586978abf8da4",
+   "titulo": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+   "resumo": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-03T21:28:44+00:00",
+   "pontuacao": 40.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "O WorkOS diz que o atacante usou a IA da ARTEX para violar a aplicação de vendas interno",
+   "resumo_pt": "A plataforma de desenvolvimento WorkOS sofreu uma fuga de dados depois de um agente de ameaças ter acedido a registos de contactos comerciais e resumos de comunicações de clientes. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "29a62b990aed57d6",
+   "titulo": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+   "resumo": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 and 8.0.5.2. The flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
+   "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-04T12:07:04+00:00",
+   "pontuacao": 40.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Falha do Critical Rails permite que atacantes gravem ficheiros de servidor por meio de uploads de ImageMagick criados",
+   "resumo_pt": "Uma falha crítica no Ruby on Rails pode permitir que um atacante não autenticado escreva ficheiros arbitrários no servidor de uma aplicação, enviando um ficheiro criado se a aplicação processar uploads usando o ImageMagick. O…",
+   "traduzido": true
+  },
+  {
+   "id": "64f10897699a8adb",
+   "titulo": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+   "resumo": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its November security bulletin. The flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules. As of November 4, Google's bulletin did not report",
+   "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-04T07:46:15+00:00",
+   "pontuacao": 39.5,
+   "cves": [
+    "CVE-2026-58868"
+   ],
+   "etiquetas": [],
+   "titulo_pt": "O Google emite patches para falhas críticas do Android que podem permitir RCE sem interação do utilizador",
+   "resumo_pt": "Uma falha crítica do Android pode permitir que um atacante execute código num telemóvel sem qualquer ação do utilizador remotamente, disse a Google no seu boletim de segurança de novembro. A falha, CVE-2026-58868, afeta o Android 14...",
+   "traduzido": true
+  },
+  {
+   "id": "412bbcc50c0cc7e0",
+   "titulo": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+   "resumo": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-03T22:18:50+00:00",
+   "pontuacao": 38.9,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Hackers sequestram a atualização automática do cPGuard para implantar backdoor, roubar dados",
+   "resumo_pt": "Os atacantes comprometeram a infraestrutura de atualização do cPGuard web security suite para distribuir um backdoor e um script de roubo de dados. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "8d1e797803bc9077",
+   "titulo": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+   "resumo": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers. The script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The attacker has since taken some of that data. cPGuard 5.88.25 and later versions",
+   "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-03T15:16:32+00:00",
+   "pontuacao": 37.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "canal de Atualização do cPGuard Sequestrado para Servidores Linux Backdoor e Coleta de Hashes de Palavra-passe",
+   "resumo_pt": "Um atacante invadiu o sistema de atualização da ferramenta de segurança cPGuard em 2 de novembro e o usou para enviar um script malicioso para os servidores Linux dos clientes. O script instalou um backdoor e recolheu...",
+   "traduzido": true
+  },
+  {
+   "id": "1cc856094aec43aa",
+   "titulo": "Barracuda warns of critical flaws allowing root access to devices",
+   "resumo": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-03T15:06:16+00:00",
+   "pontuacao": 34.9,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  }
+ ]
+}

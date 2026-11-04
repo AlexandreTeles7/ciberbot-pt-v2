@@ -14,12 +14,15 @@
   "19245d87d714e4e2": "2026-10-27",
   "1b100421a944fc79": "2026-10-30",
   "1b52ce14888974c1": "2026-11-01",
+  "1cc856094aec43aa": "2026-11-04",
   "1ed402d754598112": "2026-10-29",
   "2317a10c8ae199b9": "2026-10-28",
   "2460d737b382d422": "2026-10-31",
   "247e49d809980bd7": "2026-10-29",
   "26df5102d24c001f": "2026-11-02",
+  "29a62b990aed57d6": "2026-11-04",
   "2a000ff73bb6f7ac": "2026-10-26",
+  "2a0586978abf8da4": "2026-11-04",
   "2c614b999eb78eb4": "2026-10-26",
   "2d972473d64427db": "2026-11-02",
   "30dfb98cd1b9df64": "2026-10-29",
@@ -33,9 +36,11 @@
   "36070a61b35a19b2": "2026-10-31",
   "3870674ce3d3bf77": "2026-10-31",
   "3ac01fc8940f2831": "2026-11-03",
+  "3b60483ee5fd7217": "2026-11-04",
   "3cff7520904e9c06": "2026-10-29",
   "3f633b938f53c831": "2026-10-28",
   "3f83b693ec236afb": "2026-10-30",
+  "412bbcc50c0cc7e0": "2026-11-04",
   "43a45abe0c3f3e56": "2026-11-03",
   "47209968a5bd49e4": "2026-10-31",
   "475c39df4ec690c2": "2026-11-01",
@@ -46,16 +51,20 @@
   "5656f14a20a101f7": "2026-11-03",
   "5ddff5f5623e4689": "2026-11-02",
   "621c6b9dc300a1c8": "2026-10-26",
+  "64f10897699a8adb": "2026-11-04",
   "65516a06ab6385eb": "2026-11-02",
   "70120db0203ae8dc": "2026-11-02",
   "77867c1a3e93bbaf": "2026-11-01",
   "7a185c8dd28887ab": "2026-10-28",
   "7a56590de43658cf": "2026-10-31",
+  "7d4c87ceae4423a3": "2026-11-04",
+  "7da7001e78b0225e": "2026-11-04",
   "7e4a62a39299b0f2": "2026-10-31",
   "7e7e16dcd7b29b4c": "2026-11-02",
   "7ed092b94a412e68": "2026-10-26",
   "7ff8a46d80fca6af": "2026-10-28",
   "80ea3f790938b473": "2026-11-01",
+  "82869ab1c5811ee9": "2026-11-04",
   "830de26ffc7eb649": "2026-11-02",
   "8312b7e4bcf8250d": "2026-10-29",
   "858c4af9cde14190": "2026-10-29",
@@ -63,9 +72,11 @@
   "877faff2da7d007c": "2026-11-02",
   "8c6a3be34f9e6140": "2026-11-02",
   "8c6e20208c035ba2": "2026-10-29",
+  "8d1e797803bc9077": "2026-11-04",
   "8efed39ee867a984": "2026-11-02",
   "923a6f68d1dc2a26": "2026-11-03",
   "931d1d1fb61725d1": "2026-10-30",
+  "95ebfda0a670079d": "2026-11-04",
   "9a9c7ae127735754": "2026-11-01",
   "9bb9f09dc3ac9075": "2026-11-01",
   "9c7dbd668911c763": "2026-10-26",
@@ -73,6 +84,7 @@
   "a212e990851bb9aa": "2026-10-31",
   "a5176becbb240c1d": "2026-11-03",
   "a5e06b6c2bd3e8ae": "2026-10-29",
+  "aa00a83e706f1432": "2026-11-04",
   "aba4498999919990": "2026-11-02",
   "ad4ab055d32c0e10": "2026-10-30",
   "adc722ef6f8bb031": "2026-11-03",
@@ -93,22 +105,26 @@
   "d7d0b1ca37bb0612": "2026-10-30",
   "da3d205db86b9086": "2026-10-26",
   "dbd63f3f484e39d8": "2026-10-26",
+  "df92b48a596a42b5": "2026-11-04",
   "e0ae260b2730b53a": "2026-10-26",
   "e0f0bac86d45ea83": "2026-10-29",
   "e3c586ca8891fcfe": "2026-10-28",
   "e7dae52ad41239d5": "2026-10-30",
   "e8c9ad44f915c99d": "2026-10-28",
   "ecf977d1a9b859fc": "2026-11-03",
+  "effe275183c17117": "2026-11-04",
   "f3a48995b714e9d8": "2026-10-27",
   "fa6478a9df14d955": "2026-10-29",
   "fb0c164b0656aa65": "2026-10-27",
   "fb157ab0a5ce75d8": "2026-10-27",
+  "ff4fa7f7f457c5af": "2026-11-04",
   "ff9ec537fd50f75c": "2026-10-30",
   "ghsa:CVE-2026-115893": "2026-10-29",
   "ghsa:CVE-2026-115905": "2026-10-30",
   "ghsa:CVE-2026-116692": "2026-10-28",
   "ghsa:CVE-2026-117601": "2026-10-30",
   "ghsa:CVE-2026-35002": "2026-10-28",
+  "ghsa:CVE-2026-44266": "2026-11-04",
   "ghsa:GHSA-4xm8-rg9h-jhq2": "2026-10-31",
   "ghsa:GHSA-hff9-5pqw-6w9f": "2026-10-31",
   "kev:CVE-2026-109618": "2026-10-27",
@@ -116,6 +132,7 @@
   "kev:CVE-2026-111357": "2026-10-31",
   "kev:CVE-2026-111497": "2026-10-28",
   "kev:CVE-2026-118527": "2026-10-31",
+  "kev:CVE-2026-119977": "2026-11-04",
   "kev:CVE-2026-41709": "2026-10-29",
   "kev:CVE-2026-46300": "2026-10-29",
   "kev:CVE-2026-48356": "2026-10-28",
@@ -152,6 +169,11 @@
   "nvd:CVE-2026-120442": "2026-11-03",
   "nvd:CVE-2026-120518": "2026-11-03",
   "nvd:CVE-2026-120534": "2026-11-03",
+  "nvd:CVE-2026-121598": "2026-11-04",
+  "nvd:CVE-2026-121600": "2026-11-04",
+  "nvd:CVE-2026-121607": "2026-11-04",
+  "nvd:CVE-2026-121609": "2026-11-04",
+  "nvd:CVE-2026-121615": "2026-11-04",
   "nvd:CVE-2026-42922": "2026-10-29",
   "nvd:CVE-2026-77876": "2026-11-03",
   "nvd:CVE-2026-84999": "2026-10-28",
@@ -159,10 +181,6 @@
   "nvd:CVE-2026-92885": "2026-10-27"
  },
  "titulos": {
-  "0131084012e5632c": [
-   "2026-10-27",
-   "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution"
-  ],
   "05324fe81587751b": [
    "2026-10-30",
    "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV"
@@ -174,10 +192,6 @@
   "0778766d81ebd40a": [
    "2026-10-28",
    "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed"
-  ],
-  "09ec1655cb59b082": [
-   "2026-10-27",
-   "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections"
   ],
   "0a5e43d574ac43b3": [
    "2026-11-03",
@@ -195,10 +209,6 @@
    "2026-10-30",
    "PHP2Shell: Vulnerabilidades já têm correção, mas a segurança dos sistemas está mesmo garantida?"
   ],
-  "19245d87d714e4e2": [
-   "2026-10-27",
-   "When an AI Agent Is the Incident, the Identity Record Is the Evidence"
-  ],
   "1b100421a944fc79": [
    "2026-10-30",
    "75% das PME consideram a ciberguerra uma ameaça aos negócios"
@@ -206,6 +216,10 @@
   "1b52ce14888974c1": [
    "2026-11-01",
    "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection"
+  ],
+  "1cc856094aec43aa": [
+   "2026-11-04",
+   "Barracuda warns of critical flaws allowing root access to devices"
   ],
   "1ed402d754598112": [
    "2026-10-29",
@@ -226,6 +240,14 @@
   "26df5102d24c001f": [
    "2026-11-02",
    "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data"
+  ],
+  "29a62b990aed57d6": [
+   "2026-11-04",
+   "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads"
+  ],
+  "2a0586978abf8da4": [
+   "2026-11-04",
+   "WorkOS says attacker used ARTEX AI to breach internal sales app"
   ],
   "2d972473d64427db": [
    "2026-11-02",
@@ -251,10 +273,6 @@
    "2026-11-03",
    "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies"
   ],
-  "33a9096f1329449b": [
-   "2026-10-27",
-   "Energy giant ENGIE discloses data breach affecting customers"
-  ],
   "35bed86130fbe803": [
    "2026-10-31",
    "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours"
@@ -271,6 +289,10 @@
    "2026-11-03",
    "Fintech platform Sageworks taken offline after suspected cyberattack"
   ],
+  "3b60483ee5fd7217": [
+   "2026-11-04",
+   "AlertaFraude: site português ajuda a identificar burlas e a saber como agir"
+  ],
   "3cff7520904e9c06": [
    "2026-10-29",
    "Volt Typhoon hides zero-day attacks using 'Silent Train' framework"
@@ -282,6 +304,10 @@
   "3f83b693ec236afb": [
    "2026-10-30",
    "Pentágono investiga avarias em congeladores de bases militares como possível ciberataque semelhante ao de França"
+  ],
+  "412bbcc50c0cc7e0": [
+   "2026-11-04",
+   "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data"
   ],
   "43a45abe0c3f3e56": [
    "2026-11-03",
@@ -299,10 +325,6 @@
    "2026-11-02",
    "Hackers invadem outdoors em vários países e transmitem pornografia na rua"
   ],
-  "4a36dea4db8df076": [
-   "2026-10-27",
-   "CISA confirms PHP2Shell vulnerabilities now exploited in attacks"
-  ],
   "5060525796dadc15": [
    "2026-10-28",
    "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass"
@@ -318,6 +340,10 @@
   "5ddff5f5623e4689": [
    "2026-11-02",
    "AT alerta para fraudes por e-mail e SMS. Saiba como se proteger"
+  ],
+  "64f10897699a8adb": [
+   "2026-11-04",
+   "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction"
   ],
   "65516a06ab6385eb": [
    "2026-11-02",
@@ -339,6 +365,14 @@
    "2026-10-31",
    "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%"
   ],
+  "7d4c87ceae4423a3": [
+   "2026-11-04",
+   "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor"
+  ],
+  "7da7001e78b0225e": [
+   "2026-11-04",
+   "CISA flags WordPress RCE flaw as actively exploited in attacks"
+  ],
   "7e4a62a39299b0f2": [
    "2026-10-31",
    "CISA says max severity GitLab flaw now exploited in the wild"
@@ -354,6 +388,10 @@
   "80ea3f790938b473": [
    "2026-11-01",
    "Chainalysis discloses data breach from \"offensive agentic techniques\""
+  ],
+  "82869ab1c5811ee9": [
+   "2026-11-04",
+   "Nuno Melo alvo de ataque informático: hackers usaram o WhatsApp até para tentar roubar dinheiro"
   ],
   "830de26ffc7eb649": [
    "2026-11-02",
@@ -383,6 +421,10 @@
    "2026-10-29",
    "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls"
   ],
+  "8d1e797803bc9077": [
+   "2026-11-04",
+   "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes"
+  ],
   "8efed39ee867a984": [
    "2026-11-02",
    "Alpine Linux rebuilds GitLab after attempted RCE attack"
@@ -394,6 +436,10 @@
   "931d1d1fb61725d1": [
    "2026-10-30",
    "Japan Airlines suffers third-party data breach exposing passenger info"
+  ],
+  "95ebfda0a670079d": [
+   "2026-11-04",
+   "Alemanha investiga possível ataque com spyware a iPhones de deputados e membros do governo"
   ],
   "9a9c7ae127735754": [
    "2026-11-01",
@@ -418,6 +464,10 @@
   "a5e06b6c2bd3e8ae": [
    "2026-10-29",
    "InfraTrust report warns of exploited flaws in critical network infrastructure"
+  ],
+  "aa00a83e706f1432": [
+   "2026-11-04",
+   "UK school estate hit by 3AM ransomware in suspected AI-assisted attack"
   ],
   "aba4498999919990": [
    "2026-11-02",
@@ -455,14 +505,6 @@
    "2026-11-03",
    "Google adds new $250,000 Cloud VRP reward for Root-in-Cloud bugs"
   ],
-  "bf76f6976935b8e5": [
-   "2026-10-27",
-   "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento"
-  ],
-  "c6df214dec8979c7": [
-   "2026-10-27",
-   "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses"
-  ],
   "ccf3e44e7f67cd8e": [
    "2026-10-31",
    "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving"
@@ -487,6 +529,10 @@
    "2026-10-30",
    "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw"
   ],
+  "df92b48a596a42b5": [
+   "2026-11-04",
+   "À procura de um iPhone Duo? Burlas e sites falsos usam dobrável da Apple para roubar dados e dinheiro"
+  ],
   "e0f0bac86d45ea83": [
    "2026-10-29",
    "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open"
@@ -507,21 +553,17 @@
    "2026-11-03",
    "Tem uma destas boxes Android TV? Google cortou o acesso a um malware pré-instalado"
   ],
-  "f3a48995b714e9d8": [
-   "2026-10-27",
-   "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers"
+  "effe275183c17117": [
+   "2026-11-04",
+   "4 mil empresas já fizeram o registo na plataforma do Regime Jurídico da Cibersegurança"
   ],
   "fa6478a9df14d955": [
    "2026-10-29",
    "New Cisco firewall zero-day exploited to crash SSL VPN devices"
   ],
-  "fb0c164b0656aa65": [
-   "2026-10-27",
-   "Chinese man extradited for role in $36 million cryptocurrency scam"
-  ],
-  "fb157ab0a5ce75d8": [
-   "2026-10-27",
-   "DreamHost forces password resets in ongoing \"incident\""
+  "ff4fa7f7f457c5af": [
+   "2026-11-04",
+   "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades"
   ],
   "ff9ec537fd50f75c": [
    "2026-10-30",
@@ -547,6 +589,10 @@
    "2026-10-28",
    "CVE-2026-35002: Agno: Arbitrary code execution via `eval()` on `field_type` in `FunctionCall`"
   ],
+  "ghsa:CVE-2026-44266": [
+   "2026-11-04",
+   "CVE-2026-44266: Elo Ruby backend has Remote Code Execution via unescaped `#{...}` interpolation in emitted string literals and subtype-constraint labels"
+  ],
   "ghsa:GHSA-4xm8-rg9h-jhq2": [
    "2026-10-31",
    "GHSA-4xm8-rg9h-jhq2: Signal K resources API path traversal can disclose the JWT signing secret and enable remote code execution"
@@ -554,14 +600,6 @@
   "ghsa:GHSA-hff9-5pqw-6w9f": [
    "2026-10-31",
    "GHSA-hff9-5pqw-6w9f: imgproxy has integer overflow in imgproxy ICO loader that causes denial of service and may permit remote code execution"
-  ],
-  "kev:CVE-2026-109618": [
-   "2026-10-27",
-   "CVE-2026-109618: PHP Memory Corruption Vulnerability"
-  ],
-  "kev:CVE-2026-109619": [
-   "2026-10-27",
-   "CVE-2026-109619: PHP Stale Internal Request-State Vulnerability"
   ],
   "kev:CVE-2026-111357": [
    "2026-10-31",
@@ -574,6 +612,10 @@
   "kev:CVE-2026-118527": [
    "2026-10-31",
    "CVE-2026-118527: Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability"
+  ],
+  "kev:CVE-2026-119977": [
+   "2026-11-04",
+   "CVE-2026-119977: WordPress WordPress Core Time-of-check Time-of-use (TOCTOU) Race Condition Vulnerability"
   ],
   "kev:CVE-2026-41709": [
    "2026-10-29",
@@ -626,18 +668,6 @@
   "nvd:CVE-2026-109218": [
    "2026-10-28",
    "CVE-2026-109218: The Contact Manager plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 9.1.2 via the…"
-  ],
-  "nvd:CVE-2026-116214": [
-   "2026-10-27",
-   "CVE-2026-116214: MacCMS v10 before 2026.1000.4054 contains an authentication bypass vulnerability that allows unauthenticated attackers to reset any member's…"
-  ],
-  "nvd:CVE-2026-116233": [
-   "2026-10-27",
-   "CVE-2026-116233: A security vulnerability has been detected in Oray Pugongying X5 Pro 7.6.1"
-  ],
-  "nvd:CVE-2026-116234": [
-   "2026-10-27",
-   "CVE-2026-116234: A vulnerability was detected in Oray Pugongying X5 Pro 7.6.1"
   ],
   "nvd:CVE-2026-116512": [
    "2026-10-31",
@@ -695,6 +725,26 @@
    "2026-11-03",
    "CVE-2026-120534: The Advanced Custom Fields: Extended PRO plugin for WordPress is vulnerable to Limited Code Injection in all versions up to, and including…"
   ],
+  "nvd:CVE-2026-121598": [
+   "2026-11-04",
+   "CVE-2026-121598: A security vulnerability has been detected in TOTOLINK A950RG 4.1.2cu.5268_B20221104"
+  ],
+  "nvd:CVE-2026-121600": [
+   "2026-11-04",
+   "CVE-2026-121600: A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104"
+  ],
+  "nvd:CVE-2026-121607": [
+   "2026-11-04",
+   "CVE-2026-121607: A vulnerability was found in Qihoo 360 D603-2, D600-2, D606-6 and D706 up to 6.4.9"
+  ],
+  "nvd:CVE-2026-121609": [
+   "2026-11-04",
+   "CVE-2026-121609: A vulnerability was identified in Qihoo 360 Whole Home Router M5 4.0.17.1566"
+  ],
+  "nvd:CVE-2026-121615": [
+   "2026-11-04",
+   "CVE-2026-121615: A vulnerability was determined in Linksys E5600 1.1.0.26"
+  ],
   "nvd:CVE-2026-42922": [
    "2026-10-29",
    "CVE-2026-42922: A authorization bypass vulnerability exists in the /nodered functionality of FUXA (version(s): 1.3.2-2809)"
@@ -710,10 +760,6 @@
   "nvd:CVE-2026-86596": [
    "2026-11-03",
    "CVE-2026-86596: The s2Member plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, <= 260927 via the 'item_name'…"
-  ],
-  "nvd:CVE-2026-92885": [
-   "2026-10-27",
-   "CVE-2026-92885: The Qode Membership plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and…"
   ]
  }
 }
