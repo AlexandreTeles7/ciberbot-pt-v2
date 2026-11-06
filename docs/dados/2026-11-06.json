@@ -1,0 +1,305 @@
+{
+ "data": "2026-11-06",
+ "gerado_em": "2026-11-06T12:59:02.883214+00:00",
+ "itens": [
+  {
+   "id": "be211d3491e45027",
+   "titulo": "Hackers exploram falhas no iPhone e Android. Uma simples visita a um site podia abrir a porta a ataques",
+   "resumo": "Investigadores da Sekoia identificaram uma campanha que explorou vulnerabilidades corrigidas em iOS e Android através de websites comprometidos, domínios falsos e um serviço de análise web adulterado. The post Hackers exploram falhas no iPhone e Android. Uma simples visita a um site podia abrir a porta a ataques appeared first on Tek Notícias .",
+   "url": "https://tek.sapo.pt/noticias/internet/artigos/hackers-exploram-falhas-no-iphone-e-android-uma-simples-visita-a-um-site-podia-abrir-a-porta-a-ataques/",
+   "fonte": "SAPO Tek",
+   "idioma": "pt",
+   "categoria": "portugal",
+   "publicado": "2026-11-05T14:13:00+00:00",
+   "pontuacao": 23.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  },
+  {
+   "id": "nvd:CVE-2026-114630",
+   "titulo": "CVE-2026-114630: The ELEX WordPress HelpDesk & Customer Ticketing System plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file…",
+   "resumo": "The ELEX WordPress HelpDesk & Customer Ticketing System plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the factory_reset function in all versions up to, and including, 3.3.8 This makes it possible for unauthenticated attackers to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php). This vulnerability is exploitable via a two-step chain: an unauthenticated attacker first stores an arbitrary ticket_attachment_path value by submitting a ticket through…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114630",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-06T12:17:16.503000+00:00",
+   "pontuacao": 64.4,
+   "cves": [
+    "CVE-2026-114630"
+   ],
+   "etiquetas": [
+    "CVSS 9.1"
+   ],
+   "titulo_pt": "CVE-2026-114630: O plugin ELEX WordPress HelpDesk & Customer Ticketing System para WordPress é vulnerável à exclusão arbitrária de ficheiros devido à insuficiência de ficheiros...",
+   "resumo_pt": "O plugin ELEX WordPress HelpDesk & Customer Ticketing System para WordPress é vulnerável à exclusão arbitrária de ficheiros devido à validação insuficiente do caminho do ficheiro na função factory_reset em todos...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-107622",
+   "titulo": "CVE-2026-107622: The BuddyForms plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.10.5 via a form-type…",
+   "resumo": "The BuddyForms plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 2.10.5 via a form-type confusion attack through the `bf_post_type` parameter. This is due to the public frontend submission handler `buddyforms_form_response_no_ajax()` authorizing logged-out submissions based solely on the target form's `public_submit` flag while independently trusting the attacker-supplied `$_POST['bf_post_type']` to determine the post type of the newly created object — a cross-check introduced in 2.10.2 applies only to existing posts (`post_id != 0`) and is…",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107622",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-06T12:17:16.020000+00:00",
+   "pontuacao": 56.6,
+   "cves": [
+    "CVE-2026-107622"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-107622: O plugin BuddyForms para WordPress é vulnerável ao Privilege Escalation em todas as versões até, e incluindo, 2.10.5 através de um tipo de formulário...",
+   "resumo_pt": "O plugin BuddyForms para WordPress é vulnerável ao Privilege Escalation em todas as versões até, e incluindo, 2.10.5 através de um ataque de confusão do tipo formulário através do parâmetro `bf_post_type`. Este é...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-119757",
+   "titulo": "CVE-2026-119757: BTCPay Server before 2.4.2, including 2.4.2 release candidates, contains an information disclosure vulnerability that allows unauthenticated…",
+   "resumo": "BTCPay Server before 2.4.2, including 2.4.2 release candidates, contains an information disclosure vulnerability that allows unauthenticated remote attackers to retrieve .macaroon credential files for an LND (Lightning Network Daemon) node. Attackers can use the exposed macaroon to gain full control of the LND node, including moving funds, resulting in theft of funds from affected deployments.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119757",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-05T22:17:53.203000+00:00",
+   "pontuacao": 52.7,
+   "cves": [
+    "CVE-2026-119757"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-119757: O servidor BTCPay antes do 2.4.2, incluindo os candidatos à versão 2.4.2, contém uma vulnerabilidade de divulgação de informações que permite...",
+   "resumo_pt": "O BTCPay Server antes do 2.4.2, incluindo os candidatos à versão 2.4.2, contém uma vulnerabilidade de divulgação de informações que permite que atacantes remotos não autenticados recuperem ficheiros de credenciais .macaroon...",
+   "traduzido": true
+  },
+  {
+   "id": "ghsa:CVE-2026-105769",
+   "titulo": "CVE-2026-105769: kaniko can send the build's Azure (Entra ID) access token to lookalike ACR registry hosts",
+   "resumo": "kaniko before v1.25.20 can send a Microsoft Entra ID (Azure AD) access token for Azure Resource Manager to a registry host an attacker controls. A Dockerfile that references an image on a lookalike host, such as FROM x.azurecr.io.attacker.com/img , is enough. The build needs no RUN instruction and never has to push. The flaw is in the Azure Container Registry (ACR) credential helper, github.com/chrismellard/docker-credential-acr-env . kaniko links it into the executor and warmer (the built-in helper) and also builds it as the standalone docker-credential-acr-env binary. The helper decides…",
+   "url": "https://github.com/advisories/GHSA-5q7h-w9jf-cx97",
+   "fonte": "GitHub Advisories — críticas",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-05T17:48:54+00:00",
+   "pontuacao": 48.5,
+   "cves": [
+    "CVE-2026-105769"
+   ],
+   "etiquetas": [
+    "CVSS 9.3",
+    "go: github.com/chainguard-dev/kaniko"
+   ],
+   "titulo_pt": "CVE-2026-105769: a kaniko pode enviar o token de acesso do Azure (Entra ID) da compilação para hosts de registo ACR semelhantes",
+   "resumo_pt": "kaniko antes da v1.25.20 pode enviar um token de acesso do Microsoft Entra ID (Azure AD) para o Gerenciador de Recursos do Azure para um host de registo que um atacante controla. Um Dockerfile que faz referência a uma imagem em um sósia...",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-122302",
+   "titulo": "CVE-2026-122302: Kyverno before 1.19.2 contains a privilege escalation vulnerability that allows namespace admins to create resources beyond their RBAC because…",
+   "resumo": "Kyverno before 1.19.2 contains a privilege escalation vulnerability that allows namespace admins to create resources beyond their RBAC because generate-rule admission checks verify the controller's permissions, not the author's. Attackers can create a namespaced Policy with generate rules targeting other namespaces or cluster-scoped kinds, making the background controller create or clone resources cluster-wide.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122302",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-05T03:17:22.030000+00:00",
+   "pontuacao": 47.4,
+   "cves": [
+    "CVE-2026-122302"
+   ],
+   "etiquetas": [
+    "CVSS 9.8"
+   ],
+   "titulo_pt": "CVE-2026-122302: Kyverno antes de 1.19.2 contém uma vulnerabilidade de escalonamento de privilégios que permite que os administradores de namespace criem recursos além de seu RBAC porque...",
+   "resumo_pt": "O Kyverno anterior ao 1.19.2 contém uma vulnerabilidade de escalonamento de privilégios que permite que os administradores de namespace criem recursos além de seu RBAC porque as verificações de admissão de regra de geração verificam a…",
+   "traduzido": true
+  },
+  {
+   "id": "nvd:CVE-2026-122321",
+   "titulo": "CVE-2026-122321: Kyverno 1.18.0 before 1.19.2 contains a signature verification bypass in verifyImages because cached verification results are keyed by the…",
+   "resumo": "Kyverno 1.18.0 before 1.19.2 contains a signature verification bypass in verifyImages because cached verification results are keyed by the image reference string (such as a tag) rather than bound to the verified digest, so cache hits skip signature and attestation checks. An attacker who can submit workloads and move a registry tag can warm the cache with a signed image, repoint the tag, and have Kyverno admit the workload and use mutateDigest to pin the unverified digest.",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122321",
+   "fonte": "NVD — CVE críticos",
+   "idioma": "en",
+   "categoria": "criticas",
+   "publicado": "2026-11-05T03:17:25.023000+00:00",
+   "pontuacao": 43.2,
+   "cves": [
+    "CVE-2026-122321"
+   ],
+   "etiquetas": [
+    "CVSS 9.1"
+   ],
+   "titulo_pt": "CVE-2026-122321: Kyverno 1.18.0 antes de 1.19.2 contém um desvio de verificação de assinatura em verifyImages porque os resultados da verificação em cache são digitados pelo...",
+   "resumo_pt": "Kyverno 1.18.0 antes de 1.19.2 contém um desvio de verificação de assinatura em verifyImages porque os resultados da verificação em cache são digitados pela cadeia de referência da imagem (como uma tag) em vez de serem vinculados a...",
+   "traduzido": true
+  },
+  {
+   "id": "ce86d2165d2f82bf",
+   "titulo": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+   "resumo": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
+   "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-06T12:06:43+00:00",
+   "pontuacao": 46.8,
+   "cves": [
+    "CVE-2026-83844"
+   ],
+   "etiquetas": [],
+   "titulo_pt": "Correção do Microsoft Paint RCE agora disponível, mas o Windows Update não a entregará",
+   "resumo_pt": "Uma correção para CVE-2026-83844, uma falha de execução remota de código no Windows Paint, está agora na Microsoft Store. O Paint obtém essa correção apenas por meio de uma atualização da Loja, não por meio de atualizações do Windows. A construção fixa...",
+   "traduzido": true
+  },
+  {
+   "id": "0fc545917cf25e50",
+   "titulo": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+   "resumo": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week. The backdoored web server executes commands that attackers send via web requests, and those requests never appear in its access logs. Installing it takes root access, so the attackers must already control the server.",
+   "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-06T05:58:54+00:00",
+   "pontuacao": 41.1,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Hackers escondem backdoor do Linux no Control Web Panel Server para executar comandos sem logs",
+   "resumo_pt": "Um backdoor foi encontrado escondido no servidor web que executa o Control Web Panel (CWP), um painel gratuito para gerenciar servidores de hospedagem Linux, disseram investigadores do XLab da QiAnXin esta semana. A teia com backdoor...",
+   "traduzido": true
+  },
+  {
+   "id": "07ded687620c9a3f",
+   "titulo": "DigiCert data breach exposes customer information, identity documents",
+   "resumo": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-05T16:12:46+00:00",
+   "pontuacao": 39.2,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "A fuga de dados da DigiCert expõe informações do cliente, documentos de identidade",
+   "resumo_pt": "A DigiCert adverte que sofreu uma fuga de dados depois que uma migração de servidor expôs erroneamente um sistema de negócios interno à Internet, permitindo o acesso não autorizado às informações e à identidade do cliente...",
+   "traduzido": true
+  },
+  {
+   "id": "0706d993935be7b7",
+   "titulo": "Hackers backdoor Linux servers using trojanized CWP web server",
+   "resumo": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-05T16:24:26+00:00",
+   "pontuacao": 37.3,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Hackers backdoor servidores Linux usando servidor web CWP trojanizado",
+   "resumo_pt": "Um novo malware Linux chamado CWPdoor está a ser distribuído através de uma versão trojanizada do cwpsrv, o servidor web por trás da interface de gerenciamento Control Web Panel (CWP). [...]",
+   "traduzido": true
+  },
+  {
+   "id": "401c132c974373b0",
+   "titulo": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+   "resumo": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every",
+   "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-05T16:42:46+00:00",
+   "pontuacao": 35.4,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "OpenSSH emite correção de emergência para falha que permite que palavras-passe longas ignorem a autenticação SSH no Alpine Linux",
+   "resumo_pt": "Os atacantes podem fazer login em contas que não têm palavra-passe, como contas somente de chave SSH, em alguns servidores Alpine Linux que executam o pacote padrão openssh-server. Eles precisam de acesso à rede para...",
+   "traduzido": true
+  },
+  {
+   "id": "42f5da3d18205a2e",
+   "titulo": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+   "resumo": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-06T12:37:22+00:00",
+   "pontuacao": 34.9,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "A D-Link avisa sobre vários dias zero nos interruptores da série DGS-3130",
+   "resumo_pt": "A D-Link compartilhou medidas de mitigação para várias falhas de segurança não corrigidas que afetam os switches empilháveis Gigabit gerenciados da série DGS-3130. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "2a564473be5f6f02",
+   "titulo": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+   "resumo": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test. The attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
+   "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-06T12:06:35+00:00",
+   "pontuacao": 34.8,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "Extensões de navegadores maliciosos podem usar o Claude Dispatch para executar código nos computadores dos utilizadores",
+   "resumo_pt": "Uma extensão de navegador que pode executar scripts no claude.ai poderia fazer o Claude Desktop executar código no computador de uma pessoa, mostraram investigadores da Forever Security, uma empresa de segurança de endpoint, em um teste. O…",
+   "traduzido": true
+  },
+  {
+   "id": "8493208604e5f691",
+   "titulo": "The Flood is Coming And The Pipes Were Already Full",
+   "resumo": "An update on Athena, and some unsolicited predictions on what's coming next On Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what the rest of us are ready for is the one I've been staring at since May. The hardest piece of his",
+   "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
+   "fonte": "The Hacker News",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-06T11:30:00+00:00",
+   "pontuacao": 34.6,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "A inundação está a chegar e os canos já estavam cheios",
+   "resumo_pt": "Uma atualização sobre Athena e algumas previsões não solicitadas sobre o que está por vir No sábado, Dario Amodei publicou We Must Pace the Frontier. Eu concordo com ele. Vá lê-lo se ainda não o fez. Eu passei o...",
+   "traduzido": true
+  },
+  {
+   "id": "a706922feef76cbb",
+   "titulo": "MetaMask says recent attack didn't affect wallet infrastructure",
+   "resumo": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-06T09:22:28+00:00",
+   "pontuacao": 34.0,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "MetaMask diz que ataque recente não afetou a infraestrutura da carteira",
+   "resumo_pt": "A fornecedora de carteiras de criptomoedas MetaMask disse que um incidente de segurança recente não afetou as carteiras MetaMask ou sua infraestrutura de carteiras. [...]",
+   "traduzido": true
+  },
+  {
+   "id": "b9c7d596e9ad4d0c",
+   "titulo": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+   "resumo": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
+   "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+   "fonte": "BleepingComputer",
+   "idioma": "en",
+   "categoria": "noticias",
+   "publicado": "2026-11-05T21:30:30+00:00",
+   "pontuacao": 33.7,
+   "cves": [],
+   "etiquetas": [],
+   "titulo_pt": "",
+   "resumo_pt": "",
+   "traduzido": false
+  }
+ ]
+}
